@@ -1,6 +1,6 @@
 {
   "app": "BACEN Estudos TI",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "updatedAt": "2026-08-16",
   "baseEdital": "Edital nº 01/2024",
   "curso": "BACEN - Banco Central do Brasil - Analista - Tecnologia da Informação (Pré-Edital)",
@@ -11,5 +11,5 @@
   "topicosEdital": 131,
   "frasesMotivacionais": 500,
   "paresDiscursiva": 100,
-  "observacao": "Base pré/pós-edital com data de início configurável, calendário por aula real, reta final automática de 15 dias e inteligência de questões/revisões por erros."
+  "observacao": "Versão mobile-first: navegação lateral única, responsividade revisada para smartphones, animações leves, correção da nomenclatura de Economia e preservação da lógica pré/pós-edital, calendário por aula real e inteligência de questões."
 }

@@ -24,10 +24,11 @@
     <aside class="sidebar" id="sidebar">
       <div class="brand">
         <div class="brand-mark">BC</div>
-        <div>
+        <div class="brand-copy">
           <strong>BACEN Estudos</strong>
           <span>Tecnologia da Informação</span>
         </div>
+        <button class="icon-btn mobile-only sidebar-close" id="sidebar-close" aria-label="Fechar menu lateral">×</button>
       </div>
 
       <nav class="nav-list" aria-label="Navegação principal">
@@ -52,6 +53,7 @@
         <span class="version" id="app-version">v1.0.0</span>
       </div>
     </aside>
+    <button class="sidebar-backdrop" id="sidebar-backdrop" aria-label="Fechar menu lateral" hidden></button>
 
     <main class="main">
       <header class="topbar">
@@ -75,15 +77,6 @@
       <section id="view" class="view"></section>
     </main>
   </div>
-
-  <nav class="bottom-nav" id="bottom-nav" hidden>
-    <button class="active" data-route="dashboard"><span>⌂</span><small>Início</small></button>
-    <button data-route="hoje"><span>◉</span><small>Hoje</small></button>
-    <button data-route="plano"><span>⌁</span><small>Plano</small></button>
-    <button data-route="calendario"><span>▦</span><small>Agenda</small></button>
-    <button data-route="curso"><span>▶</span><small>Aulas</small></button>
-    <button data-route="discursiva"><span>✎</span><small>Discursiva</small></button>
-  </nav>
 
   <dialog class="modal" id="timer-dialog">
     <form method="dialog" class="modal-card timer-card">

@@ -4,7 +4,7 @@ import {clamp,pct,esc,fmtNumber,isoDate,dateBR,secondsToClock,minutesToClock,clo
 import {buildWeeklySchedule,eventsForDate,startOfWeek,dateFromWeekDay,weekKey,formatTimeOfDay,localDateISO} from './scheduler.js';
 
 const $=(s,r=document)=>r.querySelector(s);const $$=(s,r=document)=>[...r.querySelectorAll(s)];
-const view=$('#view'),loading=$('#loading-screen'),appShell=$('#app'),bottomNav=$('#bottom-nav');
+const view=$('#view'),loading=$('#loading-screen'),appShell=$('#app');
 let DATA={},state,route='dashboard',coursePage=1,editalPage=1,deferredInstall=null,courseFocusId=null,calendarWeekOffset=0,questionPrefill=null;
 let timer={running:false,startedAt:0,elapsed:0,interval:null};
 
@@ -14,16 +14,24 @@ async function boot(){
       './data/edital.json','./data/curso-gran.json','./data/cobertura-gran.json','./data/pesos.json','./data/metadata.json','./data/config-padrao.json','./data/frases-motivacionais.json','./data/temas-discursiva.json'
     ].map(u=>fetch(u).then(r=>{if(!r.ok)throw new Error(`Falha ao carregar ${u}`);return r.json()})));
     DATA={edital,course,coverage,weights,metadata,config,phrases,discursivas};state=loadState(config);const previousVisit=state.lastVisit;state.lastVisit=new Date().toISOString();saveState(state);applyTheme();populateTimerSubjects();bindGlobal();
-    $('#app-version').textContent=`v${metadata.version}`;$('#updated-date').textContent=`Atualizado em ${dateBR(metadata.updatedAt)}`;loading.remove();appShell.hidden=false;bottomNav.hidden=false;navigate(location.hash.replace('#/','')||'dashboard',false);
+    $('#app-version').textContent=`v${metadata.version}`;$('#updated-date').textContent=`Atualizado em ${dateBR(metadata.updatedAt)}`;loading.remove();appShell.hidden=false;navigate(location.hash.replace('#/','')||'dashboard',false);
     if('serviceWorker' in navigator){navigator.serviceWorker.register('./service-worker.js').then(()=>initEngagement(previousVisit)).catch(()=>initEngagement(previousVisit));}else initEngagement(previousVisit);
   }catch(err){loading.innerHTML=`<strong>Não foi possível carregar o projeto.</strong><small>${esc(err.message)}<br>Abra pelo GitHub Pages ou por um servidor local, não diretamente pelo arquivo index.html.</small>`}
 }
 
+function openSidebar(){const sidebar=$('#sidebar'),backdrop=$('#sidebar-backdrop'),button=$('#menu-button');sidebar.classList.add('open');backdrop.hidden=false;requestAnimationFrame(()=>backdrop.classList.add('show'));document.body.classList.add('menu-open');button?.setAttribute('aria-expanded','true')}
+function closeSidebar(){const sidebar=$('#sidebar'),backdrop=$('#sidebar-backdrop'),button=$('#menu-button');sidebar.classList.remove('open');backdrop.classList.remove('show');document.body.classList.remove('menu-open');button?.setAttribute('aria-expanded','false');setTimeout(()=>{if(!sidebar.classList.contains('open'))backdrop.hidden=true},220)}
+function toggleSidebar(){if($('#sidebar').classList.contains('open'))closeSidebar();else openSidebar()}
 function bindGlobal(){
   document.addEventListener('click',e=>{
-    const nav=e.target.closest('[data-route]');if(nav){navigate(nav.dataset.route);$('#sidebar').classList.remove('open')}
+    const nav=e.target.closest('[data-route]');if(nav){navigate(nav.dataset.route);closeSidebar()}
   });
-  $('#menu-button').onclick=()=>$('#sidebar').classList.toggle('open');
+  $('#menu-button').setAttribute('aria-expanded','false');
+  $('#menu-button').onclick=toggleSidebar;
+  $('#sidebar-close').onclick=closeSidebar;
+  $('#sidebar-backdrop').onclick=closeSidebar;
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSidebar()});
+  window.addEventListener('resize',()=>{if(window.innerWidth>820)closeSidebar()});
   $('#theme-toggle').onclick=()=>{state.settings.theme=state.settings.theme==='dark'?'light':'dark';save();applyTheme();render()};
   $('#timer-mini').onclick=()=>$('#timer-dialog').showModal();
   $('#timer-start').onclick=startTimer;$('#timer-pause').onclick=pauseTimer;$('#timer-finish').onclick=finishTimer;
@@ -34,7 +42,7 @@ function bindGlobal(){
 }
 function save(){saveState(state)}
 function applyTheme(){document.documentElement.dataset.theme=state.settings.theme||'dark'}
-function navigate(next,push=true){route=ROUTES[next]?next:'dashboard';if(push)location.hash=`#/${route}`;$$('[data-route]').forEach(b=>b.classList.toggle('active',b.dataset.route===route));const meta=ROUTES[route];$('#page-title').textContent=meta.title;$('#page-eyebrow').textContent=meta.eyebrow;render()}
+function navigate(next,push=true){const previous=route;route=ROUTES[next]?next:'dashboard';if(push)location.hash=`#/${route}`;$$('[data-route]').forEach(b=>b.classList.toggle('active',b.dataset.route===route));const meta=ROUTES[route];$('#page-title').textContent=meta.title;$('#page-eyebrow').textContent=meta.eyebrow;render();if(previous!==route)requestAnimationFrame(()=>window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}))}
 function render(){const fn=ROUTES[route]?.render||renderDashboard;fn();updateSidebar()}
 function updateSidebar(){const d=derived();const p=(d.editalDoneRatio+d.courseDoneRatio)/2;$('#sidebar-progress-label').textContent=pct(p);$('#sidebar-progress-bar').style.width=pct(p)}
 function toast(message,type='success'){const n=document.createElement('div');n.className=`toast ${type}`;n.textContent=message;$('#toast-stack').append(n);setTimeout(()=>n.remove(),4200)}

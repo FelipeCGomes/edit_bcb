@@ -1,4 +1,4 @@
-const CACHE = 'bacen-ti-v1.4';
+const CACHE = 'bacen-ti-v1.5';
 const CORE = [
   './','./index.html','./css/style.css','./js/app.js','./js/storage.js','./js/utils.js','./js/charts.js','./js/scheduler.js',
   './data/edital.json','./data/curso-gran.json','./data/cobertura-gran.json','./data/pesos.json','./data/metadata.json','./data/config-padrao.json',
