@@ -1,0 +1,10 @@
+const store=new Map();
+globalThis.localStorage={getItem:key=>store.get(key)||null,setItem:(key,value)=>store.set(key,String(value))};
+store.set('bacen-ti-state-v3',JSON.stringify({schema:3,questions:[{id:'q1',date:'2026-08-15',subject:'Engenharia de Software',questions:10,correct:7}],settings:{targetDate:'2026-11-01',dayMinutes:{1:60}}}));
+const {loadState}=await import('../js/storage.js');
+const state=loadState({dias:{0:0,1:90,2:90,3:90,4:90,5:90,6:180}});
+if(state.schema!==4)throw new Error('Schema não foi migrado para v4.');
+if(state.settings.objectiveExamDate!=='2026-11-01')throw new Error('Data-alvo antiga não foi migrada para prova objetiva.');
+if(!state.settings.studyStartDate)throw new Error('Data de início dos estudos não foi criada.');
+if(state.questions.length!==1)throw new Error('Histórico de questões foi perdido.');
+console.log('storage-migration: OK');

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "gap-01",
+    "modalidade": "Videoaula",
+    "materia": "Fundamentos de Macroeconomia e Microeconomia",
+    "conteudo": "Multiplicador monetário; criação e destruição de moeda.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-02",
+    "modalidade": "Videoaula",
+    "materia": "Fundamentos de Macroeconomia e Microeconomia",
+    "conteudo": "Contas do sistema monetário.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-03",
+    "modalidade": "Videoaula",
+    "materia": "Fundamentos de Macroeconomia e Microeconomia",
+    "conteudo": "Equilíbrio do consumidor.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-04",
+    "modalidade": "Videoaula",
+    "materia": "Fundamentos de Macroeconomia e Microeconomia",
+    "conteudo": "Elasticidade da demanda.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-05",
+    "modalidade": "Videoaula",
+    "materia": "Engenharia de Software",
+    "conteudo": "gRPC.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-06",
+    "modalidade": "Videoaula",
+    "materia": "Engenharia de Software",
+    "conteudo": "WebSockets.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-07",
+    "modalidade": "Videoaula",
+    "materia": "Engenharia de Software",
+    "conteudo": "Práticas de UX e UI design.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-08",
+    "modalidade": "Videoaula",
+    "materia": "Engenharia de Software",
+    "conteudo": "Programação assíncrona.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-09",
+    "modalidade": "Videoaula",
+    "materia": "Engenharia de Software",
+    "conteudo": "GraphQL.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-10",
+    "modalidade": "Videoaula",
+    "materia": "Engenharia de Software",
+    "conteudo": "Distributed Ledger Technology (DLT).",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-11",
+    "modalidade": "Videoaula",
+    "materia": "Infraestrutura em TI",
+    "conteudo": "Serviços de Rede Microsoft Windows Server: DNS, DHCP, Radius, Autenticação e Certificados.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-12",
+    "modalidade": "Videoaula",
+    "materia": "Infraestrutura em TI",
+    "conteudo": "Network File System (NFS).",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-13",
+    "modalidade": "Videoaula",
+    "materia": "Infraestrutura em TI",
+    "conteudo": "Server Message Block (SMB).",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-14",
+    "modalidade": "Videoaula",
+    "materia": "Infraestrutura em TI",
+    "conteudo": "SDN.",
+    "acao": "Material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-15",
+    "modalidade": "PDF",
+    "materia": "Atualidades",
+    "conteudo": "Atualidades (somente para a prova discursiva).",
+    "acao": "Videoaulas/material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-16",
+    "modalidade": "PDF",
+    "materia": "Ciência de Dados",
+    "conteudo": "Qualidade de Dados; Redes Neurais; MLOps.",
+    "acao": "Videoaulas/material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-17",
+    "modalidade": "PDF",
+    "materia": "Segurança da Informação",
+    "conteudo": "SAML, OAuth2, OpenID Connect; privacy/security by default; testes Web; incidentes; nuvem e contêineres.",
+    "acao": "Videoaulas/material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-18",
+    "modalidade": "PDF",
+    "materia": "Engenharia de Software",
+    "conteudo": "Arquitetura web; desenvolvimento seguro; microsserviços/API Gateway/eventos/serverless; programação assíncrona; Git; transações distribuídas; DLT.",
+    "acao": "Videoaulas/material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-19",
+    "modalidade": "PDF",
+    "materia": "Infraestrutura em TI",
+    "conteudo": "IaC; Windows Server; observabilidade/logging/APM; tolerância a falhas; LAN/WAN/SDN; Puppet/Ansible.",
+    "acao": "Videoaulas/material complementar",
+    "fonte": "Página do curso enviada"
+  },
+  {
+    "id": "gap-20",
+    "modalidade": "PDF",
+    "materia": "Gestão em TI",
+    "conteudo": "ITIL v4.",
+    "acao": "Videoaulas/material complementar",
+    "fonte": "Página do curso enviada"
+  }
+]

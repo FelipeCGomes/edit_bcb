@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "texto": "Um bloco de estudo bem feito hoje aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 2,
+    "texto": "Um bloco de estudo bem feito hoje vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 3,
+    "texto": "Um bloco de estudo bem feito hoje constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 4,
+    "texto": "Um bloco de estudo bem feito hoje reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 5,
+    "texto": "Um bloco de estudo bem feito hoje vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 6,
+    "texto": "Um bloco de estudo bem feito hoje faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 7,
+    "texto": "Um bloco de estudo bem feito hoje fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 8,
+    "texto": "Um bloco de estudo bem feito hoje transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 9,
+    "texto": "Um bloco de estudo bem feito hoje mostra que progresso é consequência de método."
+  },
+  {
+    "id": 10,
+    "texto": "Um bloco de estudo bem feito hoje é investimento direto na sua nota final."
+  },
+  {
+    "id": 11,
+    "texto": "Um bloco de estudo bem feito hoje cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 12,
+    "texto": "Um bloco de estudo bem feito hoje deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 13,
+    "texto": "Um bloco de estudo bem feito hoje faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 14,
+    "texto": "Um bloco de estudo bem feito hoje mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 15,
+    "texto": "Um bloco de estudo bem feito hoje compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 16,
+    "texto": "Um bloco de estudo bem feito hoje ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 17,
+    "texto": "Um bloco de estudo bem feito hoje faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 18,
+    "texto": "Um bloco de estudo bem feito hoje é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 19,
+    "texto": "Um bloco de estudo bem feito hoje fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 20,
+    "texto": "Um bloco de estudo bem feito hoje é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 21,
+    "texto": "Cada questão corrigida com atenção aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 22,
+    "texto": "Cada questão corrigida com atenção vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 23,
+    "texto": "Cada questão corrigida com atenção constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 24,
+    "texto": "Cada questão corrigida com atenção reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 25,
+    "texto": "Cada questão corrigida com atenção vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 26,
+    "texto": "Cada questão corrigida com atenção faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 27,
+    "texto": "Cada questão corrigida com atenção fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 28,
+    "texto": "Cada questão corrigida com atenção transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 29,
+    "texto": "Cada questão corrigida com atenção mostra que progresso é consequência de método."
+  },
+  {
+    "id": 30,
+    "texto": "Cada questão corrigida com atenção é investimento direto na sua nota final."
+  },
+  {
+    "id": 31,
+    "texto": "Cada questão corrigida com atenção cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 32,
+    "texto": "Cada questão corrigida com atenção deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 33,
+    "texto": "Cada questão corrigida com atenção faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 34,
+    "texto": "Cada questão corrigida com atenção mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 35,
+    "texto": "Cada questão corrigida com atenção compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 36,
+    "texto": "Cada questão corrigida com atenção ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 37,
+    "texto": "Cada questão corrigida com atenção faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 38,
+    "texto": "Cada questão corrigida com atenção é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 39,
+    "texto": "Cada questão corrigida com atenção fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 40,
+    "texto": "Cada questão corrigida com atenção é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 41,
+    "texto": "A constância desta semana aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 42,
+    "texto": "A constância desta semana vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 43,
+    "texto": "A constância desta semana constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 44,
+    "texto": "A constância desta semana reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 45,
+    "texto": "A constância desta semana vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 46,
+    "texto": "A constância desta semana faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 47,
+    "texto": "A constância desta semana fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 48,
+    "texto": "A constância desta semana transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 49,
+    "texto": "A constância desta semana mostra que progresso é consequência de método."
+  },
+  {
+    "id": 50,
+    "texto": "A constância desta semana é investimento direto na sua nota final."
+  },
+  {
+    "id": 51,
+    "texto": "A constância desta semana cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 52,
+    "texto": "A constância desta semana deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 53,
+    "texto": "A constância desta semana faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 54,
+    "texto": "A constância desta semana mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 55,
+    "texto": "A constância desta semana compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 56,
+    "texto": "A constância desta semana ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 57,
+    "texto": "A constância desta semana faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 58,
+    "texto": "A constância desta semana é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 59,
+    "texto": "A constância desta semana fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 60,
+    "texto": "A constância desta semana é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 61,
+    "texto": "Uma revisão feita no momento certo aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 62,
+    "texto": "Uma revisão feita no momento certo vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 63,
+    "texto": "Uma revisão feita no momento certo constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 64,
+    "texto": "Uma revisão feita no momento certo reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 65,
+    "texto": "Uma revisão feita no momento certo vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 66,
+    "texto": "Uma revisão feita no momento certo faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 67,
+    "texto": "Uma revisão feita no momento certo fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 68,
+    "texto": "Uma revisão feita no momento certo transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 69,
+    "texto": "Uma revisão feita no momento certo mostra que progresso é consequência de método."
+  },
+  {
+    "id": 70,
+    "texto": "Uma revisão feita no momento certo é investimento direto na sua nota final."
+  },
+  {
+    "id": 71,
+    "texto": "Uma revisão feita no momento certo cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 72,
+    "texto": "Uma revisão feita no momento certo deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 73,
+    "texto": "Uma revisão feita no momento certo faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 74,
+    "texto": "Uma revisão feita no momento certo mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 75,
+    "texto": "Uma revisão feita no momento certo compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 76,
+    "texto": "Uma revisão feita no momento certo ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 77,
+    "texto": "Uma revisão feita no momento certo faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 78,
+    "texto": "Uma revisão feita no momento certo é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 79,
+    "texto": "Uma revisão feita no momento certo fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 80,
+    "texto": "Uma revisão feita no momento certo é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 81,
+    "texto": "Seu próximo avanço no BACEN aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 82,
+    "texto": "Seu próximo avanço no BACEN vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 83,
+    "texto": "Seu próximo avanço no BACEN constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 84,
+    "texto": "Seu próximo avanço no BACEN reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 85,
+    "texto": "Seu próximo avanço no BACEN vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 86,
+    "texto": "Seu próximo avanço no BACEN faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 87,
+    "texto": "Seu próximo avanço no BACEN fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 88,
+    "texto": "Seu próximo avanço no BACEN transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 89,
+    "texto": "Seu próximo avanço no BACEN mostra que progresso é consequência de método."
+  },
+  {
+    "id": 90,
+    "texto": "Seu próximo avanço no BACEN é investimento direto na sua nota final."
+  },
+  {
+    "id": 91,
+    "texto": "Seu próximo avanço no BACEN cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 92,
+    "texto": "Seu próximo avanço no BACEN deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 93,
+    "texto": "Seu próximo avanço no BACEN faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 94,
+    "texto": "Seu próximo avanço no BACEN mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 95,
+    "texto": "Seu próximo avanço no BACEN compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 96,
+    "texto": "Seu próximo avanço no BACEN ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 97,
+    "texto": "Seu próximo avanço no BACEN faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 98,
+    "texto": "Seu próximo avanço no BACEN é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 99,
+    "texto": "Seu próximo avanço no BACEN fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 100,
+    "texto": "Seu próximo avanço no BACEN é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 101,
+    "texto": "O conteúdo difícil que você enfrenta agora aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 102,
+    "texto": "O conteúdo difícil que você enfrenta agora vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 103,
+    "texto": "O conteúdo difícil que você enfrenta agora constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 104,
+    "texto": "O conteúdo difícil que você enfrenta agora reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 105,
+    "texto": "O conteúdo difícil que você enfrenta agora vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 106,
+    "texto": "O conteúdo difícil que você enfrenta agora faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 107,
+    "texto": "O conteúdo difícil que você enfrenta agora fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 108,
+    "texto": "O conteúdo difícil que você enfrenta agora transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 109,
+    "texto": "O conteúdo difícil que você enfrenta agora mostra que progresso é consequência de método."
+  },
+  {
+    "id": 110,
+    "texto": "O conteúdo difícil que você enfrenta agora é investimento direto na sua nota final."
+  },
+  {
+    "id": 111,
+    "texto": "O conteúdo difícil que você enfrenta agora cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 112,
+    "texto": "O conteúdo difícil que você enfrenta agora deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 113,
+    "texto": "O conteúdo difícil que você enfrenta agora faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 114,
+    "texto": "O conteúdo difícil que você enfrenta agora mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 115,
+    "texto": "O conteúdo difícil que você enfrenta agora compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 116,
+    "texto": "O conteúdo difícil que você enfrenta agora ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 117,
+    "texto": "O conteúdo difícil que você enfrenta agora faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 118,
+    "texto": "O conteúdo difícil que você enfrenta agora é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 119,
+    "texto": "O conteúdo difícil que você enfrenta agora fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 120,
+    "texto": "O conteúdo difícil que você enfrenta agora é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 121,
+    "texto": "Cada minuto de foco verdadeiro aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 122,
+    "texto": "Cada minuto de foco verdadeiro vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 123,
+    "texto": "Cada minuto de foco verdadeiro constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 124,
+    "texto": "Cada minuto de foco verdadeiro reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 125,
+    "texto": "Cada minuto de foco verdadeiro vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 126,
+    "texto": "Cada minuto de foco verdadeiro faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 127,
+    "texto": "Cada minuto de foco verdadeiro fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 128,
+    "texto": "Cada minuto de foco verdadeiro transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 129,
+    "texto": "Cada minuto de foco verdadeiro mostra que progresso é consequência de método."
+  },
+  {
+    "id": 130,
+    "texto": "Cada minuto de foco verdadeiro é investimento direto na sua nota final."
+  },
+  {
+    "id": 131,
+    "texto": "Cada minuto de foco verdadeiro cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 132,
+    "texto": "Cada minuto de foco verdadeiro deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 133,
+    "texto": "Cada minuto de foco verdadeiro faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 134,
+    "texto": "Cada minuto de foco verdadeiro mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 135,
+    "texto": "Cada minuto de foco verdadeiro compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 136,
+    "texto": "Cada minuto de foco verdadeiro ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 137,
+    "texto": "Cada minuto de foco verdadeiro faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 138,
+    "texto": "Cada minuto de foco verdadeiro é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 139,
+    "texto": "Cada minuto de foco verdadeiro fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 140,
+    "texto": "Cada minuto de foco verdadeiro é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 141,
+    "texto": "Uma sessão curta, mas concentrada aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 142,
+    "texto": "Uma sessão curta, mas concentrada vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 143,
+    "texto": "Uma sessão curta, mas concentrada constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 144,
+    "texto": "Uma sessão curta, mas concentrada reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 145,
+    "texto": "Uma sessão curta, mas concentrada vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 146,
+    "texto": "Uma sessão curta, mas concentrada faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 147,
+    "texto": "Uma sessão curta, mas concentrada fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 148,
+    "texto": "Uma sessão curta, mas concentrada transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 149,
+    "texto": "Uma sessão curta, mas concentrada mostra que progresso é consequência de método."
+  },
+  {
+    "id": 150,
+    "texto": "Uma sessão curta, mas concentrada é investimento direto na sua nota final."
+  },
+  {
+    "id": 151,
+    "texto": "Uma sessão curta, mas concentrada cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 152,
+    "texto": "Uma sessão curta, mas concentrada deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 153,
+    "texto": "Uma sessão curta, mas concentrada faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 154,
+    "texto": "Uma sessão curta, mas concentrada mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 155,
+    "texto": "Uma sessão curta, mas concentrada compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 156,
+    "texto": "Uma sessão curta, mas concentrada ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 157,
+    "texto": "Uma sessão curta, mas concentrada faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 158,
+    "texto": "Uma sessão curta, mas concentrada é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 159,
+    "texto": "Uma sessão curta, mas concentrada fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 160,
+    "texto": "Uma sessão curta, mas concentrada é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 161,
+    "texto": "O hábito de voltar ao edital todos os dias aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 162,
+    "texto": "O hábito de voltar ao edital todos os dias vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 163,
+    "texto": "O hábito de voltar ao edital todos os dias constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 164,
+    "texto": "O hábito de voltar ao edital todos os dias reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 165,
+    "texto": "O hábito de voltar ao edital todos os dias vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 166,
+    "texto": "O hábito de voltar ao edital todos os dias faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 167,
+    "texto": "O hábito de voltar ao edital todos os dias fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 168,
+    "texto": "O hábito de voltar ao edital todos os dias transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 169,
+    "texto": "O hábito de voltar ao edital todos os dias mostra que progresso é consequência de método."
+  },
+  {
+    "id": 170,
+    "texto": "O hábito de voltar ao edital todos os dias é investimento direto na sua nota final."
+  },
+  {
+    "id": 171,
+    "texto": "O hábito de voltar ao edital todos os dias cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 172,
+    "texto": "O hábito de voltar ao edital todos os dias deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 173,
+    "texto": "O hábito de voltar ao edital todos os dias faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 174,
+    "texto": "O hábito de voltar ao edital todos os dias mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 175,
+    "texto": "O hábito de voltar ao edital todos os dias compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 176,
+    "texto": "O hábito de voltar ao edital todos os dias ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 177,
+    "texto": "O hábito de voltar ao edital todos os dias faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 178,
+    "texto": "O hábito de voltar ao edital todos os dias é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 179,
+    "texto": "O hábito de voltar ao edital todos os dias fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 180,
+    "texto": "O hábito de voltar ao edital todos os dias é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 181,
+    "texto": "Cada erro transformado em revisão aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 182,
+    "texto": "Cada erro transformado em revisão vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 183,
+    "texto": "Cada erro transformado em revisão constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 184,
+    "texto": "Cada erro transformado em revisão reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 185,
+    "texto": "Cada erro transformado em revisão vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 186,
+    "texto": "Cada erro transformado em revisão faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 187,
+    "texto": "Cada erro transformado em revisão fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 188,
+    "texto": "Cada erro transformado em revisão transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 189,
+    "texto": "Cada erro transformado em revisão mostra que progresso é consequência de método."
+  },
+  {
+    "id": 190,
+    "texto": "Cada erro transformado em revisão é investimento direto na sua nota final."
+  },
+  {
+    "id": 191,
+    "texto": "Cada erro transformado em revisão cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 192,
+    "texto": "Cada erro transformado em revisão deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 193,
+    "texto": "Cada erro transformado em revisão faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 194,
+    "texto": "Cada erro transformado em revisão mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 195,
+    "texto": "Cada erro transformado em revisão compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 196,
+    "texto": "Cada erro transformado em revisão ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 197,
+    "texto": "Cada erro transformado em revisão faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 198,
+    "texto": "Cada erro transformado em revisão é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 199,
+    "texto": "Cada erro transformado em revisão fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 200,
+    "texto": "Cada erro transformado em revisão é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 201,
+    "texto": "Seu progresso não precisa ser perfeito; ele aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 202,
+    "texto": "Seu progresso não precisa ser perfeito; ele vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 203,
+    "texto": "Seu progresso não precisa ser perfeito; ele constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 204,
+    "texto": "Seu progresso não precisa ser perfeito; ele reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 205,
+    "texto": "Seu progresso não precisa ser perfeito; ele vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 206,
+    "texto": "Seu progresso não precisa ser perfeito; ele faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 207,
+    "texto": "Seu progresso não precisa ser perfeito; ele fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 208,
+    "texto": "Seu progresso não precisa ser perfeito; ele transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 209,
+    "texto": "Seu progresso não precisa ser perfeito; ele mostra que progresso é consequência de método."
+  },
+  {
+    "id": 210,
+    "texto": "Seu progresso não precisa ser perfeito; ele é investimento direto na sua nota final."
+  },
+  {
+    "id": 211,
+    "texto": "Seu progresso não precisa ser perfeito; ele cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 212,
+    "texto": "Seu progresso não precisa ser perfeito; ele deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 213,
+    "texto": "Seu progresso não precisa ser perfeito; ele faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 214,
+    "texto": "Seu progresso não precisa ser perfeito; ele mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 215,
+    "texto": "Seu progresso não precisa ser perfeito; ele compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 216,
+    "texto": "Seu progresso não precisa ser perfeito; ele ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 217,
+    "texto": "Seu progresso não precisa ser perfeito; ele faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 218,
+    "texto": "Seu progresso não precisa ser perfeito; ele é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 219,
+    "texto": "Seu progresso não precisa ser perfeito; ele fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 220,
+    "texto": "Seu progresso não precisa ser perfeito; ele é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 221,
+    "texto": "A disciplina de começar mesmo sem vontade aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 222,
+    "texto": "A disciplina de começar mesmo sem vontade vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 223,
+    "texto": "A disciplina de começar mesmo sem vontade constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 224,
+    "texto": "A disciplina de começar mesmo sem vontade reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 225,
+    "texto": "A disciplina de começar mesmo sem vontade vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 226,
+    "texto": "A disciplina de começar mesmo sem vontade faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 227,
+    "texto": "A disciplina de começar mesmo sem vontade fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 228,
+    "texto": "A disciplina de começar mesmo sem vontade transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 229,
+    "texto": "A disciplina de começar mesmo sem vontade mostra que progresso é consequência de método."
+  },
+  {
+    "id": 230,
+    "texto": "A disciplina de começar mesmo sem vontade é investimento direto na sua nota final."
+  },
+  {
+    "id": 231,
+    "texto": "A disciplina de começar mesmo sem vontade cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 232,
+    "texto": "A disciplina de começar mesmo sem vontade deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 233,
+    "texto": "A disciplina de começar mesmo sem vontade faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 234,
+    "texto": "A disciplina de começar mesmo sem vontade mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 235,
+    "texto": "A disciplina de começar mesmo sem vontade compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 236,
+    "texto": "A disciplina de começar mesmo sem vontade ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 237,
+    "texto": "A disciplina de começar mesmo sem vontade faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 238,
+    "texto": "A disciplina de começar mesmo sem vontade é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 239,
+    "texto": "A disciplina de começar mesmo sem vontade fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 240,
+    "texto": "A disciplina de começar mesmo sem vontade é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 241,
+    "texto": "Uma aula concluída com compreensão aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 242,
+    "texto": "Uma aula concluída com compreensão vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 243,
+    "texto": "Uma aula concluída com compreensão constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 244,
+    "texto": "Uma aula concluída com compreensão reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 245,
+    "texto": "Uma aula concluída com compreensão vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 246,
+    "texto": "Uma aula concluída com compreensão faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 247,
+    "texto": "Uma aula concluída com compreensão fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 248,
+    "texto": "Uma aula concluída com compreensão transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 249,
+    "texto": "Uma aula concluída com compreensão mostra que progresso é consequência de método."
+  },
+  {
+    "id": 250,
+    "texto": "Uma aula concluída com compreensão é investimento direto na sua nota final."
+  },
+  {
+    "id": 251,
+    "texto": "Uma aula concluída com compreensão cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 252,
+    "texto": "Uma aula concluída com compreensão deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 253,
+    "texto": "Uma aula concluída com compreensão faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 254,
+    "texto": "Uma aula concluída com compreensão mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 255,
+    "texto": "Uma aula concluída com compreensão compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 256,
+    "texto": "Uma aula concluída com compreensão ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 257,
+    "texto": "Uma aula concluída com compreensão faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 258,
+    "texto": "Uma aula concluída com compreensão é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 259,
+    "texto": "Uma aula concluída com compreensão fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 260,
+    "texto": "Uma aula concluída com compreensão é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 261,
+    "texto": "O simulado que revela seus pontos fracos aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 262,
+    "texto": "O simulado que revela seus pontos fracos vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 263,
+    "texto": "O simulado que revela seus pontos fracos constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 264,
+    "texto": "O simulado que revela seus pontos fracos reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 265,
+    "texto": "O simulado que revela seus pontos fracos vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 266,
+    "texto": "O simulado que revela seus pontos fracos faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 267,
+    "texto": "O simulado que revela seus pontos fracos fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 268,
+    "texto": "O simulado que revela seus pontos fracos transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 269,
+    "texto": "O simulado que revela seus pontos fracos mostra que progresso é consequência de método."
+  },
+  {
+    "id": 270,
+    "texto": "O simulado que revela seus pontos fracos é investimento direto na sua nota final."
+  },
+  {
+    "id": 271,
+    "texto": "O simulado que revela seus pontos fracos cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 272,
+    "texto": "O simulado que revela seus pontos fracos deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 273,
+    "texto": "O simulado que revela seus pontos fracos faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 274,
+    "texto": "O simulado que revela seus pontos fracos mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 275,
+    "texto": "O simulado que revela seus pontos fracos compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 276,
+    "texto": "O simulado que revela seus pontos fracos ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 277,
+    "texto": "O simulado que revela seus pontos fracos faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 278,
+    "texto": "O simulado que revela seus pontos fracos é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 279,
+    "texto": "O simulado que revela seus pontos fracos fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 280,
+    "texto": "O simulado que revela seus pontos fracos é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 281,
+    "texto": "A prática da discursiva desde cedo aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 282,
+    "texto": "A prática da discursiva desde cedo vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 283,
+    "texto": "A prática da discursiva desde cedo constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 284,
+    "texto": "A prática da discursiva desde cedo reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 285,
+    "texto": "A prática da discursiva desde cedo vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 286,
+    "texto": "A prática da discursiva desde cedo faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 287,
+    "texto": "A prática da discursiva desde cedo fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 288,
+    "texto": "A prática da discursiva desde cedo transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 289,
+    "texto": "A prática da discursiva desde cedo mostra que progresso é consequência de método."
+  },
+  {
+    "id": 290,
+    "texto": "A prática da discursiva desde cedo é investimento direto na sua nota final."
+  },
+  {
+    "id": 291,
+    "texto": "A prática da discursiva desde cedo cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 292,
+    "texto": "A prática da discursiva desde cedo deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 293,
+    "texto": "A prática da discursiva desde cedo faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 294,
+    "texto": "A prática da discursiva desde cedo mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 295,
+    "texto": "A prática da discursiva desde cedo compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 296,
+    "texto": "A prática da discursiva desde cedo ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 297,
+    "texto": "A prática da discursiva desde cedo faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 298,
+    "texto": "A prática da discursiva desde cedo é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 299,
+    "texto": "A prática da discursiva desde cedo fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 300,
+    "texto": "A prática da discursiva desde cedo é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 301,
+    "texto": "Cada tópico marcado como dominado aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 302,
+    "texto": "Cada tópico marcado como dominado vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 303,
+    "texto": "Cada tópico marcado como dominado constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 304,
+    "texto": "Cada tópico marcado como dominado reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 305,
+    "texto": "Cada tópico marcado como dominado vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 306,
+    "texto": "Cada tópico marcado como dominado faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 307,
+    "texto": "Cada tópico marcado como dominado fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 308,
+    "texto": "Cada tópico marcado como dominado transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 309,
+    "texto": "Cada tópico marcado como dominado mostra que progresso é consequência de método."
+  },
+  {
+    "id": 310,
+    "texto": "Cada tópico marcado como dominado é investimento direto na sua nota final."
+  },
+  {
+    "id": 311,
+    "texto": "Cada tópico marcado como dominado cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 312,
+    "texto": "Cada tópico marcado como dominado deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 313,
+    "texto": "Cada tópico marcado como dominado faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 314,
+    "texto": "Cada tópico marcado como dominado mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 315,
+    "texto": "Cada tópico marcado como dominado compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 316,
+    "texto": "Cada tópico marcado como dominado ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 317,
+    "texto": "Cada tópico marcado como dominado faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 318,
+    "texto": "Cada tópico marcado como dominado é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 319,
+    "texto": "Cada tópico marcado como dominado fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 320,
+    "texto": "Cada tópico marcado como dominado é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 321,
+    "texto": "O tempo que você protege para estudar aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 322,
+    "texto": "O tempo que você protege para estudar vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 323,
+    "texto": "O tempo que você protege para estudar constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 324,
+    "texto": "O tempo que você protege para estudar reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 325,
+    "texto": "O tempo que você protege para estudar vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 326,
+    "texto": "O tempo que você protege para estudar faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 327,
+    "texto": "O tempo que você protege para estudar fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 328,
+    "texto": "O tempo que você protege para estudar transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 329,
+    "texto": "O tempo que você protege para estudar mostra que progresso é consequência de método."
+  },
+  {
+    "id": 330,
+    "texto": "O tempo que você protege para estudar é investimento direto na sua nota final."
+  },
+  {
+    "id": 331,
+    "texto": "O tempo que você protege para estudar cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 332,
+    "texto": "O tempo que você protege para estudar deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 333,
+    "texto": "O tempo que você protege para estudar faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 334,
+    "texto": "O tempo que você protege para estudar mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 335,
+    "texto": "O tempo que você protege para estudar compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 336,
+    "texto": "O tempo que você protege para estudar ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 337,
+    "texto": "O tempo que você protege para estudar faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 338,
+    "texto": "O tempo que você protege para estudar é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 339,
+    "texto": "O tempo que você protege para estudar fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 340,
+    "texto": "O tempo que você protege para estudar é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 341,
+    "texto": "A decisão de continuar após um dia ruim aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 342,
+    "texto": "A decisão de continuar após um dia ruim vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 343,
+    "texto": "A decisão de continuar após um dia ruim constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 344,
+    "texto": "A decisão de continuar após um dia ruim reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 345,
+    "texto": "A decisão de continuar após um dia ruim vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 346,
+    "texto": "A decisão de continuar após um dia ruim faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 347,
+    "texto": "A decisão de continuar após um dia ruim fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 348,
+    "texto": "A decisão de continuar após um dia ruim transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 349,
+    "texto": "A decisão de continuar após um dia ruim mostra que progresso é consequência de método."
+  },
+  {
+    "id": 350,
+    "texto": "A decisão de continuar após um dia ruim é investimento direto na sua nota final."
+  },
+  {
+    "id": 351,
+    "texto": "A decisão de continuar após um dia ruim cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 352,
+    "texto": "A decisão de continuar após um dia ruim deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 353,
+    "texto": "A decisão de continuar após um dia ruim faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 354,
+    "texto": "A decisão de continuar após um dia ruim mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 355,
+    "texto": "A decisão de continuar após um dia ruim compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 356,
+    "texto": "A decisão de continuar após um dia ruim ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 357,
+    "texto": "A decisão de continuar após um dia ruim faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 358,
+    "texto": "A decisão de continuar após um dia ruim é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 359,
+    "texto": "A decisão de continuar após um dia ruim fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 360,
+    "texto": "A decisão de continuar após um dia ruim é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 361,
+    "texto": "Uma meta semanal realista aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 362,
+    "texto": "Uma meta semanal realista vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 363,
+    "texto": "Uma meta semanal realista constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 364,
+    "texto": "Uma meta semanal realista reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 365,
+    "texto": "Uma meta semanal realista vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 366,
+    "texto": "Uma meta semanal realista faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 367,
+    "texto": "Uma meta semanal realista fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 368,
+    "texto": "Uma meta semanal realista transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 369,
+    "texto": "Uma meta semanal realista mostra que progresso é consequência de método."
+  },
+  {
+    "id": 370,
+    "texto": "Uma meta semanal realista é investimento direto na sua nota final."
+  },
+  {
+    "id": 371,
+    "texto": "Uma meta semanal realista cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 372,
+    "texto": "Uma meta semanal realista deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 373,
+    "texto": "Uma meta semanal realista faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 374,
+    "texto": "Uma meta semanal realista mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 375,
+    "texto": "Uma meta semanal realista compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 376,
+    "texto": "Uma meta semanal realista ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 377,
+    "texto": "Uma meta semanal realista faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 378,
+    "texto": "Uma meta semanal realista é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 379,
+    "texto": "Uma meta semanal realista fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 380,
+    "texto": "Uma meta semanal realista é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 381,
+    "texto": "A repetição inteligente dos assuntos importantes aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 382,
+    "texto": "A repetição inteligente dos assuntos importantes vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 383,
+    "texto": "A repetição inteligente dos assuntos importantes constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 384,
+    "texto": "A repetição inteligente dos assuntos importantes reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 385,
+    "texto": "A repetição inteligente dos assuntos importantes vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 386,
+    "texto": "A repetição inteligente dos assuntos importantes faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 387,
+    "texto": "A repetição inteligente dos assuntos importantes fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 388,
+    "texto": "A repetição inteligente dos assuntos importantes transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 389,
+    "texto": "A repetição inteligente dos assuntos importantes mostra que progresso é consequência de método."
+  },
+  {
+    "id": 390,
+    "texto": "A repetição inteligente dos assuntos importantes é investimento direto na sua nota final."
+  },
+  {
+    "id": 391,
+    "texto": "A repetição inteligente dos assuntos importantes cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 392,
+    "texto": "A repetição inteligente dos assuntos importantes deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 393,
+    "texto": "A repetição inteligente dos assuntos importantes faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 394,
+    "texto": "A repetição inteligente dos assuntos importantes mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 395,
+    "texto": "A repetição inteligente dos assuntos importantes compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 396,
+    "texto": "A repetição inteligente dos assuntos importantes ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 397,
+    "texto": "A repetição inteligente dos assuntos importantes faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 398,
+    "texto": "A repetição inteligente dos assuntos importantes é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 399,
+    "texto": "A repetição inteligente dos assuntos importantes fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 400,
+    "texto": "A repetição inteligente dos assuntos importantes é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 401,
+    "texto": "O estudo que cabe na sua rotina aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 402,
+    "texto": "O estudo que cabe na sua rotina vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 403,
+    "texto": "O estudo que cabe na sua rotina constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 404,
+    "texto": "O estudo que cabe na sua rotina reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 405,
+    "texto": "O estudo que cabe na sua rotina vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 406,
+    "texto": "O estudo que cabe na sua rotina faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 407,
+    "texto": "O estudo que cabe na sua rotina fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 408,
+    "texto": "O estudo que cabe na sua rotina transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 409,
+    "texto": "O estudo que cabe na sua rotina mostra que progresso é consequência de método."
+  },
+  {
+    "id": 410,
+    "texto": "O estudo que cabe na sua rotina é investimento direto na sua nota final."
+  },
+  {
+    "id": 411,
+    "texto": "O estudo que cabe na sua rotina cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 412,
+    "texto": "O estudo que cabe na sua rotina deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 413,
+    "texto": "O estudo que cabe na sua rotina faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 414,
+    "texto": "O estudo que cabe na sua rotina mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 415,
+    "texto": "O estudo que cabe na sua rotina compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 416,
+    "texto": "O estudo que cabe na sua rotina ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 417,
+    "texto": "O estudo que cabe na sua rotina faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 418,
+    "texto": "O estudo que cabe na sua rotina é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 419,
+    "texto": "O estudo que cabe na sua rotina fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 420,
+    "texto": "O estudo que cabe na sua rotina é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 421,
+    "texto": "Cada conceito técnico entendido de verdade aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 422,
+    "texto": "Cada conceito técnico entendido de verdade vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 423,
+    "texto": "Cada conceito técnico entendido de verdade constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 424,
+    "texto": "Cada conceito técnico entendido de verdade reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 425,
+    "texto": "Cada conceito técnico entendido de verdade vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 426,
+    "texto": "Cada conceito técnico entendido de verdade faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 427,
+    "texto": "Cada conceito técnico entendido de verdade fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 428,
+    "texto": "Cada conceito técnico entendido de verdade transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 429,
+    "texto": "Cada conceito técnico entendido de verdade mostra que progresso é consequência de método."
+  },
+  {
+    "id": 430,
+    "texto": "Cada conceito técnico entendido de verdade é investimento direto na sua nota final."
+  },
+  {
+    "id": 431,
+    "texto": "Cada conceito técnico entendido de verdade cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 432,
+    "texto": "Cada conceito técnico entendido de verdade deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 433,
+    "texto": "Cada conceito técnico entendido de verdade faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 434,
+    "texto": "Cada conceito técnico entendido de verdade mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 435,
+    "texto": "Cada conceito técnico entendido de verdade compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 436,
+    "texto": "Cada conceito técnico entendido de verdade ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 437,
+    "texto": "Cada conceito técnico entendido de verdade faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 438,
+    "texto": "Cada conceito técnico entendido de verdade é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 439,
+    "texto": "Cada conceito técnico entendido de verdade fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 440,
+    "texto": "Cada conceito técnico entendido de verdade é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 441,
+    "texto": "Seu foco nas matérias de maior peso aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 442,
+    "texto": "Seu foco nas matérias de maior peso vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 443,
+    "texto": "Seu foco nas matérias de maior peso constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 444,
+    "texto": "Seu foco nas matérias de maior peso reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 445,
+    "texto": "Seu foco nas matérias de maior peso vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 446,
+    "texto": "Seu foco nas matérias de maior peso faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 447,
+    "texto": "Seu foco nas matérias de maior peso fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 448,
+    "texto": "Seu foco nas matérias de maior peso transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 449,
+    "texto": "Seu foco nas matérias de maior peso mostra que progresso é consequência de método."
+  },
+  {
+    "id": 450,
+    "texto": "Seu foco nas matérias de maior peso é investimento direto na sua nota final."
+  },
+  {
+    "id": 451,
+    "texto": "Seu foco nas matérias de maior peso cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 452,
+    "texto": "Seu foco nas matérias de maior peso deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 453,
+    "texto": "Seu foco nas matérias de maior peso faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 454,
+    "texto": "Seu foco nas matérias de maior peso mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 455,
+    "texto": "Seu foco nas matérias de maior peso compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 456,
+    "texto": "Seu foco nas matérias de maior peso ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 457,
+    "texto": "Seu foco nas matérias de maior peso faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 458,
+    "texto": "Seu foco nas matérias de maior peso é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 459,
+    "texto": "Seu foco nas matérias de maior peso fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 460,
+    "texto": "Seu foco nas matérias de maior peso é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 461,
+    "texto": "A soma dos pequenos avanços aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 462,
+    "texto": "A soma dos pequenos avanços vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 463,
+    "texto": "A soma dos pequenos avanços constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 464,
+    "texto": "A soma dos pequenos avanços reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 465,
+    "texto": "A soma dos pequenos avanços vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 466,
+    "texto": "A soma dos pequenos avanços faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 467,
+    "texto": "A soma dos pequenos avanços fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 468,
+    "texto": "A soma dos pequenos avanços transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 469,
+    "texto": "A soma dos pequenos avanços mostra que progresso é consequência de método."
+  },
+  {
+    "id": 470,
+    "texto": "A soma dos pequenos avanços é investimento direto na sua nota final."
+  },
+  {
+    "id": 471,
+    "texto": "A soma dos pequenos avanços cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 472,
+    "texto": "A soma dos pequenos avanços deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 473,
+    "texto": "A soma dos pequenos avanços faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 474,
+    "texto": "A soma dos pequenos avanços mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 475,
+    "texto": "A soma dos pequenos avanços compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 476,
+    "texto": "A soma dos pequenos avanços ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 477,
+    "texto": "A soma dos pequenos avanços faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 478,
+    "texto": "A soma dos pequenos avanços é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 479,
+    "texto": "A soma dos pequenos avanços fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 480,
+    "texto": "A soma dos pequenos avanços é como você transforma o pré-edital em vantagem real."
+  },
+  {
+    "id": 481,
+    "texto": "O compromisso que você renova hoje aproxima você da vaga que hoje parece distante."
+  },
+  {
+    "id": 482,
+    "texto": "O compromisso que você renova hoje vale mais do que horas de estudo sem direção."
+  },
+  {
+    "id": 483,
+    "texto": "O compromisso que você renova hoje constrói a segurança que aparece no dia da prova."
+  },
+  {
+    "id": 484,
+    "texto": "O compromisso que você renova hoje reduz a distância entre conhecer o edital e dominar a prova."
+  },
+  {
+    "id": 485,
+    "texto": "O compromisso que você renova hoje vira vantagem quando muitos candidatos perdem o ritmo."
+  },
+  {
+    "id": 486,
+    "texto": "O compromisso que você renova hoje faz o conteúdo deixar de ser novidade e virar repertório."
+  },
+  {
+    "id": 487,
+    "texto": "O compromisso que você renova hoje fortalece sua memória para a próxima revisão."
+  },
+  {
+    "id": 488,
+    "texto": "O compromisso que você renova hoje transforma ansiedade em ação mensurável."
+  },
+  {
+    "id": 489,
+    "texto": "O compromisso que você renova hoje mostra que progresso é consequência de método."
+  },
+  {
+    "id": 490,
+    "texto": "O compromisso que você renova hoje é investimento direto na sua nota final."
+  },
+  {
+    "id": 491,
+    "texto": "O compromisso que você renova hoje cria confiança baseada em evidência, não em sensação."
+  },
+  {
+    "id": 492,
+    "texto": "O compromisso que você renova hoje deixa a preparação mais leve porque você sabe o próximo passo."
+  },
+  {
+    "id": 493,
+    "texto": "O compromisso que você renova hoje faz a prova parecer mais familiar a cada semana."
+  },
+  {
+    "id": 494,
+    "texto": "O compromisso que você renova hoje mantém você avançando mesmo quando a motivação oscila."
+  },
+  {
+    "id": 495,
+    "texto": "O compromisso que você renova hoje compensa muito mais do que tentar recuperar tudo de uma vez."
+  },
+  {
+    "id": 496,
+    "texto": "O compromisso que você renova hoje ajuda você a chegar competitivo sem depender de improviso."
+  },
+  {
+    "id": 497,
+    "texto": "O compromisso que você renova hoje faz diferença quando a banca cobra detalhe e interpretação."
+  },
+  {
+    "id": 498,
+    "texto": "O compromisso que você renova hoje é um voto diário no objetivo que você escolheu."
+  },
+  {
+    "id": 499,
+    "texto": "O compromisso que você renova hoje fica mais poderoso quando acompanhado de questões e revisão."
+  },
+  {
+    "id": 500,
+    "texto": "O compromisso que você renova hoje é como você transforma o pré-edital em vantagem real."
+  }
+]

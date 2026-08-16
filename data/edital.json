@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "edital-001",
+    "materia": "Língua Portuguesa",
+    "item": "1",
+    "conteudo": "Compreensão e interpretação de textos de gêneros variados.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-002",
+    "materia": "Língua Portuguesa",
+    "item": "2",
+    "conteudo": "Reconhecimento de tipos e gêneros textuais.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-003",
+    "materia": "Língua Portuguesa",
+    "item": "3",
+    "conteudo": "Domínio da ortografia oficial.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-004",
+    "materia": "Língua Portuguesa",
+    "item": "4",
+    "conteudo": "Domínio dos mecanismos de coesão textual.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-005",
+    "materia": "Língua Portuguesa",
+    "item": "4.1",
+    "conteudo": "Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-006",
+    "materia": "Língua Portuguesa",
+    "item": "4.2",
+    "conteudo": "Emprego de tempos e modos verbais.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-007",
+    "materia": "Língua Portuguesa",
+    "item": "5",
+    "conteudo": "Domínio da estrutura morfossintática do período.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-008",
+    "materia": "Língua Portuguesa",
+    "item": "5.1",
+    "conteudo": "Emprego das classes de palavras.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-009",
+    "materia": "Língua Portuguesa",
+    "item": "5.2",
+    "conteudo": "Relações de coordenação entre orações e entre termos da oração.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-010",
+    "materia": "Língua Portuguesa",
+    "item": "5.3",
+    "conteudo": "Relações de subordinação entre orações e entre termos da oração.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-011",
+    "materia": "Língua Portuguesa",
+    "item": "5.4",
+    "conteudo": "Emprego dos sinais de pontuação.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-012",
+    "materia": "Língua Portuguesa",
+    "item": "5.5",
+    "conteudo": "Concordância verbal e nominal.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-013",
+    "materia": "Língua Portuguesa",
+    "item": "5.6",
+    "conteudo": "Regência verbal e nominal.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-014",
+    "materia": "Língua Portuguesa",
+    "item": "5.7",
+    "conteudo": "Emprego do sinal indicativo de crase.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-015",
+    "materia": "Língua Portuguesa",
+    "item": "5.8",
+    "conteudo": "Colocação dos pronomes átonos.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-016",
+    "materia": "Língua Portuguesa",
+    "item": "6",
+    "conteudo": "Reescrita de frases e parágrafos do texto.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-017",
+    "materia": "Língua Portuguesa",
+    "item": "6.1",
+    "conteudo": "Significação das palavras.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-018",
+    "materia": "Língua Portuguesa",
+    "item": "6.2",
+    "conteudo": "Substituição de palavras ou de trechos de texto.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-019",
+    "materia": "Língua Portuguesa",
+    "item": "6.3",
+    "conteudo": "Reorganização da estrutura de orações e de períodos do texto.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-020",
+    "materia": "Língua Portuguesa",
+    "item": "6.4",
+    "conteudo": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+    "pesoTopico": 1.25,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-021",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "1",
+    "conteudo": "Raciocínio lógico.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-022",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "1.1",
+    "conteudo": "Estruturas lógicas.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-023",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "1.2",
+    "conteudo": "Lógica de argumentação: analogias, inferências, deduções e conclusões.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-024",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "1.3",
+    "conteudo": "Lógica sentencial (ou proposicional).",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-025",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "10.3.1",
+    "conteudo": "Proposições simples e compostas.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-026",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "10.3.2",
+    "conteudo": "Tabelas-verdade.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-027",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "10.3.3",
+    "conteudo": "Equivalências.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-028",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "10.3.4",
+    "conteudo": "Leis de Morgan; problemas.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-029",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "2",
+    "conteudo": "Noções de estatística.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-030",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "2.1",
+    "conteudo": "População e amostra.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-031",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "2.2",
+    "conteudo": "Histogramas e curvas de frequência.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-032",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "2.3",
+    "conteudo": "Medidas de posição: média, moda, mediana e separatrizes.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-033",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "2.4",
+    "conteudo": "Medidas de dispersão absoluta e relativa.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-034",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "2.5",
+    "conteudo": "Probabilidade condicional, independência.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-035",
+    "materia": "Noções de Lógica e Estatística",
+    "item": "2.6",
+    "conteudo": "Variável aleatória e funções de distribuição.",
+    "pesoTopico": 0.6666666666666666,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos | Numeração reproduzida conforme o edital oficial.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-036",
+    "materia": "Direito Administrativo",
+    "item": "1",
+    "conteudo": "Administração pública: princípios básicos.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-037",
+    "materia": "Direito Administrativo",
+    "item": "1.1",
+    "conteudo": "Administração direta e indireta.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-038",
+    "materia": "Direito Administrativo",
+    "item": "2",
+    "conteudo": "Poderes administrativos.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-039",
+    "materia": "Direito Administrativo",
+    "item": "2.1",
+    "conteudo": "Espécies de poder: hierárquico, disciplinar, regulamentar, de polícia e normativo.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-040",
+    "materia": "Direito Administrativo",
+    "item": "2.2",
+    "conteudo": "Uso e abuso do poder.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-041",
+    "materia": "Direito Administrativo",
+    "item": "3",
+    "conteudo": "Organização administrativa brasileira.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-042",
+    "materia": "Direito Administrativo",
+    "item": "3.1",
+    "conteudo": "Serviços públicos: conceito e princípios.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-043",
+    "materia": "Direito Administrativo",
+    "item": "3.2",
+    "conteudo": "Autarquias, agências reguladoras, agências executivas, fundações públicas, empresas públicas e sociedades de economia mista.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-044",
+    "materia": "Direito Administrativo",
+    "item": "4",
+    "conteudo": "Ato administrativo.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-045",
+    "materia": "Direito Administrativo",
+    "item": "4.1",
+    "conteudo": "Conceito, requisitos e atributos do ato administrativo.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-046",
+    "materia": "Direito Administrativo",
+    "item": "4.2",
+    "conteudo": "Comunicação dos atos administrativos.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-047",
+    "materia": "Direito Administrativo",
+    "item": "4.3",
+    "conteudo": "Anulação, revogação e convalidação.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-048",
+    "materia": "Direito Administrativo",
+    "item": "4.4",
+    "conteudo": "Discricionariedade e vinculação.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-049",
+    "materia": "Direito Administrativo",
+    "item": "5",
+    "conteudo": "Servidores públicos: cargo, emprego e função públicos.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-050",
+    "materia": "Direito Administrativo",
+    "item": "5.1",
+    "conteudo": "Lei nº 8.112/1990 (Regime Jurídico dos Servidores Públicos Civis da União) e alterações.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-051",
+    "materia": "Direito Administrativo",
+    "item": "5.1.1",
+    "conteudo": "Disposições preliminares da Lei nº 8.112/1990.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-052",
+    "materia": "Direito Administrativo",
+    "item": "5.1.2",
+    "conteudo": "Provimento, vacância, remoção, redistribuição e substituição.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-053",
+    "materia": "Direito Administrativo",
+    "item": "5.1.3",
+    "conteudo": "Direitos e vantagens.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-054",
+    "materia": "Direito Administrativo",
+    "item": "5.1.4",
+    "conteudo": "Regime disciplinar.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-055",
+    "materia": "Direito Administrativo",
+    "item": "5.1.5",
+    "conteudo": "Seguridade social do servidor: aposentadoria e pensão civil.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-056",
+    "materia": "Direito Administrativo",
+    "item": "5.1.6",
+    "conteudo": "Processo administrativo disciplinar.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-057",
+    "materia": "Direito Administrativo",
+    "item": "6",
+    "conteudo": "Improbidade administrativa.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-058",
+    "materia": "Direito Administrativo",
+    "item": "7",
+    "conteudo": "Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (Decreto nº 1.171/1994).",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-059",
+    "materia": "Direito Administrativo",
+    "item": "8",
+    "conteudo": "Código de Conduta da Alta Administração Federal.",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-060",
+    "materia": "Direito Administrativo",
+    "item": "9",
+    "conteudo": "Lei de conflito de interesses (Lei nº 11.813/2013).",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-061",
+    "materia": "Direito Administrativo",
+    "item": "10",
+    "conteudo": "Lei de Acesso à Informação (Lei nº 12.527/2011).",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-062",
+    "materia": "Direito Administrativo",
+    "item": "11",
+    "conteudo": "Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais - LGPD).",
+    "pesoTopico": 0.18518518518518517,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-063",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "I.1",
+    "conteudo": "Macroeconomia: contas nacionais.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-064",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "I.2",
+    "conteudo": "Macroeconomia: agregados monetários.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-065",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "I.3",
+    "conteudo": "Macroeconomia: multiplicador monetário, criação e destruição de moeda.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-066",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "I.4",
+    "conteudo": "Macroeconomia: contas do sistema monetário.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-067",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "I.5",
+    "conteudo": "Macroeconomia: balanço de pagamentos.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-068",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.1",
+    "conteudo": "Microeconomia: estrutura de mercado.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-069",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.1.1",
+    "conteudo": "Formas de organização da atividade econômica, papel dos preços, custo de oportunidade e fronteiras das possibilidades de produção.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-070",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.2",
+    "conteudo": "Microeconomia: oferta e demanda.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-071",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.2.1",
+    "conteudo": "Curvas de indiferença.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-072",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.2.2",
+    "conteudo": "Restrição orçamentária.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-073",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.2.3",
+    "conteudo": "Equilíbrio do consumidor.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-074",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.2.4",
+    "conteudo": "Efeitos preço, renda e substituição.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-075",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.2.5",
+    "conteudo": "Curva de demanda.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-076",
+    "materia": "Fundamentos de Macro e Microeconomia",
+    "item": "II.2.6",
+    "conteudo": "Elasticidade da demanda.",
+    "pesoTopico": 0.7142857142857143,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-077",
+    "materia": "Atualidades (P3)",
+    "item": "1",
+    "conteudo": "Tópicos relevantes e atuais: segurança, transportes, política, economia, sociedade, educação, saúde, cultura, tecnologia, energia, relações internacionais, desenvolvimento sustentável e ecologia.",
+    "pesoTopico": 0.0,
+    "prioridade": "Médio",
+    "bloco": "Prova discursiva | P3: dissertação de até 40 linhas, valor de 30 pontos no edital 2024.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-078",
+    "materia": "Ciência de Dados",
+    "item": "1",
+    "conteudo": "Aprendizado de Máquina.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-079",
+    "materia": "Ciência de Dados",
+    "item": "2",
+    "conteudo": "Deep learning.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-080",
+    "materia": "Ciência de Dados",
+    "item": "3",
+    "conteudo": "Processamento de linguagem natural.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-081",
+    "materia": "Ciência de Dados",
+    "item": "4",
+    "conteudo": "Big data.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-082",
+    "materia": "Ciência de Dados",
+    "item": "5",
+    "conteudo": "Qualidade de Dados.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-083",
+    "materia": "Ciência de Dados",
+    "item": "6",
+    "conteudo": "Tipos de Aprendizado: Supervisionado, Não Supervisionado, Semi Supervisionado, Por Reforço e Por Transferência.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-084",
+    "materia": "Ciência de Dados",
+    "item": "7",
+    "conteudo": "Grandes Modelos de Linguagem (LLM) e IA Generativa.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-085",
+    "materia": "Ciência de Dados",
+    "item": "8",
+    "conteudo": "Redes Neurais.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-086",
+    "materia": "Ciência de Dados",
+    "item": "9",
+    "conteudo": "MLOps: gestão de código, treinamento, implantação, monitoramento e versionamento de modelos; automação do ciclo de produção.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-087",
+    "materia": "Ciência de Dados",
+    "item": "10",
+    "conteudo": "Governança e Ética na IA: Transparência, Responsabilidade, Explicabilidade, Privacidade, Segurança e Viés.",
+    "pesoTopico": 1.4,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-088",
+    "materia": "Segurança da Informação",
+    "item": "1",
+    "conteudo": "Gestão de Identidades e Acesso: autenticação e autorização, Single Sign-On (SSO), SAML, OAuth2 e OpenID Connect.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-089",
+    "materia": "Segurança da Informação",
+    "item": "2",
+    "conteudo": "Privacidade e segurança por padrão.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-090",
+    "materia": "Segurança da Informação",
+    "item": "3",
+    "conteudo": "Principais tipos de ataques e vulnerabilidades.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-091",
+    "materia": "Segurança da Informação",
+    "item": "4",
+    "conteudo": "Controles e testes de segurança para aplicações Web e Web Services.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-092",
+    "materia": "Segurança da Informação",
+    "item": "5",
+    "conteudo": "Múltiplos Fatores de Autenticação (MFA).",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-093",
+    "materia": "Segurança da Informação",
+    "item": "6",
+    "conteudo": "Soluções para Segurança da Informação: Firewall, IDS, IPS, SIEM, Proxy, IAM, PAM, Antivírus e Antispam.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-094",
+    "materia": "Segurança da Informação",
+    "item": "7",
+    "conteudo": "Frameworks de segurança da informação e cibernética: MITRE ATT&CK, CIS Controls e NIST CyberSecurity Framework (NIST CSF).",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-095",
+    "materia": "Segurança da Informação",
+    "item": "8",
+    "conteudo": "Tratamento de Incidentes Cibernéticos.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-096",
+    "materia": "Segurança da Informação",
+    "item": "9",
+    "conteudo": "Assinatura e certificação digital, criptografia e proteção de dados em trânsito e em repouso.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-097",
+    "materia": "Segurança da Informação",
+    "item": "10",
+    "conteudo": "Segurança em nuvens e de contêineres.",
+    "pesoTopico": 0.7,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-098",
+    "materia": "Engenharia de Software",
+    "item": "1",
+    "conteudo": "Arquitetura de sistemas web: HTTP, HTTP/2, gRPC, WebSockets, TLS, servidores proxy, cache, DNS, balanceamento de carga, tolerância a falhas e escalabilidade.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-099",
+    "materia": "Engenharia de Software",
+    "item": "2",
+    "conteudo": "Princípios e práticas de DevOps e DevSecOps; integração e entrega contínuas (CI/CD).",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-100",
+    "materia": "Engenharia de Software",
+    "item": "3",
+    "conteudo": "Técnicas de desenvolvimento seguro.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-101",
+    "materia": "Engenharia de Software",
+    "item": "4",
+    "conteudo": "Testes de software: testes unitários, testes de integração, TDD e BDD.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-102",
+    "materia": "Engenharia de Software",
+    "item": "5",
+    "conteudo": "Arquiteturas em camadas, baseada em serviços, microsserviços (orquestração de serviços e API gateway), orientação a eventos, cliente-servidor e serverless.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-103",
+    "materia": "Engenharia de Software",
+    "item": "6",
+    "conteudo": "Práticas de UX e UI design.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-104",
+    "materia": "Engenharia de Software",
+    "item": "7",
+    "conteudo": "Programação assíncrona.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-105",
+    "materia": "Engenharia de Software",
+    "item": "8",
+    "conteudo": "RESTful e GraphQL.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-106",
+    "materia": "Engenharia de Software",
+    "item": "9",
+    "conteudo": "Web services.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-107",
+    "materia": "Engenharia de Software",
+    "item": "10",
+    "conteudo": "Padrões: GoF e GRASP.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-108",
+    "materia": "Engenharia de Software",
+    "item": "11",
+    "conteudo": "Git.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-109",
+    "materia": "Engenharia de Software",
+    "item": "12",
+    "conteudo": "Python e Java.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos | Aproveitar a base já estudada para o BB.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-110",
+    "materia": "Engenharia de Software",
+    "item": "13",
+    "conteudo": "Transações distribuídas.",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-111",
+    "materia": "Engenharia de Software",
+    "item": "14",
+    "conteudo": "Distributed Ledger Technology (DLT).",
+    "pesoTopico": 1.7142857142857142,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-112",
+    "materia": "Infraestrutura em TI",
+    "item": "1",
+    "conteudo": "Conceitos de infraestrutura como código e automação de infraestrutura de TI.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-113",
+    "materia": "Infraestrutura em TI",
+    "item": "2",
+    "conteudo": "Docker e Kubernetes: boas práticas para infraestrutura e orquestração de containers.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-114",
+    "materia": "Infraestrutura em TI",
+    "item": "3",
+    "conteudo": "Serviços de Rede Microsoft Windows Server: DNS, DHCP, Radius, Autenticação, Certificados e Active Directory (AD).",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-115",
+    "materia": "Infraestrutura em TI",
+    "item": "4",
+    "conteudo": "Monitoração, observabilidade e análise de sistemas em produção: Nagios, Prometheus, Grafana, Elasticsearch, Kibana, APM e ferramentas de logging.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-116",
+    "materia": "Infraestrutura em TI",
+    "item": "5",
+    "conteudo": "Protocolos da camada de aplicação: SMTP, HTTP, HTTPS, SSL/TLS, LDAP, NFS e SMB.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-117",
+    "materia": "Infraestrutura em TI",
+    "item": "6",
+    "conteudo": "Tolerância a falhas e continuidade de operação.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-118",
+    "materia": "Infraestrutura em TI",
+    "item": "7",
+    "conteudo": "Implantação e administração de serviços de nuvem: IaaS, PaaS e SaaS.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-119",
+    "materia": "Infraestrutura em TI",
+    "item": "8",
+    "conteudo": "Administração e gerenciamento de ambientes de virtualização.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-120",
+    "materia": "Infraestrutura em TI",
+    "item": "9",
+    "conteudo": "Administração e operação de sistemas operacionais Microsoft Windows Server e Linux.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-121",
+    "materia": "Infraestrutura em TI",
+    "item": "10",
+    "conteudo": "Conceitos de LAN, WAN e SDN.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-122",
+    "materia": "Infraestrutura em TI",
+    "item": "11",
+    "conteudo": "Conceitos e ferramentas de orquestração e automação de infraestrutura: Puppet e Ansible.",
+    "pesoTopico": 1.5454545454545454,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-123",
+    "materia": "Bancos de Dados",
+    "item": "1",
+    "conteudo": "SGBDs SQL e NoSQL.",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos | Aproveitar a base já estudada para o BB.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-124",
+    "materia": "Bancos de Dados",
+    "item": "2",
+    "conteudo": "Modelagens de dados: relacional, multidimensional e NoSQL.",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-125",
+    "materia": "Bancos de Dados",
+    "item": "3",
+    "conteudo": "SQL (Procedural Language / Structured Query Language).",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos | Aproveitar a base já estudada para o BB.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-126",
+    "materia": "Bancos de Dados",
+    "item": "4",
+    "conteudo": "Arquitetura de Inteligência de Negócio: Data Warehouse, Data Mart, Data Lake e Data Mesh.",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-127",
+    "materia": "Gestão em TI",
+    "item": "1",
+    "conteudo": "Kanban.",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-128",
+    "materia": "Gestão em TI",
+    "item": "2",
+    "conteudo": "Scrum.",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-129",
+    "materia": "Gestão em TI",
+    "item": "3",
+    "conteudo": "Governança de Dados.",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-130",
+    "materia": "Gestão em TI",
+    "item": "4",
+    "conteudo": "ITIL v4.",
+    "pesoTopico": 1.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  },
+  {
+    "id": "edital-131",
+    "materia": "Discursiva Técnica (P4)",
+    "item": "P4",
+    "conteudo": "Situação-problema acerca dos conhecimentos específicos de Tecnologia da Informação.",
+    "pesoTopico": 0.0,
+    "prioridade": "Alto",
+    "bloco": "Prova discursiva | P4: questão dissertativa de até 80 linhas, valor de 50 pontos no edital 2024.",
+    "fonte": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf"
+  }
+]

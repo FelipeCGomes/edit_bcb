@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "atualidade": "Impactos da inteligência artificial generativa sobre produtividade, trabalho e qualificação profissional.",
+    "ti": "Projete uma arquitetura web escalável para serviço crítico, abordando HTTP/2, TLS, cache, proxy, balanceamento e tolerância a falhas."
+  },
+  {
+    "id": 2,
+    "atualidade": "Desafios da inclusão digital em uma sociedade cada vez mais dependente de serviços on-line.",
+    "ti": "Explique quando adotar microsserviços e como lidar com API Gateway, descoberta, observabilidade e falhas distribuídas."
+  },
+  {
+    "id": 3,
+    "atualidade": "Combate à desinformação e preservação da confiança nas instituições em ambientes digitais.",
+    "ti": "Compare arquitetura orientada a eventos com comunicação síncrona entre serviços e discuta consistência e rastreabilidade."
+  },
+  {
+    "id": 4,
+    "atualidade": "Proteção de dados pessoais diante da expansão de serviços digitais e decisões automatizadas.",
+    "ti": "Proponha estratégia serverless para uma carga variável, considerando escalabilidade, custos, segurança e dependência do provedor."
+  },
+  {
+    "id": 5,
+    "atualidade": "Riscos e oportunidades do uso de inteligência artificial no setor público.",
+    "ti": "Descreva um pipeline CI/CD com práticas DevSecOps, testes automatizados, análise de vulnerabilidades e controles de promoção."
+  },
+  {
+    "id": 6,
+    "atualidade": "Educação midiática como instrumento para enfrentar golpes, deepfakes e manipulação informacional.",
+    "ti": "Analise como TDD e BDD podem melhorar qualidade, manutenção e alinhamento de requisitos em sistemas críticos."
+  },
+  {
+    "id": 7,
+    "atualidade": "Soberania digital e dependência de infraestruturas tecnológicas globais.",
+    "ti": "Explique padrões GoF e GRASP aplicáveis à redução de acoplamento e melhoria de coesão em uma aplicação empresarial."
+  },
+  {
+    "id": 8,
+    "atualidade": "Equilíbrio entre inovação tecnológica, regulação e proteção de direitos.",
+    "ti": "Proponha práticas de desenvolvimento seguro para uma API REST exposta a clientes externos."
+  },
+  {
+    "id": 9,
+    "atualidade": "Automação e transformação das competências exigidas no mercado de trabalho.",
+    "ti": "Compare REST, gRPC, WebSockets e GraphQL em cenários com diferentes requisitos de latência e interação."
+  },
+  {
+    "id": 10,
+    "atualidade": "Responsabilidade no desenvolvimento e uso de sistemas de inteligência artificial.",
+    "ti": "Explique desafios de transações distribuídas e alternativas para consistência em arquiteturas de microsserviços."
+  },
+  {
+    "id": 11,
+    "atualidade": "Expansão dos pagamentos digitais e seus efeitos sobre inclusão financeira.",
+    "ti": "Projete uma plataforma de contêineres com Docker e Kubernetes para aplicação crítica e altamente disponível."
+  },
+  {
+    "id": 12,
+    "atualidade": "Inovação no sistema financeiro e necessidade de proteção do consumidor.",
+    "ti": "Descreva boas práticas de segurança e operação de clusters Kubernetes, incluindo segredos, RBAC e atualização de imagens."
+  },
+  {
+    "id": 13,
+    "atualidade": "Golpes financeiros digitais e os desafios de prevenção, educação e responsabilização.",
+    "ti": "Explique infraestrutura como código e proponha fluxo de automação usando ferramentas como Ansible e práticas de versionamento."
+  },
+  {
+    "id": 14,
+    "atualidade": "Open Finance e transformação da relação entre consumidores e instituições financeiras.",
+    "ti": "Projete monitoração e observabilidade com métricas, logs e traces usando Prometheus, Grafana, Elasticsearch/Kibana e APM."
+  },
+  {
+    "id": 15,
+    "atualidade": "Moedas e ativos digitais e os desafios de segurança, confiança e regulação.",
+    "ti": "Proponha estratégia de continuidade de operação e recuperação de desastre para serviços de TI essenciais."
+  },
+  {
+    "id": 16,
+    "atualidade": "Digitalização bancária e atendimento inclusivo para públicos com diferentes níveis de letramento digital.",
+    "ti": "Compare LAN, WAN e SDN e discuta como redes definidas por software alteram administração e segurança."
+  },
+  {
+    "id": 17,
+    "atualidade": "Competição, inovação e interoperabilidade no sistema financeiro digital.",
+    "ti": "Explique o papel de DNS, DHCP, RADIUS, Active Directory e certificados em uma infraestrutura corporativa."
+  },
+  {
+    "id": 18,
+    "atualidade": "Papel da tecnologia na ampliação do acesso a serviços financeiros.",
+    "ti": "Analise protocolos HTTP/HTTPS, SMTP, LDAP, NFS e SMB sob a ótica de função, riscos e proteção."
+  },
+  {
+    "id": 19,
+    "atualidade": "Identidade digital e prevenção a fraudes em serviços financeiros.",
+    "ti": "Proponha arquitetura em nuvem usando IaaS, PaaS e SaaS, explicitando responsabilidades e controles de segurança."
+  },
+  {
+    "id": 20,
+    "atualidade": "Resiliência operacional de serviços financeiros essenciais diante de incidentes tecnológicos.",
+    "ti": "Explique virtualização e contêineres, comparando isolamento, eficiência, portabilidade e cenários de uso."
+  },
+  {
+    "id": 21,
+    "atualidade": "Crescimento dos ataques cibernéticos contra organizações públicas e privadas.",
+    "ti": "Projete autenticação e autorização para aplicações usando OAuth 2.0, OpenID Connect, SAML e MFA."
+  },
+  {
+    "id": 22,
+    "atualidade": "Importância da cultura de segurança da informação para além das soluções tecnológicas.",
+    "ti": "Explique IAM e PAM e proponha controles para reduzir riscos associados a contas privilegiadas."
+  },
+  {
+    "id": 23,
+    "atualidade": "Proteção de infraestruturas críticas em um cenário de ameaças cibernéticas crescentes.",
+    "ti": "Proponha arquitetura de defesa em profundidade com firewall, proxy, IDS/IPS, SIEM, antivírus e antispam."
+  },
+  {
+    "id": 24,
+    "atualidade": "Ransomware e continuidade de serviços essenciais.",
+    "ti": "Utilize MITRE ATT&CK para estruturar detecção e resposta a uma campanha de ataque contra ambiente corporativo."
+  },
+  {
+    "id": 25,
+    "atualidade": "Cooperação entre governo, empresas e sociedade no enfrentamento de riscos cibernéticos.",
+    "ti": "Explique como CIS Controls e NIST Cybersecurity Framework podem apoiar governança e melhoria contínua de segurança."
+  },
+  {
+    "id": 26,
+    "atualidade": "Autenticação forte e segurança sem exclusão de usuários com menor familiaridade digital.",
+    "ti": "Descreva processo de tratamento de incidentes cibernéticos desde detecção até lições aprendidas."
+  },
+  {
+    "id": 27,
+    "atualidade": "Engenharia social como desafio de segurança e educação digital.",
+    "ti": "Explique criptografia, assinatura digital, certificados e proteção de dados em trânsito e em repouso."
+  },
+  {
+    "id": 28,
+    "atualidade": "Privacidade e segurança por padrão em produtos e serviços digitais.",
+    "ti": "Proponha controles de segurança em aplicações Web e Web Services, incluindo testes e tratamento de vulnerabilidades."
+  },
+  {
+    "id": 29,
+    "atualidade": "Gestão de riscos de terceiros e cadeias de suprimentos digitais.",
+    "ti": "Analise segurança em nuvem e contêineres, considerando configuração, identidade, rede, imagens e monitoramento."
+  },
+  {
+    "id": 30,
+    "atualidade": "Confiança digital como requisito para a expansão de serviços públicos e financeiros on-line.",
+    "ti": "Explique privacy by design e security by default e mostre como incorporá-los ao ciclo de desenvolvimento."
+  },
+  {
+    "id": 31,
+    "atualidade": "Mudanças climáticas e necessidade de adaptação de cidades e infraestruturas.",
+    "ti": "Desenvolva estratégia de modelagem relacional para sistema transacional, abordando normalização, integridade e desempenho."
+  },
+  {
+    "id": 32,
+    "atualidade": "Transição energética e desafios econômicos, sociais e tecnológicos.",
+    "ti": "Compare bancos SQL e NoSQL e indique critérios técnicos para escolha em diferentes cargas de trabalho."
+  },
+  {
+    "id": 33,
+    "atualidade": "Financiamento sustentável e papel do sistema financeiro na transição para uma economia de baixo carbono.",
+    "ti": "Explique transações, isolamento, concorrência e consistência em sistemas de bancos de dados."
+  },
+  {
+    "id": 34,
+    "atualidade": "Eventos climáticos extremos e continuidade de serviços essenciais.",
+    "ti": "Compare bancos orientados a documentos, chave-valor, colunas e grafos e apresente casos de uso."
+  },
+  {
+    "id": 35,
+    "atualidade": "Uso de dados e tecnologia para monitoramento ambiental e prevenção de desastres.",
+    "ti": "Projete arquitetura de Data Warehouse e Data Mart para análise gerencial com rastreabilidade de dados."
+  },
+  {
+    "id": 36,
+    "atualidade": "Equilíbrio entre crescimento econômico, preservação ambiental e justiça social.",
+    "ti": "Compare Data Lake e Data Warehouse quanto a ingestão, schema, governança e consumo analítico."
+  },
+  {
+    "id": 37,
+    "atualidade": "Economia circular e inovação como caminhos para redução de desperdícios.",
+    "ti": "Explique Data Mesh e discuta benefícios e riscos da descentralização da responsabilidade pelos dados."
+  },
+  {
+    "id": 38,
+    "atualidade": "Segurança energética e diversificação da matriz de energia.",
+    "ti": "Proponha arquitetura de ingestão e processamento de dados em larga escala usando conceitos de Big Data."
+  },
+  {
+    "id": 39,
+    "atualidade": "Desenvolvimento sustentável e necessidade de métricas confiáveis para tomada de decisão.",
+    "ti": "Analise ETL e ELT e selecione uma abordagem para plataforma analítica moderna."
+  },
+  {
+    "id": 40,
+    "atualidade": "Tecnologia aplicada à agricultura e ao uso eficiente de recursos naturais.",
+    "ti": "Explique como qualidade de dados deve ser medida, monitorada e tratada ao longo de pipelines analíticos."
+  },
+  {
+    "id": 41,
+    "atualidade": "Desigualdade social e acesso a oportunidades em uma economia digitalizada.",
+    "ti": "Desenvolva um pipeline de machine learning da preparação dos dados à implantação e monitoramento."
+  },
+  {
+    "id": 42,
+    "atualidade": "Envelhecimento populacional e pressão sobre políticas públicas e serviços.",
+    "ti": "Compare aprendizado supervisionado, não supervisionado, semi-supervisionado, por reforço e por transferência."
+  },
+  {
+    "id": 43,
+    "atualidade": "Qualificação profissional contínua diante de mudanças tecnológicas aceleradas.",
+    "ti": "Explique overfitting e underfitting e proponha validação cruzada, regularização e seleção de hiperparâmetros."
+  },
+  {
+    "id": 44,
+    "atualidade": "Acessibilidade digital e participação plena de pessoas com deficiência.",
+    "ti": "Compare árvore de decisão, Random Forest, regressão logística, KNN, Naive Bayes e SVM em um problema de classificação."
+  },
+  {
+    "id": 45,
+    "atualidade": "Desafios da saúde mental em ambientes de trabalho hiperconectados.",
+    "ti": "Explique métricas de avaliação de classificação e como lidar com classes desbalanceadas."
+  },
+  {
+    "id": 46,
+    "atualidade": "Tecnologia na educação: potencial de personalização e riscos de aprofundamento de desigualdades.",
+    "ti": "Compare regressão linear e modelos mais complexos, abordando avaliação, interpretabilidade e risco de sobreajuste."
+  },
+  {
+    "id": 47,
+    "atualidade": "Teletrabalho, produtividade e novas formas de organização profissional.",
+    "ti": "Explique K-Means, algoritmos hierárquicos e DBSCAN e indique situações adequadas para cada abordagem."
+  },
+  {
+    "id": 48,
+    "atualidade": "Proteção de crianças e adolescentes em ambientes digitais.",
+    "ti": "Discuta redução de dimensionalidade e seus efeitos em desempenho, visualização e perda de informação."
+  },
+  {
+    "id": 49,
+    "atualidade": "Combate à exclusão financeira e digital em regiões com menor infraestrutura.",
+    "ti": "Explique redes neurais e Deep Learning, destacando treinamento, generalização e custo computacional."
+  },
+  {
+    "id": 50,
+    "atualidade": "Participação cidadã e transparência pública por meios digitais.",
+    "ti": "Proponha solução de processamento de linguagem natural, da limpeza do texto à vetorização e avaliação."
+  },
+  {
+    "id": 51,
+    "atualidade": "Governo digital e simplificação do acesso a serviços públicos.",
+    "ti": "Explique arquitetura e uso de grandes modelos de linguagem, incluindo contexto, tokens e limitações."
+  },
+  {
+    "id": 52,
+    "atualidade": "Uso de dados para formulação, monitoramento e avaliação de políticas públicas.",
+    "ti": "Analise riscos de LLMs e IA generativa, como alucinação, viés, vazamento de dados e uso malicioso."
+  },
+  {
+    "id": 53,
+    "atualidade": "Transparência algorítmica em decisões que afetam cidadãos.",
+    "ti": "Proponha estratégia de governança para uso de IA generativa em uma instituição pública ou financeira."
+  },
+  {
+    "id": 54,
+    "atualidade": "Interoperabilidade de dados entre órgãos públicos e proteção da privacidade.",
+    "ti": "Explique MLOps e descreva versionamento, treinamento, implantação, monitoramento e automação do ciclo de modelos."
+  },
+  {
+    "id": 55,
+    "atualidade": "Inovação no setor público e resistência organizacional à transformação digital.",
+    "ti": "Analise model drift e data drift e proponha mecanismos de detecção e resposta."
+  },
+  {
+    "id": 56,
+    "atualidade": "Contratação e governança de tecnologias críticas pelo Estado.",
+    "ti": "Explique interpretabilidade de modelos e compare abordagens globais e locais para explicar previsões."
+  },
+  {
+    "id": 57,
+    "atualidade": "Continuidade de serviços públicos diante de falhas tecnológicas.",
+    "ti": "Proponha solução para detecção de anomalias em transações financeiras, considerando dados, métricas e falsos positivos."
+  },
+  {
+    "id": 58,
+    "atualidade": "Capacitação de servidores para uso responsável de novas tecnologias.",
+    "ti": "Discuta ética em IA com foco em transparência, responsabilidade, explicabilidade, privacidade, segurança e viés."
+  },
+  {
+    "id": 59,
+    "atualidade": "Acesso à informação e proteção de dados: como equilibrar transparência e privacidade.",
+    "ti": "Compare ensemble methods e modelos individuais, discutindo ganho de desempenho e custo de interpretabilidade."
+  },
+  {
+    "id": 60,
+    "atualidade": "Qualidade dos dados públicos como condição para decisões baseadas em evidências.",
+    "ti": "Proponha monitoramento de um modelo em produção com métricas técnicas, de negócio e de qualidade dos dados."
+  },
+  {
+    "id": 61,
+    "atualidade": "Cooperação internacional em segurança cibernética.",
+    "ti": "Explique Scrum, seus papéis, eventos e artefatos, e discuta limites de sua aplicação em equipes de tecnologia."
+  },
+  {
+    "id": 62,
+    "atualidade": "Competição global por semicondutores, capacidade computacional e infraestrutura de IA.",
+    "ti": "Explique Kanban e como limites de trabalho em progresso podem melhorar fluxo e previsibilidade."
+  },
+  {
+    "id": 63,
+    "atualidade": "Fluxos internacionais de dados e desafios de soberania, privacidade e comércio.",
+    "ti": "Discuta governança de dados, definindo papéis, políticas, qualidade, catálogo, linhagem e responsabilização."
+  },
+  {
+    "id": 64,
+    "atualidade": "Tecnologia como elemento de competição geopolítica.",
+    "ti": "Explique princípios e práticas do ITIL 4 aplicáveis à operação e melhoria de serviços digitais críticos."
+  },
+  {
+    "id": 65,
+    "atualidade": "Regulação de plataformas digitais em diferentes países e seus efeitos globais.",
+    "ti": "Proponha governança de mudanças para reduzir riscos sem impedir entregas frequentes em ambiente DevOps."
+  },
+  {
+    "id": 66,
+    "atualidade": "Crimes digitais transnacionais e desafios de investigação e cooperação.",
+    "ti": "Descreva estratégia de gestão de capacidade e disponibilidade para um serviço digital de alta demanda."
+  },
+  {
+    "id": 67,
+    "atualidade": "Padrões tecnológicos internacionais e disputa por influência econômica.",
+    "ti": "Explique como indicadores e objetivos de nível de serviço podem alinhar TI e necessidades de negócio."
+  },
+  {
+    "id": 68,
+    "atualidade": "Dependência de serviços de nuvem globais e estratégias de resiliência.",
+    "ti": "Proponha processo de gestão de incidentes e problemas integrado a observabilidade e base de conhecimento."
+  },
+  {
+    "id": 69,
+    "atualidade": "Desinformação em contextos de crises internacionais.",
+    "ti": "Discuta gestão de configuração e inventário de ativos em ambientes híbridos e automatizados."
+  },
+  {
+    "id": 70,
+    "atualidade": "Inovação tecnológica e cooperação científica entre países.",
+    "ti": "Analise como governança, risco e conformidade devem se integrar às equipes de engenharia de software."
+  },
+  {
+    "id": 71,
+    "atualidade": "Mobilidade urbana orientada por dados e integração de diferentes meios de transporte.",
+    "ti": "Projete uma API financeira segura e resiliente, integrando autenticação, autorização, idempotência, auditoria e limites de requisição."
+  },
+  {
+    "id": 72,
+    "atualidade": "Transformação digital da logística e seus impactos em eficiência e rastreabilidade.",
+    "ti": "Proponha arquitetura para processamento de eventos financeiros em alta escala com tolerância a falhas e rastreabilidade."
+  },
+  {
+    "id": 73,
+    "atualidade": "Infraestrutura de conectividade como elemento de desenvolvimento regional.",
+    "ti": "Explique idempotência e consistência em operações financeiras distribuídas e como evitar duplicidade de processamento."
+  },
+  {
+    "id": 74,
+    "atualidade": "Cidades inteligentes e riscos associados à coleta massiva de dados.",
+    "ti": "Projete solução de prevenção a fraudes combinando regras, machine learning, monitoramento e revisão humana."
+  },
+  {
+    "id": 75,
+    "atualidade": "Automação de transportes e necessidade de segurança, regulação e infraestrutura.",
+    "ti": "Analise riscos de terceiros em integrações por API e proponha controles técnicos e operacionais."
+  },
+  {
+    "id": 76,
+    "atualidade": "Tecnologia aplicada à gestão de trânsito e redução de emissões.",
+    "ti": "Proponha estratégia de alta disponibilidade para serviço de pagamentos com múltiplas zonas ou regiões."
+  },
+  {
+    "id": 77,
+    "atualidade": "Resiliência de redes de comunicação durante emergências e desastres.",
+    "ti": "Explique como construir trilhas de auditoria confiáveis em sistemas críticos e distribuídos."
+  },
+  {
+    "id": 78,
+    "atualidade": "Expansão da conectividade e desafios de cobertura em áreas remotas.",
+    "ti": "Proponha arquitetura para gestão de identidades de clientes com MFA adaptativo e prevenção de tomada de conta."
+  },
+  {
+    "id": 79,
+    "atualidade": "Internet das Coisas em serviços urbanos e gestão segura dos dispositivos.",
+    "ti": "Discuta segregação de funções e privilégio mínimo em sistemas financeiros críticos."
+  },
+  {
+    "id": 80,
+    "atualidade": "Dados abertos de mobilidade e inovação em serviços públicos e privados.",
+    "ti": "Projete observabilidade ponta a ponta para transações distribuídas, permitindo diagnóstico rápido de falhas."
+  },
+  {
+    "id": 81,
+    "atualidade": "Inovação científica e tecnológica como vetor de produtividade de longo prazo.",
+    "ti": "Explique Git e estratégia de branches, revisão de código e integração contínua para equipes com entregas frequentes."
+  },
+  {
+    "id": 82,
+    "atualidade": "Formação de talentos em ciência, tecnologia, engenharia e matemática.",
+    "ti": "Discuta programação assíncrona e concorrência, destacando ganhos de desempenho e riscos de complexidade."
+  },
+  {
+    "id": 83,
+    "atualidade": "Pesquisa aplicada e aproximação entre universidades, governo e empresas.",
+    "ti": "Proponha mecanismo de cache para sistema de alta leitura, tratando invalidação, consistência e disponibilidade."
+  },
+  {
+    "id": 84,
+    "atualidade": "Computação de alto desempenho e novos limites para pesquisa e inovação.",
+    "ti": "Explique circuit breaker, retry, timeout e bulkhead e mostre como evitam falhas em cascata."
+  },
+  {
+    "id": 85,
+    "atualidade": "Computação quântica: oportunidades futuras e desafios para segurança da informação.",
+    "ti": "Compare escalabilidade vertical e horizontal e proponha estratégia para cargas imprevisíveis."
+  },
+  {
+    "id": 86,
+    "atualidade": "Ética na pesquisa e desenvolvimento de tecnologias de alto impacto.",
+    "ti": "Analise DNS como componente de disponibilidade e segurança em arquiteturas distribuídas."
+  },
+  {
+    "id": 87,
+    "atualidade": "Democratização do acesso a ferramentas avançadas de inteligência artificial.",
+    "ti": "Explique TLS e ciclo de vida de certificados, incluindo autenticação, confidencialidade e renovação."
+  },
+  {
+    "id": 88,
+    "atualidade": "Propriedade intelectual em um contexto de produção de conteúdo por inteligência artificial.",
+    "ti": "Proponha estratégia de gestão de segredos para aplicações, pipelines e ambientes de contêineres."
+  },
+  {
+    "id": 89,
+    "atualidade": "Inovação aberta e colaboração entre organizações na solução de problemas complexos.",
+    "ti": "Discuta supply chain security de software, incluindo dependências, imagens, artefatos e pipelines."
+  },
+  {
+    "id": 90,
+    "atualidade": "Avaliação de impacto social de novas tecnologias antes de sua adoção em larga escala.",
+    "ti": "Proponha processo de resposta a vulnerabilidades desde descoberta até correção e validação."
+  },
+  {
+    "id": 91,
+    "atualidade": "Qualidade da informação como requisito para decisões econômicas e sociais.",
+    "ti": "Projete plataforma de logs com retenção, correlação, controle de acesso e proteção contra adulteração."
+  },
+  {
+    "id": 92,
+    "atualidade": "Alfabetização estatística e interpretação responsável de indicadores públicos.",
+    "ti": "Explique disaster recovery usando RTO e RPO e proponha testes periódicos de recuperação."
+  },
+  {
+    "id": 93,
+    "atualidade": "Vieses em bases de dados e seus efeitos em decisões automatizadas.",
+    "ti": "Discuta arquitetura ativa-ativa e ativa-passiva, avaliando custo, complexidade e recuperação."
+  },
+  {
+    "id": 94,
+    "atualidade": "Governança de dados como questão estratégica para organizações e governos.",
+    "ti": "Proponha política de backup resistente a ransomware, incluindo imutabilidade, testes e segregação."
+  },
+  {
+    "id": 95,
+    "atualidade": "Compartilhamento de dados para inovação com preservação de direitos individuais.",
+    "ti": "Analise uso de infraestrutura imutável para reduzir drift de configuração e aumentar previsibilidade."
+  },
+  {
+    "id": 96,
+    "atualidade": "Combate a fraudes por análise de dados e seus limites éticos.",
+    "ti": "Discuta Distributed Ledger Technology e critérios para avaliar quando uma solução distribuída é realmente necessária."
+  },
+  {
+    "id": 97,
+    "atualidade": "Personalização de serviços digitais sem criação de práticas discriminatórias.",
+    "ti": "Projete uma solução de dados que preserve linhagem e qualidade desde a origem até relatórios e modelos de IA."
+  },
+  {
+    "id": 98,
+    "atualidade": "A importância da explicabilidade em sistemas automatizados de alto impacto.",
+    "ti": "Proponha estratégia de anonimização ou pseudonimização para uso analítico de dados pessoais."
+  },
+  {
+    "id": 99,
+    "atualidade": "Decisões baseadas em evidências e risco de confiar cegamente em modelos quantitativos.",
+    "ti": "Explique como monitorar vieses de modelos e estabelecer processo de revisão e responsabilização."
+  },
+  {
+    "id": 100,
+    "atualidade": "Responsabilização humana em processos apoiados por algoritmos.",
+    "ti": "Projete um sistema crítico completo integrando arquitetura, infraestrutura, segurança, dados, observabilidade e governança."
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "dias": {
+    "0": 0,
+    "1": 90,
+    "2": 90,
+    "3": 90,
+    "4": 90,
+    "5": 90,
+    "6": 180
+  },
+  "pesoCarga": 0.5,
+  "pesoProva": 0.5,
+  "modoPreparacao": "pre",
+  "dataInicioEstudos": "",
+  "dataEdital": "",
+  "dataProvaObjetiva": "",
+  "dataAlvo": "",
+  "prioridadeAutomatica": true,
+  "retaFinal": {
+    "days": 15,
+    "practiceShare": 0.6,
+    "reviewShare": 0.5,
+    "questionShare": 0.5,
+    "sabado": {
+      "revisao": 0.4,
+      "questoes": 0.4,
+      "simulado": 0.15,
+      "discursiva": 0.05
+    }
+  },
+  "notificacoes": {
+    "inactivityHours": 24
+  },
+  "sabado": {
+    "revisao": 0.3,
+    "questoes": 0.3,
+    "simulado": 0.25,
+    "discursiva": 0.15
+  },
+  "ciclo": [
+    "Engenharia de Software",
+    "Língua Portuguesa",
+    "Infraestrutura em TI",
+    "Ciência de Dados",
+    "Noções de Lógica e Estatística",
+    "Fundamentos de Macroeconomia e Microeconomia",
+    "Segurança da Informação",
+    "Direito Administrativo",
+    "Bancos de Dados",
+    "Gestão em TI"
+  ],
+  "horariosInicio": {
+    "0": "09:00",
+    "1": "19:00",
+    "2": "19:00",
+    "3": "19:00",
+    "4": "19:00",
+    "5": "19:00",
+    "6": "09:00"
+  },
+  "intervaloMinutos": 5
+}
