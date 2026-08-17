@@ -46,6 +46,7 @@
         <button class="nav-item" data-route="edital"><span>☷</span><b>Edital verticalizado</b></button>
         <button class="nav-item" data-route="curso"><span>▶</span><b id="nav-course-label">Material de estudo</b></button>
         <button class="nav-item" data-route="questoes"><span>✓</span><b>Questões</b></button>
+        <button class="nav-item" data-route="desempenho"><span>◫</span><b>Desempenho 2.0</b></button>
         <button class="nav-item" id="nav-ranking" data-route="ranking"><span>⇅</span><b>Meu ranking</b></button>
         <button class="nav-item" data-route="revisoes"><span>↻</span><b>Revisões</b></button>
         <button class="nav-item" data-route="discursiva"><span>✎</span><b id="nav-writing-label">Produção textual</b></button>
@@ -76,6 +77,7 @@
         </div>
         <div class="topbar-actions">
           <button class="contest-current" id="contest-current" title="Trocar concurso">BACEN TI</button>
+          <button class="icon-btn search-trigger" id="global-search-button" title="Busca rápida (Ctrl+K)" aria-label="Busca rápida"><svg class="search-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4 4"></path></svg><span class="desktop-search-label">Buscar</span><kbd>⌘K</kbd></button>
           <span class="update-badge" id="updated-date">Atualizado em 17/08/2026</span>
           <button class="timer-pill" id="timer-mini" title="Abrir cronômetro">
             <span class="pulse-dot"></span><b id="timer-mini-label">00:00:00</b>
@@ -124,6 +126,19 @@
         <button type="button" class="primary" id="import-confirm">Importar</button>
       </div>
     </form>
+  </dialog>
+
+
+  <dialog class="modal command-modal" id="command-dialog">
+    <div class="command-card">
+      <div class="command-search-row">
+        <svg class="search-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4 4"></path></svg>
+        <input id="global-search-input" autocomplete="off" placeholder="Buscar matéria, tópico ou aula…" aria-label="Buscar no edital e nas aulas" />
+        <button class="icon-btn" id="global-search-close" aria-label="Fechar busca">×</button>
+      </div>
+      <div class="command-hints"><span>Busca no concurso ativo</span><span><kbd>Esc</kbd> fechar</span></div>
+      <div id="global-search-results" class="command-results"></div>
+    </div>
   </dialog>
 
   <div class="toast-stack" id="toast-stack" aria-live="polite"></div>

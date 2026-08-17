@@ -55,5 +55,10 @@
     "5": "19:00",
     "6": "09:00"
   },
-  "intervaloMinutos": 5
+  "intervaloMinutos": 5,
+  "metas": {
+    "studyMinutes": 630,
+    "questions": 100,
+    "accuracy": 0.8
+  }
 }

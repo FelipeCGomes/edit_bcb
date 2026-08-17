@@ -1,7 +1,7 @@
 {
-  "name": "Estudos TI - BACEN e Banco do Brasil",
+  "name": "Estudos TI 2.0 - BACEN e Banco do Brasil",
   "short_name": "Estudos TI",
-  "description": "Hub responsivo de estudos para BACEN TI e Banco do Brasil Agente de Tecnologia, com calendário, questões, revisões, redação/discursiva e comparação histórica BACEN 2024.",
+  "description": "Hub 2.0 de estudos para BACEN TI e Banco do Brasil Agente de Tecnologia, com planejamento adaptativo, desempenho integrado, revisão 1-7-30, ranking BACEN e PWA.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

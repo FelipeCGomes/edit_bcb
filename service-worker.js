@@ -1,4 +1,4 @@
-const CACHE = 'estudos-ti-v1.7';
+const CACHE = 'estudos-ti-v2.0';
 const CORE = [
   "./",
   "./index.html",
@@ -9,6 +9,7 @@ const CORE = [
   "./js/charts.js",
   "./js/scheduler.js",
   "./js/ranking.js",
+  "./js/insights.js",
   "./data/concursos.json",
   "./data/frases-motivacionais.json",
   "./data/edital.json",

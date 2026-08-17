@@ -1,24 +1,107 @@
-# Estudos TI — BACEN + Banco do Brasil
+# Estudos TI 2.0
 
-Aplicação estática, responsiva e instalável (PWA) para organizar a preparação de concursos de Tecnologia da Informação. Esta versão reúne dois perfis independentes:
+Hub estático e responsivo para preparação de concursos de Tecnologia da Informação.
 
-- **BACEN — Tecnologia da Informação**: edital-base de 2024, curso Gran BACEN, 131 tópicos verticalizados e 916 aulas cadastradas.
-- **Banco do Brasil — Agente de Tecnologia**: Seleção Externa 2022/001, material de estudo importado da planilha do projeto, edital verticalizado e 850 aulas cadastradas.
+## Concursos incluídos
 
-## O que mudou na v1.7
+- **BACEN TI** — base do Edital nº 01/2024, Cebraspe.
+- **Banco do Brasil — Agente de Tecnologia** — base da Seleção Externa 2022/001, Cesgranrio.
 
-- Seletor de concurso na barra lateral e no cabeçalho.
-- Troca instantânea de BACEN ↔ BB sem recarregar a aplicação.
-- Dados, progresso, questões, calendário, revisões, links de aula, cronômetro e backups **separados por concurso**.
-- Dashboard, pesos, edital, curso/material, produção textual e calendário adaptam-se ao concurso ativo.
-- BB usa os pesos da prova de Agente de Tecnologia e treino de redação; BACEN mantém P3/P4.
-- Corrigido o botão que abre/fecha a barra lateral no mobile com SVG próprio e `stroke` explícito para Android/iOS/WebView.
-- PWA/cache atualizado para as duas bases.
-- Novo módulo **Meu Ranking** no BACEN, usando os 150 candidatos da aba “Todos os 150”.
-- Ranking histórico anonimizado: nomes e inscrições não são publicados.
-- Projeção automática de P1 e P2 a partir das questões registradas, aplicando a regra Cebraspe (+1 / -0,5).
-- Simulador livre de P1, P2, P3, P4 e títulos, com posição equivalente, percentil, referências históricas e candidatos próximos.
-- Filtros de comparação por lista geral, candidatos negros e PCD.
+O progresso de cada concurso é armazenado separadamente no navegador.
+
+## Destaques da versão 2.0
+
+### Command Center
+O Dashboard passa a mostrar um **Índice de Preparação 0–100**, calculado a partir de:
+
+- progresso das aulas;
+- progresso do edital verticalizado;
+- precisão em questões;
+- quantidade acumulada de questões;
+- consistência nos últimos 30 dias;
+- cumprimento das metas da semana.
+
+O índice é um indicador interno de organização e **não é uma nota oficial ou previsão garantida de aprovação**.
+
+### Próxima melhor ação
+O sistema escolhe uma ação entre:
+
+1. revisão 1-7-30 vencida;
+2. tópico com maior prioridade por erros;
+3. aula ou prática agendada para hoje;
+4. próxima aula ainda pendente.
+
+### Desempenho 2.0
+Nova tela com:
+
+- heatmap de 12 semanas;
+- sequência atual e melhor sequência;
+- dias ativos;
+- metas semanais;
+- radar por matéria;
+- revisões pendentes;
+- diagnóstico automático;
+- integração com o ranking BACEN 2024, quando o perfil BACEN está ativo.
+
+### Revisão espaçada 1-7-30
+Ao concluir uma aula ou tópico do edital, são criadas revisões automáticas para:
+
+- 1 dia;
+- 7 dias;
+- 30 dias.
+
+Ao clicar em **Revisado agora**, o estágio é salvo no histórico do concurso.
+
+### Busca global
+Use o botão **Buscar** no cabeçalho ou:
+
+- `Ctrl + K` no Windows/Linux;
+- `Cmd + K` no macOS.
+
+A busca encontra itens do edital e aulas do material do concurso ativo.
+
+## BACEN — ranking histórico
+
+O perfil BACEN contém a base anonimizada dos 150 candidatos da planilha histórica de 2024.
+
+O site não publica nomes ou números de inscrição. A comparação usa posição, modalidade, notas P1/P2/P3/P4, títulos, acertos e erros.
+
+A posição exibida é uma **equivalência histórica**, não uma previsão oficial do próximo concurso.
+
+## Dados incluídos
+
+### BACEN
+- 131 tópicos/subtópicos do edital verticalizado;
+- 916 aulas;
+- 500 frases motivacionais;
+- 100 pares para treino P3/P4;
+- ranking histórico com 150 candidatos anonimizados;
+- lacunas declaradas do material do Gran.
+
+### Banco do Brasil
+- 111 tópicos verticalizados;
+- 850 aulas na base de estudo;
+- 100 propostas para treino de redação;
+- materiais separados do BACEN.
+
+## Instalação no GitHub Pages
+
+1. Envie **o conteúdo desta pasta** para a raiz do repositório.
+2. No GitHub, abra **Settings → Pages**.
+3. Escolha **Deploy from a branch**.
+4. Selecione `main` e `/ (root)`.
+
+Todos os caminhos do projeto são relativos, portanto ele funciona em repositórios de projeto como:
+
+`https://usuario.github.io/repositorio/`
+
+## Armazenamento
+
+O site não exige backend. O progresso é salvo em `localStorage`.
+
+A versão 2.0 usa o schema **v6** e migra automaticamente o progresso das versões anteriores.
+
+Como `localStorage` pertence ao navegador/dispositivo, use **Configurações → Backup** para exportar e importar dados entre dispositivos.
 
 ## Estrutura
 
@@ -28,74 +111,39 @@ estudos-ti/
 ├── manifest.webmanifest
 ├── service-worker.js
 ├── css/
-│   ├── style.css
-│   └── ranking.css
+│   └── style.css
 ├── js/
-│   ├── app.js                 # fonte completa legível
-│   ├── app-loader.js          # carregador usado no GitHub Pages
-│   ├── app-parts.json
-│   ├── app-v17-parts/         # fragmentos de runtime
-│   ├── data-loader.js
-│   ├── storage.js
-│   ├── scheduler.js
+│   ├── app.js
 │   ├── charts.js
+│   ├── insights.js
 │   ├── ranking.js
+│   ├── scheduler.js
+│   ├── storage.js
 │   └── utils.js
 ├── data/
 │   ├── concursos.json
 │   ├── edital.json
+│   ├── edital-bb.json
 │   ├── curso-gran.json
-│   ├── cobertura-gran.json
-│   ├── pesos.json
-│   ├── metadata.json
-│   ├── config-padrao.json
-│   ├── temas-discursiva.json
-│   ├── bacen-ranking-2024.json # fonte completa no pacote
-│   ├── edital-bb.json          # fonte completa no pacote
-│   ├── curso-bb.json           # fonte completa no pacote
-│   ├── cobertura-bb.json
-│   ├── pesos-bb.json
-│   ├── metadata-bb.json
-│   ├── config-bb.json
-│   ├── temas-redacao-bb.json
-│   ├── frases-motivacionais.json
-│   ├── fragment-map.json
-│   └── parts/                  # dados grandes fragmentados para Pages/PWA
-├── assets/favicon.svg
-└── tests/
+│   ├── curso-bb.json
+│   ├── bacen-ranking-2024.json
+│   └── ...
+├── tests/
+└── assets/
 ```
 
+## Testes
 
-### Organização dos arquivos grandes
-
-Para deixar a publicação no GitHub Pages e o cache PWA mais robustos, a versão de runtime divide o `app.js` e as bases maiores em fragmentos de texto carregados e remontados no navegador. O ZIP mantém também `js/app.js` e os JSONs originais completos e legíveis como fonte de desenvolvimento. O conteúdo remontado é validado nos testes para ser byte a byte equivalente às fontes.
-
-## Publicar no GitHub Pages
-
-1. Crie ou abra um repositório no GitHub.
-2. Envie **o conteúdo da pasta `estudos-ti`** para a raiz do repositório.
-3. Acesse **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha `main` e `/ (root)`.
-6. Salve e aguarde o endereço do GitHub Pages.
-
-> Não abra `index.html` diretamente pelo gerenciador de arquivos. Os JSONs são carregados com `fetch`, então use GitHub Pages ou um servidor local.
-
-## Testar localmente
+Com Node.js instalado:
 
 ```bash
-python -m http.server 8000
+node tests/storage-migration.mjs
+node tests/scheduler-smoke.mjs
+node tests/ranking-smoke.mjs
+node tests/insights-smoke.mjs
+node tests/ui-static.mjs
 ```
 
-Depois acesse `http://localhost:8000`.
+## Observação sobre notificações
 
-## Persistência e backup
-
-O progresso usa `localStorage`, com uma chave independente para cada concurso. Trocar de BACEN para BB não mistura questões, aulas concluídas, datas ou cronogramas. A tela **Configurações** exporta/importa backup JSON apenas do concurso ativo.
-
-## Observações sobre as bases
-
-O edital verticalizado continua sendo a referência principal. O material de estudo é exibido separadamente para que uma aula cadastrada não seja confundida automaticamente com cobertura integral do edital.
-
-Versão: **1.7.0**  
-Atualização: **17/08/2026**
+O PWA tenta usar notificações e `periodicSync` quando suportados pelo navegador. Em um GitHub Pages puro, o navegador não garante notificações quando o aplicativo está totalmente fechado. Push confiável em segundo plano exigiria um serviço externo, como FCM/OneSignal.

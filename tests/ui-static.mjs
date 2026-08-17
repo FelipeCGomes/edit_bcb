@@ -16,13 +16,17 @@ assert.ok(css.includes('.ranking-shell')||css.includes('.ranking-'),'estilos do 
 assert.ok(html.includes('id="sidebar-backdrop"')&&html.includes('id="sidebar-close"'),'drawer mobile incompleto');
 assert.ok(css.includes('@media(max-width:820px)')&&css.includes('@media(max-width:520px)'),'breakpoints mobile ausentes');
 assert.ok(css.includes('prefers-reduced-motion'),'acessibilidade de movimento reduzido ausente');
-assert.equal(registry.version,'1.7.0');
+assert.equal(registry.version,'2.0.0');
 assert.equal(registry.updatedAt,'2026-08-17');
 assert.ok(registry.contests.bacen&&registry.contests.bb,'registro dos dois concursos incompleto');
 assert.ok(sw.includes('./data/edital-bb.json')&&sw.includes('./data/curso-bb.json'),'PWA não inclui dados do BB');
 assert.ok(html.includes('id="nav-ranking"'),'rota Meu Ranking ausente');
 assert.ok(app.includes('renderRanking')&&app.includes('rankingAutomaticProjection'),'motor de ranking ausente');
 assert.ok(sw.includes('./data/bacen-ranking-2024.json')&&sw.includes('./js/ranking.js'),'PWA não inclui ranking');
+assert.ok(sw.includes('./js/insights.js'),'PWA não inclui motor de insights 2.0');
+assert.ok(html.includes('id="global-search-button"')&&html.includes('id="command-dialog"'),'busca global 2.0 ausente');
+assert.ok(html.includes('data-route="desempenho"'),'rota Desempenho 2.0 ausente');
+assert.ok(app.includes('renderPerformance')&&app.includes('studyInsights')&&app.includes('spacedReviews'),'motor de desempenho 2.0 ausente');
 assert.ok(sw.includes('REMINDER_CONFIG')&&sw.includes('periodicsync'),'notificações periódicas foram removidas');
 assert.equal(ranking.candidatos.length,150,'ranking BACEN incompleto');
 assert.equal(ranking.meta.anonimizado,true,'ranking BACEN não está anonimizado');
@@ -33,7 +37,7 @@ for(const [id,editalFile,pesosFile,metaFile] of [
   ['bb','data/edital-bb.json','data/pesos-bb.json','data/metadata-bb.json']
 ]){
   const edital=json(editalFile),pesos=json(pesosFile),meta=json(metaFile);
-  assert.equal(meta.version,'1.7.0',`${id}: versão incorreta`);
+  assert.equal(meta.version,'2.0.0',`${id}: versão incorreta`);
   const subjects=new Set(edital.map(x=>x.materia));
   for(const subject of Object.keys(pesos))assert.ok(subjects.has(subject),`${id}: matéria objetiva ausente no edital: ${subject}`);
 }

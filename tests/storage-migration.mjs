@@ -4,11 +4,13 @@ store.set('bacen-ti-state-v3',JSON.stringify({schema:3,questions:[{id:'q1',date:
 const {loadState,saveState,getActiveContest,setActiveContest}=await import('../js/storage.js');
 const config={dias:{0:0,1:90,2:90,3:90,4:90,5:90,6:180}};
 const bacen=loadState(config,'bacen');
-if(bacen.schema!==5)throw new Error('Schema não foi migrado para v5.');
+if(bacen.schema!==6)throw new Error('Schema não foi migrado para v6.');
 if(bacen.settings.objectiveExamDate!=='2026-11-01')throw new Error('Data-alvo antiga não foi migrada para prova objetiva.');
 if(!bacen.settings.studyStartDate)throw new Error('Data de início dos estudos não foi criada.');
 if(bacen.questions.length!==1)throw new Error('Histórico BACEN foi perdido.');
 if(!bacen.rankingSimulation||bacen.rankingSimulation.filter!=='all')throw new Error('Configuração padrão do ranking não foi criada.');
+if(!Array.isArray(bacen.reviewHistory))throw new Error('Histórico de revisões 1-7-30 não foi criado.');
+if(!bacen.settings.goals||bacen.settings.goals.questions!==100)throw new Error('Metas 2.0 não foram criadas.');
 const bb=loadState(config,'bb');
 if(bb.questions.length!==0)throw new Error('O progresso BACEN vazou para o perfil BB.');
 bb.questions.push({id:'bbq',questions:5,correct:4});saveState(bb,'bb');

@@ -1,7 +1,7 @@
 {
   "id": "bb",
   "app": "Estudos TI",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "updatedAt": "2026-08-17",
   "shortName": "BB Agente TI",
   "institution": "Banco do Brasil",
@@ -30,5 +30,5 @@
   "simuladoLabel": "Simulado Cesgranrio",
   "practiceWritingLabel": "Redação",
   "sourceOfficial": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf",
-  "observacao": "Hub multi-concurso v1.7: perfil BB independente, edital e material próprios. O módulo de ranking histórico permanece disponível apenas no BACEN, onde há base importada."
+  "observacao": "Versão 2.0: Command Center, Desempenho 2.0, metas semanais, busca global, consistência, revisão espaçada 1-7-30, diagnóstico adaptativo, ranking BACEN 2024, calendário e hub multi-concurso."
 }

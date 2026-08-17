@@ -1,26 +1,52 @@
 # Changelog
 
-## 1.7.0 — 17/08/2026
+## 2.0.0 — 17/08/2026
 
-- Importada a aba **Todos os 150** da planilha BACEN 2024 para uma base JSON anonimizada.
-- Adicionada a tela **Meu Ranking** ao perfil BACEN.
-- Projeção automática de P1/P2 com base nas questões registradas e regra de pontuação Cebraspe 2024.
-- Adicionado simulador de P1, P2, P3, P4 e títulos.
-- Adicionados posição equivalente, percentil, histograma de notas, referências históricas e comparação com candidatos próximos.
-- Adicionados filtros Lista Geral, Negros e PCD.
-- Ranking permanece oculto no perfil BB enquanto não houver uma base histórica própria.
-- Ajustes responsivos específicos para a tela de ranking em smartphones de 390–620 px.
-- PWA atualizado para cachear `ranking.js` e `bacen-ranking-2024.json`.
-- Mantido o progresso existente dos perfis BACEN e BB.
+Grande revisão do hub de estudos.
+
+### Novo Command Center
+- Índice de preparação 0–100 combinando curso, edital, precisão, volume de questões, consistência e metas semanais.
+- Próxima melhor ação calculada entre revisão vencida, ponto fraco, agenda do dia e próxima aula.
+- Meta semanal de tempo e questões no Dashboard.
+- Sequência atual, melhor sequência e dias ativos.
+
+### Desempenho 2.0
+- Nova tela exclusiva de diagnóstico integrado.
+- Heatmap de atividade das últimas 12 semanas.
+- Radar por matéria usando erros, precisão e peso da prova.
+- Diagnóstico automático e integração com o ranking histórico do BACEN.
+- Metas configuráveis de tempo, questões e precisão.
+
+### Revisão 1-7-30
+- Conteúdos concluídos entram automaticamente em revisões após 1, 7 e 30 dias.
+- Histórico de revisão separado por concurso.
+- Revisão espaçada convive com revisões manuais e recomendações por erros.
+
+### Busca global
+- Busca rápida por matéria, item do edital, tecnologia, tópico ou aula.
+- Atalho Ctrl+K / Cmd+K.
+- Abertura direta da aula encontrada ou do item correspondente no edital.
+
+### Questões
+- Ritmo semanal comparado com meta configurada.
+- Projeção simplificada conforme a banca ativa.
+- Mantido diagnóstico por tópico, matéria, acertos e erros.
+
+### Arquitetura e compatibilidade
+- Schema de armazenamento atualizado para v6 com migração automática das versões anteriores.
+- Cache PWA atualizado para `estudos-ti-v2.0`.
+- Novo motor `insights.js` isolando métricas e regras de diagnóstico.
+- Layout mobile e desktop refinado para os novos painéis.
+- Mantidos BACEN TI e Banco do Brasil Agente de Tecnologia com dados independentes.
+- Mantido ranking BACEN 2024 anonimizado com 150 candidatos.
+
+## 1.7.0 — 17/08/2026
+- Ranking histórico BACEN 2024.
+- Projeção P1/P2 e simulador P3/P4/títulos.
+- Base dos 150 candidatos anonimizada.
 
 ## 1.6.0 — 16/08/2026
+- Hub multi-concurso: BACEN TI e Banco do Brasil Agente de Tecnologia.
 
-- Adicionado perfil **Banco do Brasil — Agente de Tecnologia**.
-- Adicionado seletor BACEN TI ↔ BB Agente TI na lateral e no cabeçalho.
-- Progressos e configurações separados por concurso.
-- Adicionados edital, pesos, material de estudo e 100 propostas de redação para BB.
-- Dashboard, calendário, plano, questões, revisões e produção textual passaram a usar metadados do concurso ativo.
-- PWA/service worker atualizado para cachear as duas bases.
-- Corrigido ícone do menu mobile com SVG e `stroke: currentColor` explícito.
-- Melhoradas acessibilidade e áreas de toque dos controles do drawer mobile.
-- Mantida migração automática do progresso BACEN das versões anteriores.
+## 1.5.0 — 16/08/2026
+- Revisão responsiva para smartphones e drawer lateral.
