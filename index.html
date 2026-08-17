@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0b1020" />
-  <meta name="description" content="Painel de estudos para BACEN Tecnologia da Informação, com edital verticalizado, curso Gran, plano inteligente, revisões, questões e cronômetro." />
-  <title>BACEN Estudos TI</title>
+  <meta name="description" content="Hub de estudos para concursos de Tecnologia da Informação, com edital verticalizado, materiais, plano inteligente, revisões, questões e cronômetro." />
+  <title>Estudos TI · Concursos</title>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./css/style.css" />
@@ -16,19 +16,26 @@
 
   <div id="loading-screen" class="loading-screen">
     <div class="loader-orbit"><span></span><span></span><span></span></div>
-    <strong>Preparando seu painel BACEN…</strong>
-    <small>Carregando edital, aulas e progresso.</small>
+    <strong>Preparando seu hub de estudos…</strong>
+    <small>Carregando concurso, edital, materiais e progresso.</small>
   </div>
 
   <div class="app-shell" id="app" hidden>
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <div class="brand-mark">BC</div>
+        <div class="brand-mark" id="brand-mark">TI</div>
         <div class="brand-copy">
-          <strong>BACEN Estudos</strong>
-          <span>Tecnologia da Informação</span>
+          <strong id="brand-title">Estudos TI</strong>
+          <span id="brand-subtitle">Concursos de Tecnologia</span>
         </div>
-        <button class="icon-btn mobile-only sidebar-close" id="sidebar-close" aria-label="Fechar menu lateral">×</button>
+        <button class="icon-btn mobile-only sidebar-close menu-icon-button" id="sidebar-close" aria-label="Fechar menu lateral">
+          <svg class="menu-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+
+      <div class="contest-switcher" id="contest-switcher" aria-label="Selecionar concurso">
+        <button class="contest-option active" data-contest="bacen"><span class="contest-dot bacen"></span><b>BACEN TI</b></button>
+        <button class="contest-option" data-contest="bb"><span class="contest-dot bb"></span><b>BB Agente TI</b></button>
       </div>
 
       <nav class="nav-list" aria-label="Navegação principal">
@@ -37,11 +44,12 @@
         <button class="nav-item" data-route="plano"><span>⌁</span><b>Plano de estudos</b></button>
         <button class="nav-item" data-route="calendario"><span>▦</span><b>Calendário</b></button>
         <button class="nav-item" data-route="edital"><span>☷</span><b>Edital verticalizado</b></button>
-        <button class="nav-item" data-route="curso"><span>▶</span><b>Curso Gran</b></button>
+        <button class="nav-item" data-route="curso"><span>▶</span><b id="nav-course-label">Material de estudo</b></button>
         <button class="nav-item" data-route="questoes"><span>✓</span><b>Questões</b></button>
+        <button class="nav-item" id="nav-ranking" data-route="ranking"><span>⇅</span><b>Meu ranking</b></button>
         <button class="nav-item" data-route="revisoes"><span>↻</span><b>Revisões</b></button>
-        <button class="nav-item" data-route="discursiva"><span>✎</span><b>Prova discursiva</b></button>
-        <button class="nav-item" data-route="cobertura"><span>!</span><b>Cobertura do curso</b></button>
+        <button class="nav-item" data-route="discursiva"><span>✎</span><b id="nav-writing-label">Produção textual</b></button>
+        <button class="nav-item" data-route="cobertura"><span>!</span><b id="nav-coverage-label">Cobertura do material</b></button>
         <button class="nav-item" data-route="config"><span>⚙</span><b>Configurações</b></button>
       </nav>
 
@@ -58,14 +66,17 @@
     <main class="main">
       <header class="topbar">
         <div class="topbar-left">
-          <button class="icon-btn mobile-only" id="menu-button" aria-label="Abrir menu">☰</button>
+          <button class="icon-btn mobile-only menu-icon-button" id="menu-button" aria-label="Abrir menu lateral" aria-controls="sidebar" aria-expanded="false">
+            <svg class="menu-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
           <div>
             <span class="eyebrow" id="page-eyebrow">Visão geral</span>
             <h1 id="page-title">Dashboard</h1>
           </div>
         </div>
         <div class="topbar-actions">
-          <span class="update-badge" id="updated-date">Atualizado em 16/08/2026</span>
+          <button class="contest-current" id="contest-current" title="Trocar concurso">BACEN TI</button>
+          <span class="update-badge" id="updated-date">Atualizado em 17/08/2026</span>
           <button class="timer-pill" id="timer-mini" title="Abrir cronômetro">
             <span class="pulse-dot"></span><b id="timer-mini-label">00:00:00</b>
           </button>

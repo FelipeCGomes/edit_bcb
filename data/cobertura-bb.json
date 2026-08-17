@@ -1,0 +1,83 @@
+[
+  {
+    "id": "bb-material-01",
+    "modalidade": "Material de estudo",
+    "materia": "Língua Portuguesa",
+    "conteudo": "81 aulas cadastradas · 51:52 de conteúdo.",
+    "acao": "Usar no ciclo principal",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "ok"
+  },
+  {
+    "id": "bb-material-02",
+    "modalidade": "Material de estudo",
+    "materia": "Língua Inglesa",
+    "conteudo": "41 aulas cadastradas · 21:53 de conteúdo.",
+    "acao": "Usar no ciclo principal",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "ok"
+  },
+  {
+    "id": "bb-material-03",
+    "modalidade": "Material de estudo",
+    "materia": "Matemática",
+    "conteudo": "66 aulas cadastradas · 37:01 de conteúdo.",
+    "acao": "Usar no ciclo principal",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "ok"
+  },
+  {
+    "id": "bb-material-04",
+    "modalidade": "Material de estudo",
+    "materia": "Atualidades do Mercado Financeiro",
+    "conteudo": "23 aulas cadastradas · 10:49 de conteúdo.",
+    "acao": "Usar no ciclo principal",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "ok"
+  },
+  {
+    "id": "bb-material-05",
+    "modalidade": "Material de estudo",
+    "materia": "Probabilidade e Estatística",
+    "conteudo": "56 aulas cadastradas · 32:13 de conteúdo.",
+    "acao": "Usar no ciclo principal",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "ok"
+  },
+  {
+    "id": "bb-material-06",
+    "modalidade": "Material de estudo",
+    "materia": "Conhecimentos Bancários",
+    "conteudo": "155 aulas cadastradas · 79:34 de conteúdo.",
+    "acao": "Usar no ciclo principal",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "ok"
+  },
+  {
+    "id": "bb-material-07",
+    "modalidade": "Material de estudo",
+    "materia": "Tecnologia da Informação",
+    "conteudo": "410 aulas cadastradas · 197:13 de conteúdo.",
+    "acao": "Usar no ciclo principal",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "ok"
+  },
+  {
+    "id": "bb-material-08",
+    "modalidade": "Material complementar",
+    "materia": "Redação Discursiva",
+    "conteudo": "12 aulas cadastradas · 6:16 de conteúdo.",
+    "acao": "Conteúdo extra do curso; não compõe a prova objetiva do edital 2022/001.",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "info"
+  },
+  {
+    "id": "bb-material-09",
+    "modalidade": "Material complementar",
+    "materia": "Inteligência Emocional",
+    "conteudo": "6 aulas cadastradas · 1:52 de conteúdo.",
+    "acao": "Conteúdo extra do curso; não compõe a prova objetiva do edital 2022/001.",
+    "fonte": "Planilha de curso do BB enviada pelo usuário",
+    "status": "info"
+  }
+]

@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "bb-edital-001",
+    "materia": "Língua Portuguesa",
+    "item": "1",
+    "conteudo": "Compreensão de textos.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-002",
+    "materia": "Língua Portuguesa",
+    "item": "2",
+    "conteudo": "Ortografia oficial.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-003",
+    "materia": "Língua Portuguesa",
+    "item": "3",
+    "conteudo": "Classe e emprego de palavras.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-004",
+    "materia": "Língua Portuguesa",
+    "item": "4",
+    "conteudo": "Emprego do acento indicativo de crase.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-005",
+    "materia": "Língua Portuguesa",
+    "item": "5",
+    "conteudo": "Sintaxe da oração e do período.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-006",
+    "materia": "Língua Portuguesa",
+    "item": "6",
+    "conteudo": "Emprego dos sinais de pontuação.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-007",
+    "materia": "Língua Portuguesa",
+    "item": "7",
+    "conteudo": "Concordância verbal e nominal.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-008",
+    "materia": "Língua Portuguesa",
+    "item": "8",
+    "conteudo": "Regência verbal e nominal.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-009",
+    "materia": "Língua Portuguesa",
+    "item": "9",
+    "conteudo": "Colocação dos pronomes oblíquos átonos: próclise, mesóclise e ênclise.",
+    "pesoTopico": 1.6667,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-010",
+    "materia": "Língua Inglesa",
+    "item": "1",
+    "conteudo": "Vocabulário fundamental e aspectos gramaticais básicos para compreensão de textos.",
+    "pesoTopico": 5.0,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-011",
+    "materia": "Matemática",
+    "item": "1",
+    "conteudo": "Números inteiros, racionais e reais; problemas de contagem.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-012",
+    "materia": "Matemática",
+    "item": "2",
+    "conteudo": "Sistema legal de medidas.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-013",
+    "materia": "Matemática",
+    "item": "3",
+    "conteudo": "Razões e proporções; divisão proporcional; regras de três simples e compostas; porcentagens.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-014",
+    "materia": "Matemática",
+    "item": "4",
+    "conteudo": "Lógica proposicional.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-015",
+    "materia": "Matemática",
+    "item": "5",
+    "conteudo": "Noções de conjuntos.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-016",
+    "materia": "Matemática",
+    "item": "6",
+    "conteudo": "Relações e funções; funções polinomiais; funções exponenciais e logarítmicas.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-017",
+    "materia": "Matemática",
+    "item": "7",
+    "conteudo": "Matrizes.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-018",
+    "materia": "Matemática",
+    "item": "8",
+    "conteudo": "Determinantes.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-019",
+    "materia": "Matemática",
+    "item": "9",
+    "conteudo": "Sistemas lineares.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-020",
+    "materia": "Matemática",
+    "item": "10",
+    "conteudo": "Sequências.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-021",
+    "materia": "Matemática",
+    "item": "11",
+    "conteudo": "Progressões aritméticas e progressões geométricas.",
+    "pesoTopico": 0.6818,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-022",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "1",
+    "conteudo": "Os bancos na Era Digital: atualidade, tendências e desafios.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-023",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "2",
+    "conteudo": "Internet banking.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-024",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "3",
+    "conteudo": "Mobile banking.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-025",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "4",
+    "conteudo": "Open banking.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-026",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "5",
+    "conteudo": "Novos modelos de negócios.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-027",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "6",
+    "conteudo": "Fintechs, startups e big techs.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-028",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "7",
+    "conteudo": "Sistema de bancos-sombra (Shadow banking).",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-029",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "8",
+    "conteudo": "Funções da moeda.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-030",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "9",
+    "conteudo": "O dinheiro na era digital: blockchain, bitcoin e demais criptomoedas.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-031",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "10",
+    "conteudo": "Marketplace.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-032",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "11",
+    "conteudo": "Correspondentes bancários.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-033",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "12",
+    "conteudo": "Arranjos de pagamentos.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-034",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "13",
+    "conteudo": "Sistema de pagamentos instantâneos (PIX).",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-035",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "14",
+    "conteudo": "Segmentação e interações digitais.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-036",
+    "materia": "Atualidades do Mercado Financeiro",
+    "item": "15",
+    "conteudo": "Transformação digital no Sistema Financeiro.",
+    "pesoTopico": 0.3333,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos básicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-037",
+    "materia": "Probabilidade e Estatística",
+    "item": "1",
+    "conteudo": "Representação tabular e gráfica.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-038",
+    "materia": "Probabilidade e Estatística",
+    "item": "2",
+    "conteudo": "Medidas de tendência central: média, mediana, moda, medidas de posição, mínimo e máximo; e medidas de dispersão: amplitude, amplitude interquartil, variância, desvio padrão e coeficiente de variação.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-039",
+    "materia": "Probabilidade e Estatística",
+    "item": "3",
+    "conteudo": "Variáveis aleatórias e distribuição de probabilidade.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-040",
+    "materia": "Probabilidade e Estatística",
+    "item": "4",
+    "conteudo": "Teorema de Bayes.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-041",
+    "materia": "Probabilidade e Estatística",
+    "item": "5",
+    "conteudo": "Probabilidade condicional.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-042",
+    "materia": "Probabilidade e Estatística",
+    "item": "6",
+    "conteudo": "População e amostra.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-043",
+    "materia": "Probabilidade e Estatística",
+    "item": "7",
+    "conteudo": "Variância e covariância.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-044",
+    "materia": "Probabilidade e Estatística",
+    "item": "8",
+    "conteudo": "Correlação linear simples.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-045",
+    "materia": "Probabilidade e Estatística",
+    "item": "9",
+    "conteudo": "Distribuição binomial e distribuição normal.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-046",
+    "materia": "Probabilidade e Estatística",
+    "item": "10",
+    "conteudo": "Noções de amostragem e inferência estatística.",
+    "pesoTopico": 0.75,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-047",
+    "materia": "Conhecimentos Bancários",
+    "item": "1",
+    "conteudo": "Sistema Financeiro Nacional: estrutura; órgãos normativos e instituições supervisoras, executoras e operadoras.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-048",
+    "materia": "Conhecimentos Bancários",
+    "item": "2",
+    "conteudo": "Mercado financeiro e seus desdobramentos: mercados monetário, de crédito, de capitais e cambial.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-049",
+    "materia": "Conhecimentos Bancários",
+    "item": "3",
+    "conteudo": "Moeda e política monetária: políticas convencionais e não convencionais (Quantitative Easing); Taxa SELIC e operações compromissadas; depósitos remunerados dos bancos comerciais no Banco Central.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-050",
+    "materia": "Conhecimentos Bancários",
+    "item": "4",
+    "conteudo": "Orçamento público, títulos do Tesouro Nacional e dívida pública.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-051",
+    "materia": "Conhecimentos Bancários",
+    "item": "5",
+    "conteudo": "Produtos Bancários: cartões de crédito e débito, crédito direto ao consumidor, crédito rural, poupança, capitalização, previdência, consórcio, investimentos e seguros.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-052",
+    "materia": "Conhecimentos Bancários",
+    "item": "6",
+    "conteudo": "Noções de Mercado de capitais.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-053",
+    "materia": "Conhecimentos Bancários",
+    "item": "7",
+    "conteudo": "Noções de Mercado de Câmbio: instituições autorizadas a operar e operações básicas.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-054",
+    "materia": "Conhecimentos Bancários",
+    "item": "8",
+    "conteudo": "Regimes de taxas de câmbio fixas, flutuantes e regimes intermediários.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-055",
+    "materia": "Conhecimentos Bancários",
+    "item": "9",
+    "conteudo": "Taxas de câmbio nominais e reais.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-056",
+    "materia": "Conhecimentos Bancários",
+    "item": "10",
+    "conteudo": "Impactos das taxas de câmbio sobre exportações e importações.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-057",
+    "materia": "Conhecimentos Bancários",
+    "item": "11",
+    "conteudo": "Diferencial de juros interno e externo, prêmios de risco, fluxo de capitais e impactos sobre taxas de câmbio.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-058",
+    "materia": "Conhecimentos Bancários",
+    "item": "12",
+    "conteudo": "Dinâmica do Mercado: operações no mercado interbancário.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-059",
+    "materia": "Conhecimentos Bancários",
+    "item": "13",
+    "conteudo": "Mercado bancário: operações de tesouraria, varejo bancário e recuperação de crédito.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-060",
+    "materia": "Conhecimentos Bancários",
+    "item": "14",
+    "conteudo": "Taxas de juros de curto prazo e curva de juros; taxas de juros nominais e reais.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-061",
+    "materia": "Conhecimentos Bancários",
+    "item": "15",
+    "conteudo": "Garantias do Sistema Financeiro Nacional: aval, fiança, penhor mercantil, alienação fiduciária, hipoteca e fianças bancárias.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-062",
+    "materia": "Conhecimentos Bancários",
+    "item": "16",
+    "conteudo": "Crime de lavagem de dinheiro: conceito e etapas; prevenção e combate; Lei nº 9.613/1998 e alterações; Circular nº 3.978/2020 e Carta Circular nº 4.001/2020 e alterações.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-063",
+    "materia": "Conhecimentos Bancários",
+    "item": "17",
+    "conteudo": "Autorregulação bancária.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-064",
+    "materia": "Conhecimentos Bancários",
+    "item": "18",
+    "conteudo": "Sigilo Bancário: Lei Complementar nº 105/2001 e alterações.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-065",
+    "materia": "Conhecimentos Bancários",
+    "item": "19",
+    "conteudo": "Lei Geral de Proteção de Dados (LGPD): Lei nº 13.709/2018 e alterações.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-066",
+    "materia": "Conhecimentos Bancários",
+    "item": "20",
+    "conteudo": "Legislação anticorrupção: Lei nº 12.846/2013 e Decreto nº 11.129/2022.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-067",
+    "materia": "Conhecimentos Bancários",
+    "item": "21",
+    "conteudo": "Segurança cibernética: Resolução CMN nº 4.893/2021.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-068",
+    "materia": "Conhecimentos Bancários",
+    "item": "22",
+    "conteudo": "Ética aplicada: ética, moral, valores e virtudes; ética empresarial e profissional; gestão da ética; Código de Ética do Banco do Brasil.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-069",
+    "materia": "Conhecimentos Bancários",
+    "item": "23",
+    "conteudo": "Política de Responsabilidade Socioambiental do Banco do Brasil.",
+    "pesoTopico": 0.3261,
+    "prioridade": "Médio",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-070",
+    "materia": "Tecnologia da Informação",
+    "item": "1.1",
+    "conteudo": "Aprendizagem de máquina: fundamentos básicos.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-071",
+    "materia": "Tecnologia da Informação",
+    "item": "1.2",
+    "conteudo": "Algoritmos de aprendizado supervisionados e não supervisionados.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-072",
+    "materia": "Tecnologia da Informação",
+    "item": "1.3",
+    "conteudo": "Noções de processamento de linguagem natural.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-073",
+    "materia": "Tecnologia da Informação",
+    "item": "2.1",
+    "conteudo": "Banco de dados NoSQL: conceitos básicos.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-074",
+    "materia": "Tecnologia da Informação",
+    "item": "2.2",
+    "conteudo": "Bancos NoSQL orientados a grafos.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-075",
+    "materia": "Tecnologia da Informação",
+    "item": "2.3",
+    "conteudo": "Bancos NoSQL orientados a colunas.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-076",
+    "materia": "Tecnologia da Informação",
+    "item": "2.4",
+    "conteudo": "Bancos NoSQL chave/valor.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-077",
+    "materia": "Tecnologia da Informação",
+    "item": "2.5",
+    "conteudo": "Bancos NoSQL orientados a documentos.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-078",
+    "materia": "Tecnologia da Informação",
+    "item": "2.6",
+    "conteudo": "MongoDB.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-079",
+    "materia": "Tecnologia da Informação",
+    "item": "2.7",
+    "conteudo": "Linguagem SQL: padrão SQL:2008.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-080",
+    "materia": "Tecnologia da Informação",
+    "item": "2.8",
+    "conteudo": "Conceitos de banco de dados e sistemas gerenciadores de bancos de dados (SGBD).",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-081",
+    "materia": "Tecnologia da Informação",
+    "item": "2.9",
+    "conteudo": "Data Warehouse: modelagem conceitual e dados multidimensionais.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-082",
+    "materia": "Tecnologia da Informação",
+    "item": "2.10",
+    "conteudo": "Modelagem conceitual de dados: abordagem entidade-relacionamento.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-083",
+    "materia": "Tecnologia da Informação",
+    "item": "2.11",
+    "conteudo": "Modelo relacional de dados: conceitos básicos e normalização.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-084",
+    "materia": "Tecnologia da Informação",
+    "item": "2.12",
+    "conteudo": "PostgreSQL.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-085",
+    "materia": "Tecnologia da Informação",
+    "item": "3.1",
+    "conteudo": "Big Data: fundamentos.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-086",
+    "materia": "Tecnologia da Informação",
+    "item": "3.2",
+    "conteudo": "Big Data: técnicas de preparação e apresentação de dados.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-087",
+    "materia": "Tecnologia da Informação",
+    "item": "4.1",
+    "conteudo": "Desenvolvimento Mobile: Java e Kotlin.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-088",
+    "materia": "Tecnologia da Informação",
+    "item": "4.2",
+    "conteudo": "Desenvolvimento Mobile: Swift.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-089",
+    "materia": "Tecnologia da Informação",
+    "item": "4.3",
+    "conteudo": "React Native 0.59.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-090",
+    "materia": "Tecnologia da Informação",
+    "item": "4.4",
+    "conteudo": "Android API 30.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-091",
+    "materia": "Tecnologia da Informação",
+    "item": "4.5",
+    "conteudo": "iOS / Xcode 10.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-092",
+    "materia": "Tecnologia da Informação",
+    "item": "5.1",
+    "conteudo": "Estruturas de dados e algoritmos: busca sequencial sobre arrays.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-093",
+    "materia": "Tecnologia da Informação",
+    "item": "5.2",
+    "conteudo": "Estruturas de dados e algoritmos: busca binária sobre arrays.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-094",
+    "materia": "Tecnologia da Informação",
+    "item": "5.3",
+    "conteudo": "Ordenação: método da bolha.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-095",
+    "materia": "Tecnologia da Informação",
+    "item": "5.4",
+    "conteudo": "Ordenação: ordenação por seleção.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-096",
+    "materia": "Tecnologia da Informação",
+    "item": "5.5",
+    "conteudo": "Ordenação: ordenação por inserção.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-097",
+    "materia": "Tecnologia da Informação",
+    "item": "5.6",
+    "conteudo": "Lista encadeada.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-098",
+    "materia": "Tecnologia da Informação",
+    "item": "5.7",
+    "conteudo": "Pilha.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-099",
+    "materia": "Tecnologia da Informação",
+    "item": "5.8",
+    "conteudo": "Fila.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-100",
+    "materia": "Tecnologia da Informação",
+    "item": "5.9",
+    "conteudo": "Noções sobre árvore binária.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-101",
+    "materia": "Tecnologia da Informação",
+    "item": "6.1",
+    "conteudo": "Ansible.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-102",
+    "materia": "Tecnologia da Informação",
+    "item": "6.2",
+    "conteudo": "Java SE 11.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-103",
+    "materia": "Tecnologia da Informação",
+    "item": "6.3",
+    "conteudo": "Java EE 8.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-104",
+    "materia": "Tecnologia da Informação",
+    "item": "6.4",
+    "conteudo": "TypeScript 4.0.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-105",
+    "materia": "Tecnologia da Informação",
+    "item": "6.5",
+    "conteudo": "Python 3.9.x aplicada para IA/ML e Analytics.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-106",
+    "materia": "Tecnologia da Informação",
+    "item": "6.6",
+    "conteudo": "Pandas.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-107",
+    "materia": "Tecnologia da Informação",
+    "item": "6.7",
+    "conteudo": "NumPy.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-108",
+    "materia": "Tecnologia da Informação",
+    "item": "6.8",
+    "conteudo": "SciPy.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-109",
+    "materia": "Tecnologia da Informação",
+    "item": "6.9",
+    "conteudo": "Matplotlib.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-110",
+    "materia": "Tecnologia da Informação",
+    "item": "6.10",
+    "conteudo": "Scikit-learn.",
+    "pesoTopico": 1.2805,
+    "prioridade": "Alto",
+    "bloco": "Conhecimentos específicos",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  },
+  {
+    "id": "bb-edital-111",
+    "materia": "Redação",
+    "item": "R",
+    "conteudo": "Prova de Redação, de caráter eliminatório, conforme regras do edital da Seleção Externa 2022/001.",
+    "pesoTopico": 0.0,
+    "prioridade": "Alto",
+    "bloco": "2ª Etapa - Prova de Redação",
+    "fonte": "https://www.bb.com.br/docs/portal/dipes/Edital-de-Abertura-de-Selecao-Externa-2022-01.pdf"
+  }
+]

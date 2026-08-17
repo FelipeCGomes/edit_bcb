@@ -220,3 +220,49 @@ textarea{width:100%}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}
 }
+
+
+/* ============================================================
+   v1.6.0 — Hub multi-concurso + controles mobile consistentes
+   ============================================================ */
+.contest-switcher{display:grid;grid-template-columns:1fr;gap:7px;margin:0 4px 14px;padding:6px;border:1px solid var(--line);border-radius:15px;background:rgba(124,140,255,.045)}
+.contest-option{min-height:42px;border:1px solid transparent;border-radius:11px;background:transparent;color:var(--muted);padding:8px 10px;display:flex;align-items:center;gap:9px;text-align:left;transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}
+.contest-option:hover{color:var(--text);background:rgba(255,255,255,.045)}
+.contest-option.active{color:var(--text);background:linear-gradient(100deg,rgba(100,227,195,.13),rgba(124,140,255,.10));border-color:rgba(100,227,195,.20)}
+.contest-option b{font-size:12px;line-height:1.2}.contest-dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 0 4px rgba(124,140,255,.08)}.contest-dot.bacen{background:var(--accent)}.contest-dot.bb{background:var(--warn)}
+.contest-current{height:36px;max-width:150px;border:1px solid var(--line);border-radius:999px;padding:0 11px;background:var(--panel-2);color:var(--text);font-size:11px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:.18s ease}
+.contest-current:hover{border-color:rgba(100,227,195,.35);transform:translateY(-1px)}
+.config-contest-buttons{display:flex;gap:9px;flex-wrap:wrap}.config-contest-buttons .selected{border-color:rgba(100,227,195,.42);box-shadow:inset 0 0 0 1px rgba(100,227,195,.12);color:var(--accent)}
+
+/* O SVG do hambúrguer precisa de stroke explícito. Sem isso alguns WebViews o renderizam invisível. */
+.menu-icon-button{padding:0!important;place-items:center;align-items:center;justify-content:center;color:var(--text);line-height:1}
+.menu-svg{display:block!important;width:22px!important;height:22px!important;max-width:none;overflow:visible;fill:none!important;stroke:currentColor!important;stroke-width:2.25!important;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.menu-svg path{fill:none!important;stroke:currentColor!important;vector-effect:non-scaling-stroke}
+#menu-button,#sidebar-close{flex:0 0 auto}
+#menu-button:focus-visible,#sidebar-close:focus-visible,.contest-option:focus-visible,.contest-current:focus-visible{outline:3px solid rgba(100,227,195,.24);outline-offset:2px}
+
+@media(max-width:820px){
+  .contest-switcher{margin:0 3px 10px;grid-template-columns:1fr 1fr;padding:5px;gap:5px}.contest-option{min-height:44px;padding:7px 8px;justify-content:center}.contest-option b{font-size:11px}.contest-dot{width:8px;height:8px}
+  #menu-button,#sidebar-close{display:grid!important;width:42px!important;height:42px!important;min-width:42px!important;min-height:42px!important;border-radius:13px}
+  .topbar-actions .contest-current{display:inline-flex;align-items:center;justify-content:center;max-width:108px;height:38px;padding:0 9px;font-size:10px}
+}
+@media(max-width:620px){
+  .update-badge{display:none}.topbar-actions .contest-current{max-width:92px}
+}
+@media(max-width:430px){
+  .topbar-actions .contest-current{width:38px;max-width:38px;padding:0;font-size:0}.topbar-actions .contest-current::after{content:'↔';font-size:17px;color:var(--accent);font-weight:900}
+  .contest-switcher{grid-template-columns:1fr}.contest-option{justify-content:flex-start;padding-left:12px}
+}
+
+/* ============================================================
+   v1.7.0 — Ranking histórico BACEN + projeção responsiva
+   ============================================================ */
+.ranking-page{min-width:0}.ranking-hero{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:20px;background:linear-gradient(135deg,rgba(100,227,195,.10),rgba(124,140,255,.10))}.ranking-hero h3{font-size:clamp(24px,3vw,38px);margin:6px 0 10px}.ranking-hero p{max-width:760px;color:var(--muted);line-height:1.6}.ranking-hero-score{min-width:180px;padding:18px;border:1px solid rgba(100,227,195,.2);border-radius:18px;background:rgba(10,16,32,.24);text-align:center}.ranking-hero-score small,.ranking-hero-score span{display:block;color:var(--muted)}.ranking-hero-score strong{display:block;font-size:38px;line-height:1;margin:8px 0;color:var(--accent)}
+.ranking-alert,.ranking-auto-note{display:flex;gap:10px;align-items:flex-start;padding:13px 15px;border-radius:14px;margin:14px 0;border:1px solid rgba(255,179,71,.25);background:rgba(255,179,71,.08)}.ranking-auto-note{border-color:rgba(100,227,195,.2);background:rgba(100,227,195,.07)}.ranking-alert strong,.ranking-auto-note strong{white-space:nowrap}.ranking-alert span,.ranking-auto-note span{color:var(--muted);line-height:1.5}
+.ranking-main-grid,.ranking-charts{margin-top:16px}.ranking-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.ranking-form .field:first-child{grid-column:1/-1}.ranking-update{width:100%;margin-top:12px}.ranking-reference-list{display:grid;gap:9px}.ranking-reference-list>div{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:10px;align-items:center;padding:12px 13px;border:1px solid var(--line);border-radius:13px;background:var(--panel-2)}.ranking-reference-list span{font-size:12px}.ranking-reference-list strong{font-size:15px}.ranking-reference-list small{min-width:76px;text-align:right;color:var(--muted)}
+.ranking-chart{height:290px}.ranking-compare-bars{display:grid;gap:14px}.ranking-compare-bars>div{display:grid;grid-template-columns:minmax(0,1fr) 62px;gap:7px;align-items:center}.ranking-compare-bars .progress{grid-column:1/-1}.ranking-compare-bars span{font-size:12px}.ranking-compare-bars strong{text-align:right}.progress.muted i{background:linear-gradient(90deg,rgba(124,140,255,.62),rgba(124,140,255,.28))}
+.table-scroll{overflow:auto;-webkit-overflow-scrolling:touch}.ranking-table{width:100%;border-collapse:collapse;min-width:920px}.ranking-table th,.ranking-table td{padding:10px 9px;border-bottom:1px solid var(--line);text-align:left;font-size:12px;white-space:nowrap}.ranking-table th{position:sticky;top:0;background:var(--panel);z-index:1;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.04em}.ranking-you-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center;margin:0 0 10px;padding:12px 14px;border-radius:14px;background:linear-gradient(90deg,rgba(100,227,195,.14),rgba(124,140,255,.09));border:1px solid rgba(100,227,195,.23)}.ranking-you-row span{font-size:10px;font-weight:900;letter-spacing:.12em;color:var(--accent)}.ranking-you-row strong{font-size:12px;overflow-wrap:anywhere}.ranking-you-row b{font-size:20px}.ranking-footnote{margin-top:14px;padding:14px 16px;border:1px dashed var(--line);border-radius:14px;color:var(--muted);font-size:12px;line-height:1.6}.ranking-footnote strong{color:var(--text)}
+.nav-item[hidden]{display:none!important}
+@media(max-width:900px){.ranking-hero{grid-template-columns:1fr}.ranking-hero-score{width:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;text-align:left}.ranking-hero-score strong{font-size:30px;text-align:center;margin:0}.ranking-hero-score span{text-align:right}.ranking-reference-list>div{grid-template-columns:minmax(0,1fr) auto}.ranking-reference-list small{grid-column:1/-1;text-align:left;min-width:0}.ranking-chart{height:250px}}
+@media(max-width:620px){.ranking-form{grid-template-columns:1fr}.ranking-form .field:first-child{grid-column:auto}.ranking-hero{padding:15px}.ranking-hero h3{font-size:26px}.ranking-hero-score{grid-template-columns:1fr auto}.ranking-hero-score span{grid-column:1/-1;text-align:left}.ranking-alert,.ranking-auto-note{display:grid;gap:5px}.ranking-alert strong,.ranking-auto-note strong{white-space:normal}.ranking-reference-list>div{padding:10px}.ranking-you-row{grid-template-columns:1fr auto}.ranking-you-row strong{grid-column:1/-1;grid-row:2}.ranking-you-row b{grid-column:2;grid-row:1}.ranking-kpis{grid-template-columns:1fr 1fr!important}.ranking-table th,.ranking-table td{padding:9px 8px;font-size:11px}.ranking-chart{height:220px}}
+@media(max-width:390px){.ranking-kpis{grid-template-columns:1fr!important}.ranking-hero-score{grid-template-columns:1fr}.ranking-hero-score strong{text-align:left}.ranking-hero-score span{text-align:left}.ranking-reference-list>div{grid-template-columns:1fr}.ranking-reference-list small{text-align:left}.ranking-you-row{grid-template-columns:1fr}.ranking-you-row b{grid-column:1;grid-row:auto}.ranking-you-row strong{grid-column:1;grid-row:auto}}

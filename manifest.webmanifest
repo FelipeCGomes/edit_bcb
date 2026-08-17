@@ -1,7 +1,7 @@
 {
-  "name": "BACEN Estudos TI",
-  "short_name": "BACEN TI",
-  "description": "Painel de estudos para BACEN Tecnologia da Informação.",
+  "name": "Estudos TI - BACEN e Banco do Brasil",
+  "short_name": "Estudos TI",
+  "description": "Hub responsivo de estudos para BACEN TI e Banco do Brasil Agente de Tecnologia, com calendário, questões, revisões, redação/discursiva e comparação histórica BACEN 2024.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,6 +9,11 @@
   "theme_color": "#0b1020",
   "lang": "pt-BR",
   "icons": [
-    {"src":"./assets/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
   ]
 }

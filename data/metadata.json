@@ -1,7 +1,7 @@
 {
-  "app": "BACEN Estudos TI",
-  "version": "1.5.0",
-  "updatedAt": "2026-08-16",
+  "app": "Estudos TI",
+  "version": "1.7.0",
+  "updatedAt": "2026-08-17",
   "baseEdital": "Edital nº 01/2024",
   "curso": "BACEN - Banco Central do Brasil - Analista - Tecnologia da Informação (Pré-Edital)",
   "codigoCurso": "199279",
@@ -11,5 +11,41 @@
   "topicosEdital": 131,
   "frasesMotivacionais": 500,
   "paresDiscursiva": 100,
-  "observacao": "Versão mobile-first: navegação lateral única, responsividade revisada para smartphones, animações leves, correção da nomenclatura de Economia e preservação da lógica pré/pós-edital, calendário por aula real e inteligência de questões."
+  "observacao": "Hub multi-concurso v1.7: ranking histórico BACEN 2024 com 150 candidatos anonimizados, projeção por P1/P2 e simulador P3/P4/títulos, além do calendário, questões e responsividade mobile.",
+  "id": "bacen",
+  "shortName": "BACEN TI",
+  "institution": "Banco Central do Brasil",
+  "title": "BACEN - Tecnologia da Informação",
+  "subtitle": "Analista/Auditor · Tecnologia da Informação",
+  "baseYear": "2024",
+  "examBoard": "Cebraspe",
+  "courseLabel": "Curso Gran BACEN",
+  "courseShortLabel": "Curso Gran",
+  "examTotalWeight": 120,
+  "weightUnit": "itens",
+  "writingType": "discursiva",
+  "writingNavLabel": "Prova discursiva",
+  "writingEyebrow": "P3 + P4",
+  "writingDescription": "100 pares: Atualidades (P3) e situação-problema de TI (P4).",
+  "writingPrimaryLabel": "P3 · Atualidades · até 40 linhas",
+  "writingSecondaryLabel": "P4 · TI · situação-problema · até 80 linhas",
+  "simuladoLabel": "Simulado Cebraspe",
+  "practiceWritingLabel": "Discursiva + Atualidades",
+  "sourceOfficial": "https://www.bcb.gov.br/content/acessoinformacao/analista_2024/Edital-n-1-de-Abertura-do-concurso.pdf",
+  "rankingBlocks": {
+    "p1": [
+      "Língua Portuguesa",
+      "Noções de Lógica e Estatística",
+      "Direito Administrativo",
+      "Fundamentos de Macroeconomia e Microeconomia"
+    ],
+    "p2": [
+      "Ciência de Dados",
+      "Segurança da Informação",
+      "Engenharia de Software",
+      "Infraestrutura em TI",
+      "Bancos de Dados",
+      "Gestão em TI"
+    ]
+  }
 }

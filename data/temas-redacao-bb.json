@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "atualidade": "Transformação digital e o futuro do atendimento bancário: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 2,
+    "atualidade": "Transformação digital e o futuro do atendimento bancário: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 3,
+    "atualidade": "Transformação digital e o futuro do atendimento bancário: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 4,
+    "atualidade": "Transformação digital e o futuro do atendimento bancário: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 5,
+    "atualidade": "Transformação digital e o futuro do atendimento bancário: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 6,
+    "atualidade": "Inteligência artificial e produtividade no setor financeiro: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 7,
+    "atualidade": "Inteligência artificial e produtividade no setor financeiro: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 8,
+    "atualidade": "Inteligência artificial e produtividade no setor financeiro: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 9,
+    "atualidade": "Inteligência artificial e produtividade no setor financeiro: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 10,
+    "atualidade": "Inteligência artificial e produtividade no setor financeiro: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 11,
+    "atualidade": "Inclusão financeira por meio de canais digitais: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 12,
+    "atualidade": "Inclusão financeira por meio de canais digitais: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 13,
+    "atualidade": "Inclusão financeira por meio de canais digitais: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 14,
+    "atualidade": "Inclusão financeira por meio de canais digitais: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 15,
+    "atualidade": "Inclusão financeira por meio de canais digitais: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 16,
+    "atualidade": "Segurança cibernética e confiança nos serviços bancários: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 17,
+    "atualidade": "Segurança cibernética e confiança nos serviços bancários: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 18,
+    "atualidade": "Segurança cibernética e confiança nos serviços bancários: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 19,
+    "atualidade": "Segurança cibernética e confiança nos serviços bancários: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 20,
+    "atualidade": "Segurança cibernética e confiança nos serviços bancários: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 21,
+    "atualidade": "Open Finance e ampliação da concorrência no sistema financeiro: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 22,
+    "atualidade": "Open Finance e ampliação da concorrência no sistema financeiro: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 23,
+    "atualidade": "Open Finance e ampliação da concorrência no sistema financeiro: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 24,
+    "atualidade": "Open Finance e ampliação da concorrência no sistema financeiro: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 25,
+    "atualidade": "Open Finance e ampliação da concorrência no sistema financeiro: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 26,
+    "atualidade": "PIX e transformação dos meios de pagamento: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 27,
+    "atualidade": "PIX e transformação dos meios de pagamento: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 28,
+    "atualidade": "PIX e transformação dos meios de pagamento: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 29,
+    "atualidade": "PIX e transformação dos meios de pagamento: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 30,
+    "atualidade": "PIX e transformação dos meios de pagamento: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 31,
+    "atualidade": "Educação financeira e prevenção ao superendividamento: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 32,
+    "atualidade": "Educação financeira e prevenção ao superendividamento: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 33,
+    "atualidade": "Educação financeira e prevenção ao superendividamento: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 34,
+    "atualidade": "Educação financeira e prevenção ao superendividamento: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 35,
+    "atualidade": "Educação financeira e prevenção ao superendividamento: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 36,
+    "atualidade": "Proteção de dados pessoais no ambiente bancário: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 37,
+    "atualidade": "Proteção de dados pessoais no ambiente bancário: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 38,
+    "atualidade": "Proteção de dados pessoais no ambiente bancário: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 39,
+    "atualidade": "Proteção de dados pessoais no ambiente bancário: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 40,
+    "atualidade": "Proteção de dados pessoais no ambiente bancário: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 41,
+    "atualidade": "Automação e preservação da humanização no atendimento: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 42,
+    "atualidade": "Automação e preservação da humanização no atendimento: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 43,
+    "atualidade": "Automação e preservação da humanização no atendimento: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 44,
+    "atualidade": "Automação e preservação da humanização no atendimento: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 45,
+    "atualidade": "Automação e preservação da humanização no atendimento: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 46,
+    "atualidade": "Fintechs, big techs e inovação no mercado financeiro: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 47,
+    "atualidade": "Fintechs, big techs e inovação no mercado financeiro: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 48,
+    "atualidade": "Fintechs, big techs e inovação no mercado financeiro: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 49,
+    "atualidade": "Fintechs, big techs e inovação no mercado financeiro: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 50,
+    "atualidade": "Fintechs, big techs e inovação no mercado financeiro: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 51,
+    "atualidade": "Criptomoedas, blockchain e novos meios de troca: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 52,
+    "atualidade": "Criptomoedas, blockchain e novos meios de troca: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 53,
+    "atualidade": "Criptomoedas, blockchain e novos meios de troca: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 54,
+    "atualidade": "Criptomoedas, blockchain e novos meios de troca: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 55,
+    "atualidade": "Criptomoedas, blockchain e novos meios de troca: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 56,
+    "atualidade": "Combate a fraudes digitais e responsabilidade das instituições: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 57,
+    "atualidade": "Combate a fraudes digitais e responsabilidade das instituições: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 58,
+    "atualidade": "Combate a fraudes digitais e responsabilidade das instituições: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 59,
+    "atualidade": "Combate a fraudes digitais e responsabilidade das instituições: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 60,
+    "atualidade": "Combate a fraudes digitais e responsabilidade das instituições: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 61,
+    "atualidade": "Acessibilidade digital nos serviços financeiros: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 62,
+    "atualidade": "Acessibilidade digital nos serviços financeiros: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 63,
+    "atualidade": "Acessibilidade digital nos serviços financeiros: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 64,
+    "atualidade": "Acessibilidade digital nos serviços financeiros: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 65,
+    "atualidade": "Acessibilidade digital nos serviços financeiros: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 66,
+    "atualidade": "Uso ético de dados e algoritmos em decisões de crédito: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 67,
+    "atualidade": "Uso ético de dados e algoritmos em decisões de crédito: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 68,
+    "atualidade": "Uso ético de dados e algoritmos em decisões de crédito: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 69,
+    "atualidade": "Uso ético de dados e algoritmos em decisões de crédito: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 70,
+    "atualidade": "Uso ético de dados e algoritmos em decisões de crédito: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 71,
+    "atualidade": "Trabalho, qualificação profissional e automação bancária: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 72,
+    "atualidade": "Trabalho, qualificação profissional e automação bancária: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 73,
+    "atualidade": "Trabalho, qualificação profissional e automação bancária: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 74,
+    "atualidade": "Trabalho, qualificação profissional e automação bancária: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 75,
+    "atualidade": "Trabalho, qualificação profissional e automação bancária: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 76,
+    "atualidade": "ESG e responsabilidade socioambiental das instituições financeiras: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 77,
+    "atualidade": "ESG e responsabilidade socioambiental das instituições financeiras: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 78,
+    "atualidade": "ESG e responsabilidade socioambiental das instituições financeiras: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 79,
+    "atualidade": "ESG e responsabilidade socioambiental das instituições financeiras: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 80,
+    "atualidade": "ESG e responsabilidade socioambiental das instituições financeiras: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 81,
+    "atualidade": "Desinformação, golpes digitais e educação do consumidor: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 82,
+    "atualidade": "Desinformação, golpes digitais e educação do consumidor: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 83,
+    "atualidade": "Desinformação, golpes digitais e educação do consumidor: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 84,
+    "atualidade": "Desinformação, golpes digitais e educação do consumidor: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 85,
+    "atualidade": "Desinformação, golpes digitais e educação do consumidor: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 86,
+    "atualidade": "Privacidade e personalização de serviços financeiros: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 87,
+    "atualidade": "Privacidade e personalização de serviços financeiros: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 88,
+    "atualidade": "Privacidade e personalização de serviços financeiros: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 89,
+    "atualidade": "Privacidade e personalização de serviços financeiros: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 90,
+    "atualidade": "Privacidade e personalização de serviços financeiros: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 91,
+    "atualidade": "Resiliência tecnológica e continuidade de serviços bancários: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 92,
+    "atualidade": "Resiliência tecnológica e continuidade de serviços bancários: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 93,
+    "atualidade": "Resiliência tecnológica e continuidade de serviços bancários: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 94,
+    "atualidade": "Resiliência tecnológica e continuidade de serviços bancários: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 95,
+    "atualidade": "Resiliência tecnológica e continuidade de serviços bancários: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 96,
+    "atualidade": "Desafios da bancarização em regiões de menor acesso digital: desafios, riscos e oportunidades para a sociedade brasileira.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 97,
+    "atualidade": "Desafios da bancarização em regiões de menor acesso digital: impactos sobre clientes, trabalhadores e instituições.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 98,
+    "atualidade": "Desafios da bancarização em regiões de menor acesso digital: limites éticos e regulatórios necessários.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 99,
+    "atualidade": "Desafios da bancarização em regiões de menor acesso digital: caminhos para ampliar eficiência sem reduzir direitos.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  },
+  {
+    "id": 100,
+    "atualidade": "Desafios da bancarização em regiões de menor acesso digital: efeitos sobre inclusão, segurança e confiança.",
+    "ti": "Recorte de apoio: relacione o tema a tecnologia, dados, experiência do cliente e transformação do setor bancário."
+  }
+]

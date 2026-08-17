@@ -32,12 +32,12 @@ function parseLocalDate(value){if(!value)return null;const [y,m,d]=String(value)
 function diffDays(from,to){return Math.floor((to-from)/86400000)}
 function eventId(prefix,date,index){return `${prefix}-${date}-${String(index+1).padStart(2,'0')}`}
 
-function chooseCandidate(pools,targets,planned,allocMap,remainingWindow,breakMinutes,hasPrevious){
+function chooseCandidate(pools,targets,planned,allocMap,remainingWindow,breakMinutes,hasPrevious,examTotalWeight=120){
   const candidates=[];
   for(const [subject,pool] of Object.entries(pools)){
     if(!pool.length)continue;const lesson=pool[0],duration=Math.max(1,Math.ceil(Number(lesson.duracaoSegundos||0)/60));if(!lesson.duracaoSegundos)continue;
     const need=duration+(hasPrevious?breakMinutes:0);if(need>remainingWindow)continue;
-    const target=Math.max(1,Number(targets[subject]||0)),deficit=target-Number(planned[subject]||0),deficitRatio=deficit/target,share=Number(allocMap[subject]?.share||0),exam=Number(allocMap[subject]?.items||0)/120;
+    const target=Math.max(1,Number(targets[subject]||0)),deficit=target-Number(planned[subject]||0),deficitRatio=deficit/target,share=Number(allocMap[subject]?.share||0),exam=Number(allocMap[subject]?.items||0)/Math.max(1,Number(examTotalWeight||120));
     candidates.push({subject,lesson,duration,need,score:deficitRatio*4+share*2+exam});
   }
   candidates.sort((a,b)=>b.score-a.score||a.lesson._sourceIndex-b.lesson._sourceIndex);return candidates[0]||null;
@@ -70,7 +70,7 @@ function addSprintPractice({events,dayEvents,date,day,cursor,index,totalMinutes,
 
 export function buildWeeklySchedule({
   course=[],watchedIds=new Set(),reservedLessonIds=new Set(),allocations=[],dayMinutes={},dayStartTimes={},breakMinutes=5,
-  saturday={},baseDate=new Date(),examDate='',finalSprint={},weakTopics=[]
+  saturday={},baseDate=new Date(),examDate='',finalSprint={},weakTopics=[],examTotalWeight=120,practiceLabels={},practiceRoutes={}
 }={}){
   const weekStart=startOfWeek(baseDate),key=weekKey(baseDate),allocMap=Object.fromEntries(allocations.map(x=>[x.materia,x]));
   const subjects=allocations.map(x=>x.materia),subjectSet=new Set(subjects),pools={};subjects.forEach(s=>pools[s]=[]);
@@ -102,7 +102,7 @@ export function buildWeeklySchedule({
   // Sábado: prática. Na reta final, revisão e questões passam a ocupar 80% por padrão.
   {
     const day=6,budget=Math.max(0,Math.round(Number(dayMinutes[day]||0))),date=localDateISO(dateFromWeekDay(weekStart,day)),start=parseTimeOfDay(dayStartTimes[day]),sprint=sprintActiveForDate(date,examDate,finalSprint);
-    const labels={revisao:'Revisão da semana',questoes:'Questões direcionadas',simulado:'Simulado Cebraspe',discursiva:'Discursiva + Atualidades'},routes={revisao:'revisoes',questoes:'questoes',simulado:'questoes',discursiva:'discursiva'};
+    const labels={revisao:'Revisão da semana',questoes:'Questões direcionadas',simulado:'Simulado',discursiva:'Produção textual',...(practiceLabels||{})},routes={revisao:'revisoes',questoes:'questoes',simulado:'questoes',discursiva:'discursiva',...(practiceRoutes||{})};
     const saturdayPlan=sprint?(finalSprint?.saturday||saturday):saturday,entries=Object.entries(saturdayPlan||{});let cursor=start,used=0,index=0;
     entries.forEach(([kind,ratio],i)=>{
       const minutes=i===entries.length-1?Math.max(0,budget-used):Math.max(0,Math.round(budget*Number(ratio||0)));if(!minutes)return;

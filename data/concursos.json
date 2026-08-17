@@ -1,0 +1,33 @@
+{
+  "default": "bacen",
+  "version": "1.7.0",
+  "updatedAt": "2026-08-17",
+  "shared": {
+    "phrases": "./data/frases-motivacionais.json"
+  },
+  "contests": {
+    "bacen": {
+      "data": {
+        "edital": "./data/edital.json",
+        "course": "./data/curso-gran.json",
+        "coverage": "./data/cobertura-gran.json",
+        "weights": "./data/pesos.json",
+        "metadata": "./data/metadata.json",
+        "config": "./data/config-padrao.json",
+        "writing": "./data/temas-discursiva.json",
+        "ranking": "./data/bacen-ranking-2024.json"
+      }
+    },
+    "bb": {
+      "data": {
+        "edital": "./data/edital-bb.json",
+        "course": "./data/curso-bb.json",
+        "coverage": "./data/cobertura-bb.json",
+        "weights": "./data/pesos-bb.json",
+        "metadata": "./data/metadata-bb.json",
+        "config": "./data/config-bb.json",
+        "writing": "./data/temas-redacao-bb.json"
+      }
+    }
+  }
+}

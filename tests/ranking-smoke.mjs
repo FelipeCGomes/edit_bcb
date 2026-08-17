@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {cebraspeExpectedScore,practiceBlockProjection,filterRankingCandidates,equivalentPosition,percentile,finalScore} from '../js/ranking.js';
+
+const root=path.resolve(new URL('..',import.meta.url).pathname);
+const ranking=JSON.parse(fs.readFileSync(path.join(root,'data/bacen-ranking-2024.json'),'utf8'));
+assert.equal(ranking.candidatos.length,150,'ranking deve ter 150 candidatos');
+assert.equal(ranking.meta.anonimizado,true,'ranking deve estar anonimizado');
+assert.equal(Object.prototype.hasOwnProperty.call(ranking.candidatos[0],'nome'),false,'nome não deve ser publicado');
+assert.equal(Object.prototype.hasOwnProperty.call(ranking.candidatos[0],'inscricao'),false,'inscrição não deve ser publicada');
+assert.ok(Math.abs(cebraspeExpectedScore(50,.9)-42.5)<1e-9,'fórmula P1 divergente');
+assert.ok(Math.abs(cebraspeExpectedScore(70,61/70)-56.5)<1e-9,'fórmula P2 divergente');
+const proj=practiceBlockProjection([{subject:'A',questions:100,correct:80}],['A'],50);
+assert.equal(proj.questions,100);assert.ok(Math.abs(proj.score-35)<1e-9);
+assert.equal(filterRankingCandidates(ranking.candidatos,'pcd').every(x=>String(x.modalidade).toLowerCase().includes('pcd')),true);
+assert.equal(equivalentPosition(999,ranking.candidatos,'final'),1);
+assert.ok(percentile(175,ranking.candidatos,'final')>=.99);
+assert.equal(finalScore({p1:40,p2:55,p3:25,p4:40,titulos:2}),162);
+console.log('ranking-smoke: OK');

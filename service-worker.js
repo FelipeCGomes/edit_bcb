@@ -1,8 +1,33 @@
-const CACHE = 'bacen-ti-v1.5';
+const CACHE = 'estudos-ti-v1.7';
 const CORE = [
-  './','./index.html','./css/style.css','./js/app.js','./js/storage.js','./js/utils.js','./js/charts.js','./js/scheduler.js',
-  './data/edital.json','./data/curso-gran.json','./data/cobertura-gran.json','./data/pesos.json','./data/metadata.json','./data/config-padrao.json',
-  './data/frases-motivacionais.json','./data/temas-discursiva.json','./assets/favicon.svg','./manifest.webmanifest'
+  "./",
+  "./index.html",
+  "./css/style.css",
+  "./js/app.js",
+  "./js/storage.js",
+  "./js/utils.js",
+  "./js/charts.js",
+  "./js/scheduler.js",
+  "./js/ranking.js",
+  "./data/concursos.json",
+  "./data/frases-motivacionais.json",
+  "./data/edital.json",
+  "./data/curso-gran.json",
+  "./data/cobertura-gran.json",
+  "./data/pesos.json",
+  "./data/metadata.json",
+  "./data/config-padrao.json",
+  "./data/temas-discursiva.json",
+  "./data/bacen-ranking-2024.json",
+  "./data/edital-bb.json",
+  "./data/curso-bb.json",
+  "./data/cobertura-bb.json",
+  "./data/pesos-bb.json",
+  "./data/metadata-bb.json",
+  "./data/config-bb.json",
+  "./data/temas-redacao-bb.json",
+  "./assets/favicon.svg",
+  "./manifest.webmanifest"
 ];
 
 self.addEventListener('install', event => {
@@ -19,7 +44,7 @@ self.addEventListener('fetch', event => {
 });
 
 function openDb(){
-  return new Promise((resolve,reject)=>{const req=indexedDB.open('bacen-ti-sw',1);req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains('kv'))req.result.createObjectStore('kv')};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)});
+  return new Promise((resolve,reject)=>{const req=indexedDB.open('estudos-ti-sw',1);req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains('kv'))req.result.createObjectStore('kv')};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)});
 }
 async function setKv(key,value){const db=await openDb();return new Promise((resolve,reject)=>{const tx=db.transaction('kv','readwrite');tx.objectStore('kv').put(value,key);tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error)})}
 async function getKv(key){const db=await openDb();return new Promise((resolve,reject)=>{const tx=db.transaction('kv','readonly'),req=tx.objectStore('kv').get(key);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}
@@ -27,17 +52,15 @@ async function getKv(key){const db=await openDb();return new Promise((resolve,re
 self.addEventListener('message', event => {
   if(event.data?.type==='REMINDER_CONFIG') event.waitUntil(setKv('reminder',event.data));
 });
-
 self.addEventListener('periodicsync', event => {
-  if(event.tag!=='bacen-study-reminder')return;
+  if(event.tag!=='study-reminder')return;
   event.waitUntil((async()=>{
     const cfg=await getKv('reminder');if(!cfg?.enabled)return;
     const gap=Date.now()-Number(cfg.lastOpen||Date.now()),threshold=Number(cfg.inactivityHours||24)*3600000;
     if(gap<threshold)return;
-    await self.registration.showNotification('BACEN Estudos TI',{body:cfg.phrase||'Seu plano continua aqui. Retome pelo próximo bloco.',icon:'./assets/favicon.svg',badge:'./assets/favicon.svg',tag:'bacen-inactivity',renotify:false,data:{url:'./index.html#/hoje'}});
+    await self.registration.showNotification(cfg.appName||'Estudos TI',{body:cfg.phrase||'Seu plano continua aqui. Retome pelo próximo bloco.',icon:'./assets/favicon.svg',badge:'./assets/favicon.svg',tag:cfg.tag||'study-inactivity',renotify:false,data:{url:'./index.html#/hoje'}});
   })());
 });
-
 self.addEventListener('notificationclick', event => {
   event.notification.close();
   event.waitUntil((async()=>{const url=new URL(event.notification.data?.url||'./index.html#/hoje',self.location.href).href;const clientsList=await clients.matchAll({type:'window',includeUncontrolled:true});for(const c of clientsList){if('focus' in c){await c.focus();if('navigate' in c)await c.navigate(url);return}}if(clients.openWindow)return clients.openWindow(url)})());
