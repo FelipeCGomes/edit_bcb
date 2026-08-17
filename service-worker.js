@@ -1,4 +1,4 @@
-const CACHE = 'estudos-ti-v2.0';
+const CACHE = 'bacen-ti-v2.1';
 const CORE = [
   "./",
   "./index.html",
@@ -10,7 +10,6 @@ const CORE = [
   "./js/scheduler.js",
   "./js/ranking.js",
   "./js/insights.js",
-  "./data/concursos.json",
   "./data/frases-motivacionais.json",
   "./data/edital.json",
   "./data/curso-gran.json",
@@ -20,13 +19,6 @@ const CORE = [
   "./data/config-padrao.json",
   "./data/temas-discursiva.json",
   "./data/bacen-ranking-2024.json",
-  "./data/edital-bb.json",
-  "./data/curso-bb.json",
-  "./data/cobertura-bb.json",
-  "./data/pesos-bb.json",
-  "./data/metadata-bb.json",
-  "./data/config-bb.json",
-  "./data/temas-redacao-bb.json",
   "./assets/favicon.svg",
   "./manifest.webmanifest"
 ];
@@ -59,7 +51,7 @@ self.addEventListener('periodicsync', event => {
     const cfg=await getKv('reminder');if(!cfg?.enabled)return;
     const gap=Date.now()-Number(cfg.lastOpen||Date.now()),threshold=Number(cfg.inactivityHours||24)*3600000;
     if(gap<threshold)return;
-    await self.registration.showNotification(cfg.appName||'Estudos TI',{body:cfg.phrase||'Seu plano continua aqui. Retome pelo próximo bloco.',icon:'./assets/favicon.svg',badge:'./assets/favicon.svg',tag:cfg.tag||'study-inactivity',renotify:false,data:{url:'./index.html#/hoje'}});
+    await self.registration.showNotification(cfg.appName||'BACEN Estudos TI',{body:cfg.phrase||'Seu plano continua aqui. Retome pelo próximo bloco.',icon:'./assets/favicon.svg',badge:'./assets/favicon.svg',tag:cfg.tag||'study-inactivity',renotify:false,data:{url:'./index.html#/hoje'}});
   })());
 });
 self.addEventListener('notificationclick', event => {

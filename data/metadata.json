@@ -1,6 +1,6 @@
 {
-  "app": "Estudos TI",
-  "version": "2.0.0",
+  "app": "BACEN Estudos TI",
+  "version": "2.1.0",
   "updatedAt": "2026-08-17",
   "baseEdital": "Edital nº 01/2024",
   "curso": "BACEN - Banco Central do Brasil - Analista - Tecnologia da Informação (Pré-Edital)",
@@ -11,7 +11,7 @@
   "topicosEdital": 131,
   "frasesMotivacionais": 500,
   "paresDiscursiva": 100,
-  "observacao": "Versão 2.0: Command Center, Desempenho 2.0, metas semanais, busca global, consistência, revisão espaçada 1-7-30, diagnóstico adaptativo, ranking BACEN 2024, calendário e hub multi-concurso.",
+  "observacao": "Versão 2.1: projeto exclusivo BACEN TI, ranking temático por acertos/erros, separação P1/P2/P3/P4, notas de treinos discursivos, revisão 1-7-30 e planejamento adaptativo.",
   "id": "bacen",
   "shortName": "BACEN TI",
   "institution": "Banco Central do Brasil",
@@ -47,5 +47,52 @@
       "Bancos de Dados",
       "Gestão em TI"
     ]
+  },
+  "proofGroups": {
+    "P1": {
+      "label": "P1 · Conhecimentos Básicos",
+      "max": 50,
+      "type": "objetiva",
+      "subjects": [
+        "Língua Portuguesa",
+        "Noções de Lógica e Estatística",
+        "Direito Administrativo",
+        "Fundamentos de Macroeconomia e Microeconomia"
+      ]
+    },
+    "P2": {
+      "label": "P2 · Conhecimentos Específicos TI",
+      "max": 70,
+      "type": "objetiva",
+      "subjects": [
+        "Ciência de Dados",
+        "Segurança da Informação",
+        "Engenharia de Software",
+        "Infraestrutura em TI",
+        "Bancos de Dados",
+        "Gestão em TI"
+      ]
+    },
+    "P3": {
+      "label": "P3 · Atualidades",
+      "max": 30,
+      "type": "discursiva",
+      "subjects": [
+        "Atualidades (P3)"
+      ]
+    },
+    "P4": {
+      "label": "P4 · Situação-problema TI",
+      "max": 50,
+      "type": "discursiva",
+      "subjects": [
+        "Ciência de Dados",
+        "Segurança da Informação",
+        "Engenharia de Software",
+        "Infraestrutura em TI",
+        "Bancos de Dados",
+        "Gestão em TI"
+      ]
+    }
   }
 }

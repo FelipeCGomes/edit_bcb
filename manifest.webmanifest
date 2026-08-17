@@ -1,7 +1,7 @@
 {
-  "name": "Estudos TI 2.0 - BACEN e Banco do Brasil",
-  "short_name": "Estudos TI",
-  "description": "Hub 2.0 de estudos para BACEN TI e Banco do Brasil Agente de Tecnologia, com planejamento adaptativo, desempenho integrado, revisão 1-7-30, ranking BACEN e PWA.",
+  "name": "BACEN Estudos TI 2.1",
+  "short_name": "BACEN TI",
+  "description": "Plataforma de estudos para BACEN Tecnologia da Informação, com planejamento adaptativo, questões por tema, ranking histórico P1/P2/P3/P4, revisão 1-7-30 e PWA.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,11 +9,6 @@
   "theme_color": "#0b1020",
   "lang": "pt-BR",
   "icons": [
-    {
-      "src": "./assets/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    {"src":"./assets/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
   ]
 }

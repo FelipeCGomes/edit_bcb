@@ -1,140 +1,116 @@
-# Estudos TI 2.0
+# BACEN Estudos TI — v2.1.0
 
-Hub estático e responsivo para preparação de concursos de Tecnologia da Informação.
+Aplicação estática, responsiva e PWA para preparação do **Banco Central do Brasil — Tecnologia da Informação**, baseada no Edital nº 01/2024 e na grade de estudos importada para o projeto.
 
-## Concursos incluídos
+## O que mudou na v2.1
 
-- **BACEN TI** — base do Edital nº 01/2024, Cebraspe.
-- **Banco do Brasil — Agente de Tecnologia** — base da Seleção Externa 2022/001, Cesgranrio.
+- Removido integralmente o Banco do Brasil: interface, dados, lógica, cache e documentação.
+- Projeto agora é 100% BACEN TI.
+- Edital organizado por **P1, P2, P3 e P4**.
+- Questões objetivas separadas por **P1 e P2**, com matéria e tema exato do edital.
+- Ranking BACEN 2024 agora usa desempenho **por tema**:
+  - questões resolvidas;
+  - acertos;
+  - erros;
+  - taxa de acerto;
+  - nota líquida de treino Cebraspe: `acertos - 0,5 × erros`;
+  - peso oficial do tema (`pesoTopico`) no edital.
+- Um tema com muitas questões não domina artificialmente a projeção: a nota projetada é ponderada pelo peso oficial do tema.
+- O ranking mostra cobertura temática direta de P1/P2 e nível de confiança da amostra.
+- P3 e P4 podem ser alimentadas pelas notas dos treinos discursivos.
+- Na P4, o treino pode ser classificado pela área técnica principal: Ciência de Dados, Segurança, Engenharia de Software, Infraestrutura, Bancos de Dados ou Gestão de TI.
+- P3/P4 automáticas usam a média das últimas 5 avaliações com nota; é possível desligar e simular manualmente.
+- Migração automática da versão multi-concurso v2.0 (`estudos-ti-state-v6-bacen`) para a nova chave BACEN v7.
 
-O progresso de cada concurso é armazenado separadamente no navegador.
+## Estrutura das provas
 
-## Destaques da versão 2.0
+### P1 — Conhecimentos Básicos — 50 itens
+- Língua Portuguesa — 25
+- Noções de Lógica e Estatística — 10
+- Direito Administrativo — 5
+- Fundamentos de Macroeconomia e Microeconomia — 10
 
-### Command Center
-O Dashboard passa a mostrar um **Índice de Preparação 0–100**, calculado a partir de:
+### P2 — Conhecimentos Específicos TI — 70 itens
+- Ciência de Dados — 14
+- Segurança da Informação — 7
+- Engenharia de Software — 24
+- Infraestrutura em TI — 17
+- Bancos de Dados — 4
+- Gestão em TI — 4
 
-- progresso das aulas;
-- progresso do edital verticalizado;
-- precisão em questões;
-- quantidade acumulada de questões;
-- consistência nos últimos 30 dias;
-- cumprimento das metas da semana.
+### P3 — Atualidades
+- dissertação de até 40 linhas;
+- valor máximo de 30 pontos.
 
-O índice é um indicador interno de organização e **não é uma nota oficial ou previsão garantida de aprovação**.
+### P4 — Situação-problema de TI
+- conhecimentos específicos de TI;
+- resposta de até 80 linhas;
+- valor máximo de 50 pontos.
 
-### Próxima melhor ação
-O sistema escolhe uma ação entre:
+## Ranking histórico
 
-1. revisão 1-7-30 vencida;
-2. tópico com maior prioridade por erros;
-3. aula ou prática agendada para hoje;
-4. próxima aula ainda pendente.
+A base `data/bacen-ranking-2024.json` contém os 150 registros da aba **Todos os 150**, de forma anonimizada. Nomes e números de inscrição não são publicados no site.
 
-### Desempenho 2.0
-Nova tela com:
+A projeção objetiva não simplesmente calcula a média de todas as questões. Ela usa cada tema do edital como unidade de análise e aplica o peso oficial daquele tema. Temas sem amostra direta usam primeiro a média temática da própria matéria. Questões lançadas como “Geral da matéria” servem como fallback quando não há tema direto; a cobertura temática continua visível para deixar a incerteza explícita.
 
-- heatmap de 12 semanas;
-- sequência atual e melhor sequência;
-- dias ativos;
-- metas semanais;
-- radar por matéria;
-- revisões pendentes;
-- diagnóstico automático;
-- integração com o ranking BACEN 2024, quando o perfil BACEN está ativo.
+A comparação histórica é uma ferramenta de acompanhamento e **não garante classificação futura**.
 
-### Revisão espaçada 1-7-30
-Ao concluir uma aula ou tópico do edital, são criadas revisões automáticas para:
+## Recursos mantidos
 
-- 1 dia;
-- 7 dias;
-- 30 dias.
+- Dashboard e Desempenho 2.0.
+- Índice de preparação.
+- Busca global `Ctrl+K` / `Cmd+K`.
+- Calendário semanal por aula real e duração real.
+- Planejamento pré-edital/pós-edital.
+- Reta final automática de 15 dias.
+- Revisão 1-7-30.
+- Revisão inteligente pelos tópicos com mais erros.
+- Heatmap de consistência.
+- Metas semanais.
+- 916 videoaulas BACEN cadastradas.
+- 131 objetos verticalizados no edital.
+- 100 pares para P3/P4.
+- 500 frases motivacionais.
+- Cronômetro.
+- Backup/importação JSON.
+- Tema claro/escuro.
+- PWA e funcionamento offline após o primeiro carregamento.
 
-Ao clicar em **Revisado agora**, o estágio é salvo no histórico do concurso.
+## Rodando localmente
 
-### Busca global
-Use o botão **Buscar** no cabeçalho ou:
+Não abra `index.html` diretamente, pois os JSONs são carregados via `fetch()`.
 
-- `Ctrl + K` no Windows/Linux;
-- `Cmd + K` no macOS.
+```bash
+python -m http.server 8080
+```
 
-A busca encontra itens do edital e aulas do material do concurso ativo.
+Depois abra `http://localhost:8080`.
 
-## BACEN — ranking histórico
+## GitHub Pages
 
-O perfil BACEN contém a base anonimizada dos 150 candidatos da planilha histórica de 2024.
+Envie o conteúdo desta pasta para a raiz do repositório e configure:
 
-O site não publica nomes ou números de inscrição. A comparação usa posição, modalidade, notas P1/P2/P3/P4, títulos, acertos e erros.
+`Settings > Pages > Deploy from a branch > main > /(root)`
 
-A posição exibida é uma **equivalência histórica**, não uma previsão oficial do próximo concurso.
-
-## Dados incluídos
-
-### BACEN
-- 131 tópicos/subtópicos do edital verticalizado;
-- 916 aulas;
-- 500 frases motivacionais;
-- 100 pares para treino P3/P4;
-- ranking histórico com 150 candidatos anonimizados;
-- lacunas declaradas do material do Gran.
-
-### Banco do Brasil
-- 111 tópicos verticalizados;
-- 850 aulas na base de estudo;
-- 100 propostas para treino de redação;
-- materiais separados do BACEN.
-
-## Instalação no GitHub Pages
-
-1. Envie **o conteúdo desta pasta** para a raiz do repositório.
-2. No GitHub, abra **Settings → Pages**.
-3. Escolha **Deploy from a branch**.
-4. Selecione `main` e `/ (root)`.
-
-Todos os caminhos do projeto são relativos, portanto ele funciona em repositórios de projeto como:
-
-`https://usuario.github.io/repositorio/`
+O arquivo `.nojekyll` já está incluído.
 
 ## Armazenamento
 
-O site não exige backend. O progresso é salvo em `localStorage`.
-
-A versão 2.0 usa o schema **v6** e migra automaticamente o progresso das versões anteriores.
-
-Como `localStorage` pertence ao navegador/dispositivo, use **Configurações → Backup** para exportar e importar dados entre dispositivos.
-
-## Estrutura
+A versão 2.1 usa:
 
 ```text
-estudos-ti/
-├── index.html
-├── manifest.webmanifest
-├── service-worker.js
-├── css/
-│   └── style.css
-├── js/
-│   ├── app.js
-│   ├── charts.js
-│   ├── insights.js
-│   ├── ranking.js
-│   ├── scheduler.js
-│   ├── storage.js
-│   └── utils.js
-├── data/
-│   ├── concursos.json
-│   ├── edital.json
-│   ├── edital-bb.json
-│   ├── curso-gran.json
-│   ├── curso-bb.json
-│   ├── bacen-ranking-2024.json
-│   └── ...
-├── tests/
-└── assets/
+bacen-ti-state-v7
 ```
 
-## Testes
+Na primeira abertura, procura automaticamente versões anteriores do BACEN, incluindo a chave da versão 2.0 multi-concurso:
 
-Com Node.js instalado:
+```text
+estudos-ti-state-v6-bacen
+```
+
+Assim, a remoção do BB não exige apagar o seu progresso BACEN.
+
+## Testes
 
 ```bash
 node tests/storage-migration.mjs
@@ -143,7 +119,3 @@ node tests/ranking-smoke.mjs
 node tests/insights-smoke.mjs
 node tests/ui-static.mjs
 ```
-
-## Observação sobre notificações
-
-O PWA tenta usar notificações e `periodicSync` quando suportados pelo navegador. Em um GitHub Pages puro, o navegador não garante notificações quando o aplicativo está totalmente fechado. Push confiável em segundo plano exigiria um serviço externo, como FCM/OneSignal.

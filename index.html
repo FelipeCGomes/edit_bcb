@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0b1020" />
-  <meta name="description" content="Hub de estudos para concursos de Tecnologia da Informação, com edital verticalizado, materiais, plano inteligente, revisões, questões e cronômetro." />
-  <title>Estudos TI · Concursos</title>
+  <meta name="description" content="Plataforma de estudos para o concurso BACEN Tecnologia da Informação, com edital verticalizado, curso, ranking histórico, questões por tema, revisões e calendário inteligente." />
+  <title>BACEN Estudos TI</title>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./css/style.css" />
@@ -16,8 +16,8 @@
 
   <div id="loading-screen" class="loading-screen">
     <div class="loader-orbit"><span></span><span></span><span></span></div>
-    <strong>Preparando seu hub de estudos…</strong>
-    <small>Carregando concurso, edital, materiais e progresso.</small>
+    <strong>Preparando seu BACEN Estudos TI…</strong>
+    <small>Carregando edital, aulas, ranking e seu progresso.</small>
   </div>
 
   <div class="app-shell" id="app" hidden>
@@ -25,18 +25,14 @@
       <div class="brand">
         <div class="brand-mark" id="brand-mark">TI</div>
         <div class="brand-copy">
-          <strong id="brand-title">Estudos TI</strong>
-          <span id="brand-subtitle">Concursos de Tecnologia</span>
+          <strong id="brand-title">Banco Central do Brasil</strong>
+          <span id="brand-subtitle">Tecnologia da Informação</span>
         </div>
         <button class="icon-btn mobile-only sidebar-close menu-icon-button" id="sidebar-close" aria-label="Fechar menu lateral">
           <svg class="menu-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
         </button>
       </div>
 
-      <div class="contest-switcher" id="contest-switcher" aria-label="Selecionar concurso">
-        <button class="contest-option active" data-contest="bacen"><span class="contest-dot bacen"></span><b>BACEN TI</b></button>
-        <button class="contest-option" data-contest="bb"><span class="contest-dot bb"></span><b>BB Agente TI</b></button>
-      </div>
 
       <nav class="nav-list" aria-label="Navegação principal">
         <button class="nav-item active" data-route="dashboard"><span>⌂</span><b>Dashboard</b></button>
@@ -76,7 +72,6 @@
           </div>
         </div>
         <div class="topbar-actions">
-          <button class="contest-current" id="contest-current" title="Trocar concurso">BACEN TI</button>
           <button class="icon-btn search-trigger" id="global-search-button" title="Busca rápida (Ctrl+K)" aria-label="Busca rápida"><svg class="search-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4 4"></path></svg><span class="desktop-search-label">Buscar</span><kbd>⌘K</kbd></button>
           <span class="update-badge" id="updated-date">Atualizado em 17/08/2026</span>
           <button class="timer-pill" id="timer-mini" title="Abrir cronômetro">
@@ -136,7 +131,7 @@
         <input id="global-search-input" autocomplete="off" placeholder="Buscar matéria, tópico ou aula…" aria-label="Buscar no edital e nas aulas" />
         <button class="icon-btn" id="global-search-close" aria-label="Fechar busca">×</button>
       </div>
-      <div class="command-hints"><span>Busca no concurso ativo</span><span><kbd>Esc</kbd> fechar</span></div>
+      <div class="command-hints"><span>Busca no edital e nas aulas do BACEN</span><span><kbd>Esc</kbd> fechar</span></div>
       <div id="global-search-results" class="command-results"></div>
     </div>
   </dialog>
