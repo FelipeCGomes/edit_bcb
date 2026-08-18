@@ -63,5 +63,10 @@
     "studyMinutes": 630,
     "questions": 100,
     "accuracy": 0.8
+  },
+  "pareto": {
+    "enabled": true,
+    "coreTimeFraction": 0.8,
+    "coreTopicFraction": 0.2
   }
 }

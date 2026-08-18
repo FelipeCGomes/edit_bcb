@@ -1,7 +1,7 @@
 {
   "app": "BACEN Estudos TI",
-  "version": "2.1.0",
-  "updatedAt": "2026-08-17",
+  "version": "2.2.0",
+  "updatedAt": "2026-08-18",
   "baseEdital": "Edital nº 01/2024",
   "curso": "BACEN - Banco Central do Brasil - Analista - Tecnologia da Informação (Pré-Edital)",
   "codigoCurso": "199279",
@@ -11,7 +11,7 @@
   "topicosEdital": 131,
   "frasesMotivacionais": 500,
   "paresDiscursiva": 100,
-  "observacao": "Versão 2.1: projeto exclusivo BACEN TI, ranking temático por acertos/erros, separação P1/P2/P3/P4, notas de treinos discursivos, revisão 1-7-30 e planejamento adaptativo.",
+  "observacao": "Versão 2.2: menu mobile corrigido, plano 80/20 adaptativo conectado a peso oficial + histórico BACEN/CESPE + erros + tempo focado + revisão + cobertura Gran; cronômetro por matéria/tópico; revisão guiada; cruzamento Edital × Gran tópico a tópico.",
   "id": "bacen",
   "shortName": "BACEN TI",
   "institution": "Banco Central do Brasil",

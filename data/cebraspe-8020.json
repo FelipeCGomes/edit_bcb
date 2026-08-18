@@ -1,0 +1,905 @@
+{
+  "metodologia": "Plano 80/20 usa peso oficial do BACEN 2024 como sinal principal. O campo historicalOverlap é apenas um reforço por sobreposição com famílias de conteúdo vistas em provas oficiais anteriores do BACEN/CESPE; não representa probabilidade garantida de cobrança.",
+  "sources": [
+    {
+      "label": "BACEN 2024 - distribuição oficial de itens e objetos de avaliação",
+      "type": "edital-provided"
+    },
+    {
+      "label": "BACEN 2013 - Analista Área 1 Análise e Desenvolvimento de Sistemas",
+      "url": "https://cdn.cebraspe.org.br/concursos/BACEN_13_ANALISTA_TECNICO/arquivos/BACEN13_001_01.pdf"
+    },
+    {
+      "label": "BACEN 2013 - Analista Área 2 Suporte à Infraestrutura de TI",
+      "url": "https://cdn.cebraspe.org.br/concursos/BACEN_13_ANALISTA_TECNICO/arquivos/BACEN13_002_04.pdf"
+    }
+  ],
+  "formula": {
+    "officialWeight": 0.45,
+    "historicalOverlap": 0.15,
+    "userWeakness": 0.2,
+    "unfinished": 0.08,
+    "granCoverageRisk": 0.05,
+    "focusDeficit": 0.05,
+    "reviewDue": 0.02
+  },
+  "coreTopicFraction": 0.2,
+  "coreTimeFraction": 0.8,
+  "topics": [
+    {
+      "editalId": "edital-001",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-002",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-003",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-004",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-005",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-006",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-007",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-008",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-009",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-010",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-011",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-012",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-013",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-014",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-015",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-016",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-017",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-018",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-019",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-020",
+      "historicalOverlap": 0.65,
+      "families": [
+        "linguagem-cebraspe"
+      ]
+    },
+    {
+      "editalId": "edital-021",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-022",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-023",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-024",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-025",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-026",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-027",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-028",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-029",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-030",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-031",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-032",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-033",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-034",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-035",
+      "historicalOverlap": 0.55,
+      "families": [
+        "raciocinio-estatistica"
+      ]
+    },
+    {
+      "editalId": "edital-036",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-037",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-038",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-039",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-040",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-041",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-042",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-043",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-044",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-045",
+      "historicalOverlap": 0.85,
+      "families": [
+        "engenharia-processos-padroes",
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-046",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-047",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-048",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-049",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-050",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-051",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-052",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-053",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-054",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-055",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-056",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-057",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-058",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-059",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-060",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-061",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-062",
+      "historicalOverlap": 0.5,
+      "families": [
+        "direito-administrativo"
+      ]
+    },
+    {
+      "editalId": "edital-063",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-064",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-065",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-066",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-067",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so",
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-068",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-069",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-070",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-071",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-072",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-073",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-074",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-075",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-076",
+      "historicalOverlap": 0.5,
+      "families": [
+        "economia-bacen"
+      ]
+    },
+    {
+      "editalId": "edital-078",
+      "historicalOverlap": 0.55,
+      "families": [
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-079",
+      "historicalOverlap": 0.55,
+      "families": [
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-080",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-081",
+      "historicalOverlap": 0.55,
+      "families": [
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-082",
+      "historicalOverlap": 0.55,
+      "families": [
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-083",
+      "historicalOverlap": 0.55,
+      "families": [
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-084",
+      "historicalOverlap": 0.55,
+      "families": [
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-085",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so",
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-086",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so",
+        "dados-ml"
+      ]
+    },
+    {
+      "editalId": "edital-087",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca",
+        "governanca"
+      ]
+    },
+    {
+      "editalId": "edital-088",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-089",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-090",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-091",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web",
+        "testes-software",
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-092",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-093",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-094",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-095",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-096",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca",
+        "engenharia-processos-padroes"
+      ]
+    },
+    {
+      "editalId": "edital-097",
+      "historicalOverlap": 1.0,
+      "families": [
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-098",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web",
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-099",
+      "historicalOverlap": 0.85,
+      "families": [
+        "engenharia-processos-padroes"
+      ]
+    },
+    {
+      "editalId": "edital-100",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-101",
+      "historicalOverlap": 1.0,
+      "families": [
+        "testes-software"
+      ]
+    },
+    {
+      "editalId": "edital-102",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web"
+      ]
+    },
+    {
+      "editalId": "edital-103",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-104",
+      "historicalOverlap": 1.0,
+      "families": [
+        "java-python-programacao"
+      ]
+    },
+    {
+      "editalId": "edital-105",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web"
+      ]
+    },
+    {
+      "editalId": "edital-106",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web"
+      ]
+    },
+    {
+      "editalId": "edital-107",
+      "historicalOverlap": 0.85,
+      "families": [
+        "engenharia-processos-padroes"
+      ]
+    },
+    {
+      "editalId": "edital-108",
+      "historicalOverlap": 0.85,
+      "families": [
+        "engenharia-processos-padroes"
+      ]
+    },
+    {
+      "editalId": "edital-109",
+      "historicalOverlap": 1.0,
+      "families": [
+        "java-python-programacao"
+      ]
+    },
+    {
+      "editalId": "edital-110",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-111",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-112",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-113",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-114",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so",
+        "seguranca"
+      ]
+    },
+    {
+      "editalId": "edital-115",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-116",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web",
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-117",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web",
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-118",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-119",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-120",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-121",
+      "historicalOverlap": 1.0,
+      "families": [
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-122",
+      "historicalOverlap": 0.2,
+      "families": []
+    },
+    {
+      "editalId": "edital-123",
+      "historicalOverlap": 1.0,
+      "families": [
+        "banco-dados-sql-bi"
+      ]
+    },
+    {
+      "editalId": "edital-124",
+      "historicalOverlap": 1.0,
+      "families": [
+        "banco-dados-sql-bi"
+      ]
+    },
+    {
+      "editalId": "edital-125",
+      "historicalOverlap": 1.0,
+      "families": [
+        "banco-dados-sql-bi",
+        "infra-redes-so"
+      ]
+    },
+    {
+      "editalId": "edital-126",
+      "historicalOverlap": 1.0,
+      "families": [
+        "arquitetura-software-web",
+        "banco-dados-sql-bi"
+      ]
+    },
+    {
+      "editalId": "edital-127",
+      "historicalOverlap": 1.0,
+      "families": [
+        "agile-itil"
+      ]
+    },
+    {
+      "editalId": "edital-128",
+      "historicalOverlap": 1.0,
+      "families": [
+        "agile-itil"
+      ]
+    },
+    {
+      "editalId": "edital-129",
+      "historicalOverlap": 0.65,
+      "families": [
+        "governanca"
+      ]
+    },
+    {
+      "editalId": "edital-130",
+      "historicalOverlap": 1.0,
+      "families": [
+        "agile-itil"
+      ]
+    }
+  ]
+}

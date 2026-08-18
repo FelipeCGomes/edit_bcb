@@ -1,0 +1,6 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';
+const root=path.resolve(new URL('..',import.meta.url).pathname),json=f=>JSON.parse(fs.readFileSync(path.join(root,f),'utf8'));
+const edital=json('data/edital.json'),course=json('data/curso-gran.json'),map=json('data/edital-gran-map.json'),objective=edital.filter(x=>['P1','P2'].includes(x.prova)),courseIds=new Set(course.map(x=>x.id)),editIds=new Set(objective.map(x=>x.id));
+assert.equal(map.length,objective.length);assert.equal(new Set(map.map(x=>x.editalId)).size,map.length);
+for(const x of map){assert.ok(editIds.has(x.editalId),`item inexistente ${x.editalId}`);assert.ok(['coberto','parcial','lacuna','divergencia','sem_mapeamento'].includes(x.status));for(const id of x.lessonIds||[])assert.ok(courseIds.has(id),`aula inexistente ${id}`)}
+const counts=Object.fromEntries(['coberto','parcial','lacuna','divergencia','sem_mapeamento'].map(s=>[s,map.filter(x=>x.status===s).length]));assert.ok(counts.coberto>100,'mapeamento Gran inesperadamente baixo');assert.ok(counts.parcial+counts.lacuna+counts.divergencia>0,'lacunas declaradas não foram preservadas');console.log('gran-map-smoke: OK',counts);

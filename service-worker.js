@@ -1,4 +1,4 @@
-const CACHE = 'bacen-ti-v2.1';
+const CACHE = 'bacen-ti-v2.2';
 const CORE = [
   "./",
   "./index.html",
@@ -10,6 +10,7 @@ const CORE = [
   "./js/scheduler.js",
   "./js/ranking.js",
   "./js/insights.js",
+  "./js/pareto.js",
   "./data/frases-motivacionais.json",
   "./data/edital.json",
   "./data/curso-gran.json",
@@ -19,6 +20,8 @@ const CORE = [
   "./data/config-padrao.json",
   "./data/temas-discursiva.json",
   "./data/bacen-ranking-2024.json",
+  "./data/edital-gran-map.json",
+  "./data/cebraspe-8020.json",
   "./assets/favicon.svg",
   "./manifest.webmanifest"
 ];

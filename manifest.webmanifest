@@ -1,7 +1,7 @@
 {
   "name": "BACEN Estudos TI 2.1",
   "short_name": "BACEN TI",
-  "description": "Plataforma de estudos para BACEN Tecnologia da Informação, com planejamento adaptativo, questões por tema, ranking histórico P1/P2/P3/P4, revisão 1-7-30 e PWA.",
+  "description": "BACEN Estudos TI com plano 80/20 adaptativo, cronômetro por matéria/tópico, revisões guiadas, ranking histórico e cruzamento Edital × Curso Gran.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,6 +9,11 @@
   "theme_color": "#0b1020",
   "lang": "pt-BR",
   "icons": [
-    {"src":"./assets/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
   ]
 }

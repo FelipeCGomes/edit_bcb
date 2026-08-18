@@ -32,13 +32,13 @@ function parseLocalDate(value){if(!value)return null;const [y,m,d]=String(value)
 function diffDays(from,to){return Math.floor((to-from)/86400000)}
 function eventId(prefix,date,index){return `${prefix}-${date}-${String(index+1).padStart(2,'0')}`}
 
-function chooseCandidate(pools,targets,planned,allocMap,remainingWindow,breakMinutes,hasPrevious,examTotalWeight=120){
+function chooseCandidate(pools,targets,planned,allocMap,remainingWindow,breakMinutes,hasPrevious,examTotalWeight=120,priorityLessonIds=new Set()){
   const candidates=[];
   for(const [subject,pool] of Object.entries(pools)){
     if(!pool.length)continue;const lesson=pool[0],duration=Math.max(1,Math.ceil(Number(lesson.duracaoSegundos||0)/60));if(!lesson.duracaoSegundos)continue;
     const need=duration+(hasPrevious?breakMinutes:0);if(need>remainingWindow)continue;
     const target=Math.max(1,Number(targets[subject]||0)),deficit=target-Number(planned[subject]||0),deficitRatio=deficit/target,share=Number(allocMap[subject]?.share||0),exam=Number(allocMap[subject]?.items||0)/Math.max(1,Number(examTotalWeight||120));
-    candidates.push({subject,lesson,duration,need,score:deficitRatio*4+share*2+exam});
+    const paretoBonus=priorityLessonIds?.has?.(lesson.id)?2.5:0;candidates.push({subject,lesson,duration,need,score:deficitRatio*4+share*2+exam+paretoBonus});
   }
   candidates.sort((a,b)=>b.score-a.score||a.lesson._sourceIndex-b.lesson._sourceIndex);return candidates[0]||null;
 }
@@ -70,12 +70,12 @@ function addSprintPractice({events,dayEvents,date,day,cursor,index,totalMinutes,
 
 export function buildWeeklySchedule({
   course=[],watchedIds=new Set(),reservedLessonIds=new Set(),allocations=[],dayMinutes={},dayStartTimes={},breakMinutes=5,
-  saturday={},baseDate=new Date(),examDate='',finalSprint={},weakTopics=[],examTotalWeight=120,practiceLabels={},practiceRoutes={}
+  saturday={},baseDate=new Date(),examDate='',finalSprint={},weakTopics=[],examTotalWeight=120,practiceLabels={},practiceRoutes={},priorityLessonIds=[]
 }={}){
-  const weekStart=startOfWeek(baseDate),key=weekKey(baseDate),allocMap=Object.fromEntries(allocations.map(x=>[x.materia,x]));
+  const weekStart=startOfWeek(baseDate),key=weekKey(baseDate),allocMap=Object.fromEntries(allocations.map(x=>[x.materia,x])),priorityIds=new Set(priorityLessonIds||[]);
   const subjects=allocations.map(x=>x.materia),subjectSet=new Set(subjects),pools={};subjects.forEach(s=>pools[s]=[]);
   course.forEach((lesson,index)=>{if(!subjectSet.has(lesson.materia)||watchedIds.has(lesson.id)||reservedLessonIds.has(lesson.id)||!Number(lesson.duracaoSegundos||0))return;pools[lesson.materia].push({...lesson,_sourceIndex:index});});
-  Object.values(pools).forEach(pool=>pool.sort((a,b)=>a._sourceIndex-b._sourceIndex));
+  Object.values(pools).forEach(pool=>pool.sort((a,b)=>(priorityIds.has(b.id)?1:0)-(priorityIds.has(a.id)?1:0)||a._sourceIndex-b._sourceIndex));
 
   const targets=Object.fromEntries(allocations.map(x=>[x.materia,Number(x.weeklyMinutes||0)])),planned=Object.fromEntries(subjects.map(s=>[s,0]));
   const events=[],unusedByDay={},daySummary={},contentOrder=[1,2,3,4,5,0];let weakIndex=0;
@@ -86,7 +86,7 @@ export function buildWeeklySchedule({
     const reservedPractice=Math.round(budget*practiceShare),contentBudget=Math.max(0,budget-reservedPractice);
     let cursor=start,windowUsed=0,index=0,studyMinutes=0,practiceMinutes=0;const dayEvents=[];
     while(windowUsed<contentBudget){
-      const remaining=contentBudget-windowUsed,cand=chooseCandidate(pools,targets,planned,allocMap,remaining,Math.max(0,Number(breakMinutes||0)),dayEvents.some(e=>e.type==='lesson'));
+      const remaining=contentBudget-windowUsed,cand=chooseCandidate(pools,targets,planned,allocMap,remaining,Math.max(0,Number(breakMinutes||0)),dayEvents.some(e=>e.type==='lesson'),examTotalWeight,priorityIds);
       if(!cand)break;
       if(dayEvents.some(e=>e.type==='lesson')){cursor+=Math.max(0,Number(breakMinutes||0));windowUsed+=Math.max(0,Number(breakMinutes||0));}
       const startMinute=cursor,endMinute=cursor+cand.duration,e={id:eventId('lesson',date,index++),type:'lesson',date,day,lessonId:cand.lesson.id,materia:cand.lesson.materia,topico:cand.lesson.topico,numero:cand.lesson.numero,titulo:cand.lesson.titulo,professor:cand.lesson.professor,duracaoSegundos:cand.lesson.duracaoSegundos,startMinute,endMinute};

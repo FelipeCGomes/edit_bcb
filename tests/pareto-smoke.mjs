@@ -1,0 +1,7 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {buildParetoPlan,focusStats,reviewAdvice} from '../js/pareto.js';
+const root=path.resolve(new URL('..',import.meta.url).pathname),json=f=>JSON.parse(fs.readFileSync(path.join(root,f),'utf8'));
+const edital=json('data/edital.json'),granMap=json('data/edital-gran-map.json'),priorityData=json('data/cebraspe-8020.json'),weights=json('data/pesos.json');
+const state={edital:{'edital-098':{done:false}},timerSessions:[{date:new Date().toISOString().slice(0,10),subject:'Engenharia de Software',topicId:'edital-098',seconds:1800}]};
+const topicRows=[{topicId:'edital-098',questions:20,correct:12,errors:8,errorRate:.4}],subjectRows=[{subject:'Engenharia de Software',questions:20,correct:12,errors:8,errorRate:.4}];
+const plan=buildParetoPlan({edital,granMap,priorityData,state,topicRows,subjectRows,totalMinutes:600,dueReviews:[{type:'edital',itemId:'edital-098'}],weights,questionGoal:100});
+assert.equal(plan.totalTopics,129);assert.equal(plan.coreCount,Math.ceil(129*.2));assert.equal(plan.coreMinutes,480);assert.equal(plan.maintenanceMinutes,120);assert.ok(plan.priorityLessonIds.length>0);assert.ok(Math.abs(Object.values(plan.subjectMinutes).reduce((a,b)=>a+b,0)-600)<.01);assert.equal(focusStats(state.timerSessions,30).bySubject['Engenharia de Software'],1800);assert.ok(reviewAdvice({performance:{questions:20,errorRate:.4},gran:{status:'parcial'}}).steps.length>=4);console.log('pareto-smoke: OK');
