@@ -1,0 +1,10 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+import {fixedPlanWeek,fixedPlanDay,fixedPlanProgress} from '../js/fixed-plan.js';
+const plan=JSON.parse(fs.readFileSync(new URL('../data/plano-diario.json',import.meta.url),'utf8'));
+const course=JSON.parse(fs.readFileSync(new URL('../data/curso-gran.json',import.meta.url),'utf8'));
+const ids=new Set(course.map(x=>x.id)),weeks=plan.weeks||[],days=weeks.flatMap(w=>w.days||[]),tasks=days.flatMap(d=>d.tasks||[]),lessons=tasks.filter(t=>t.type==='lesson'),comps=tasks.filter(t=>t.type==='complement');
+assert.equal(weeks.length,22);assert.equal(days.length,129);assert.equal(lessons.length,215);assert.equal(comps.length,13);assert.equal(new Set(days.map(d=>d.date)).size,129);assert.equal(days[0].date,'2026-08-20');assert.equal(days.at(-1).date,'2027-01-16');assert.ok(lessons.every(x=>ids.has(x.lessonId)),'há aula do plano sem vínculo com o Gran');
+const today=fixedPlanDay(plan,'2026-08-20');assert.equal(today.week,1);assert.equal(today.phase,'Fase 1 - Base prioritária');assert.deepEqual(today.tasks.slice(0,2).map(x=>x.title),['DevOps','Autenticação']);assert.equal(today.tasks.reduce((n,t)=>n+t.minutes,0),120);
+const wk=fixedPlanWeek(plan,new Date(2026,7,20),{4:'19:00',5:'19:00',6:'09:00'});assert.equal(wk.week,1);assert.equal(wk.events.length,10);assert.equal(wk.daySummary['2026-08-20'].budget,120);assert.equal(wk.daySummary['2026-08-22'].budget,180);assert.equal(wk.events.filter(e=>e.type==='lesson').length,5);
+const progress=fixedPlanProgress(plan,'2026-08-20');assert.equal(progress.total,129);assert.equal(progress.current.date,'2026-08-20');
+console.log('fixed-plan-smoke: OK');

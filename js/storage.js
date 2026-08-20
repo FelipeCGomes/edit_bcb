@@ -1,5 +1,5 @@
-const KEY='bacen-ti-state-v8';
-const LEGACY_KEYS=['bacen-ti-state-v7','estudos-ti-state-v6-bacen','estudos-ti-state-v5-bacen','bacen-ti-state-v4','bacen-ti-state-v3','bacen-ti-state-v2','bacen-ti-state-v1'];
+const KEY='bacen-ti-state-v9';
+const LEGACY_KEYS=['bacen-ti-state-v8','bacen-ti-state-v7','estudos-ti-state-v6-bacen','estudos-ti-state-v5-bacen','bacen-ti-state-v4','bacen-ti-state-v3','bacen-ti-state-v2','bacen-ti-state-v1'];
 
 function todayLocal(){
   const d=new Date(),y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),day=String(d.getDate()).padStart(2,'0');
@@ -9,7 +9,7 @@ function todayLocal(){
 export function createDefaultState(config={}){
   const weeklyStudy=Object.values(config.dias||{}).reduce((a,x)=>a+Number(x||0),0);
   return {
-    schema:8,createdAt:new Date().toISOString(),lastVisit:null,
+    schema:9,createdAt:new Date().toISOString(),lastVisit:null,
     edital:{},course:{},questions:[],timerSessions:[],weeklyChecks:{},discursiveSessions:[],weeklyPlans:{},lessonLinks:{},reviewHistory:[],
     discursiva:{pairId:null,atualidadeId:null,tiId:null,history:[]},
     rankingSimulation:{filter:'all',useAuto:true,p1:null,p2:null,p3:0,p4:0,titulos:0,useDiscursive:true},
@@ -21,7 +21,7 @@ export function createDefaultState(config={}){
       finalSprint:{days:15,practiceShare:.60,reviewShare:.50,questionShare:.50,...(config.retaFinal||{}),saturday:{revisao:.40,questoes:.40,simulado:.15,discursiva:.05,...(config.retaFinal?.sabado||config.retaFinal?.saturday||{})}},
       notifications:{enabled:false,inactivityHours:24,...(config.notificacoes||{})},
       goals:{studyMinutes:weeklyStudy,questions:100,accuracy:.80,...(config.metas||{})},
-      pareto:{enabled:true,coreTimeFraction:.80,coreTopicFraction:.20,...(config.pareto||{})},
+      pareto:{enabled:true,coreTimeFraction:.80,coreTopicFraction:.20,...(config.pareto||{})},activePlan:config.planoAtivo||'gran-diario-2026-08-20',
       coursePageSize:40,editalPageSize:30
     }
   };
@@ -29,7 +29,7 @@ export function createDefaultState(config={}){
 
 function mergeState(saved,config={}){
   const d=createDefaultState(config),s=saved||{};
-  const merged={...d,...s,schema:8,
+  const merged={...d,...s,schema:9,
     weeklyPlans:{...d.weeklyPlans,...(s.weeklyPlans||{})},lessonLinks:{...d.lessonLinks,...(s.lessonLinks||{})},discursiva:{...d.discursiva,...(s.discursiva||{})},rankingSimulation:{...d.rankingSimulation,...(s.rankingSimulation||{})},
     settings:{...d.settings,...(s.settings||{}),dayMinutes:{...d.settings.dayMinutes,...(s.settings?.dayMinutes||{})},dayStartTimes:{...d.settings.dayStartTimes,...(s.settings?.dayStartTimes||{})},
       saturday:{...d.settings.saturday,...(s.settings?.saturday||{})},finalSprint:{...d.settings.finalSprint,...(s.settings?.finalSprint||{}),saturday:{...d.settings.finalSprint.saturday,...(s.settings?.finalSprint?.saturday||{})}},
@@ -38,6 +38,10 @@ function mergeState(saved,config={}){
   if(!Array.isArray(merged.discursiveSessions))merged.discursiveSessions=[];
   if(!Array.isArray(merged.questions))merged.questions=[];
   if(!Array.isArray(merged.reviewHistory))merged.reviewHistory=[];
+  const desiredPlan=d.settings.activePlan;
+  if((s.settings?.activePlan||'')!==desiredPlan){
+    merged.settings.activePlan=desiredPlan;merged.settings.dayMinutes={...d.settings.dayMinutes};merged.settings.studyStartDate=d.settings.studyStartDate;merged.settings.objectiveExamDate=d.settings.objectiveExamDate;merged.settings.targetDate=d.settings.targetDate;merged.settings.breakMinutes=d.settings.breakMinutes;merged.settings.goals={...merged.settings.goals,studyMinutes:d.settings.goals.studyMinutes};merged.weeklyPlans={};
+  }
   if(!merged.settings.studyStartDate)merged.settings.studyStartDate=todayLocal();
   if(!merged.settings.preparationMode)merged.settings.preparationMode='pre';
   if(!merged.settings.objectiveExamDate&&merged.settings.targetDate)merged.settings.objectiveExamDate=merged.settings.targetDate;
