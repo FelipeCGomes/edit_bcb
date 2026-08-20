@@ -1,8 +1,9 @@
-const CACHE = 'bacen-ti-v2.3';
+const CACHE = 'bacen-ti-v2.3.1';
 const CORE = [
   "./",
   "./index.html",
   "./css/style.css",
+  "./js/bootstrap.js",
   "./js/app.js",
   "./js/storage.js",
   "./js/utils.js",

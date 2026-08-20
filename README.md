@@ -1,6 +1,13 @@
-# BACEN Estudos TI — v2.3.0
+# BACEN Estudos TI — v2.3.1
 
 Aplicação estática/PWA para preparação do BACEN TI, baseada no Edital nº 01/2024 e no curso Gran informado no projeto.
+
+## Hotfix 2.3.1
+
+- Corrige erro de sintaxe em `js/app.js` que mantinha o aplicativo preso na tela de carregamento.
+- Atualiza o cache PWA para `bacen-ti-v2.3.1`, evitando que o navegador continue servindo o JavaScript quebrado.
+- Mantém o plano diário, progresso e armazenamento `bacen-ti-state-v9` sem reset.
+- A validação de sintaxe agora executa o parser em modo ES Module para detectar este tipo de erro antes da entrega.
 
 ## Plano diário ativo
 

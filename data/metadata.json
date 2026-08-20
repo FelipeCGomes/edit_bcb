@@ -1,6 +1,6 @@
 {
   "app": "BACEN Estudos TI",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "updatedAt": "2026-08-20",
   "baseEdital": "Edital nº 01/2024",
   "curso": "BACEN - Banco Central do Brasil - Analista - Tecnologia da Informação (Pré-Edital)",
@@ -11,7 +11,7 @@
   "topicosEdital": 131,
   "frasesMotivacionais": 500,
   "paresDiscursiva": 100,
-  "observacao": "Versão 2.3: o plano adaptativo foi substituído pelo cronograma diário fixo de 20/08/2026 a 16/01/2027, com 215 aulas Gran, 13 complementos do edital, questões, revisão 1-7-30, simulados e P3/P4 integrados ao Hoje e Calendário.",
+  "observacao": "Versão 2.3.1: hotfix de inicialização do plano diário. Corrige erro de sintaxe no cálculo da meta do dia e força atualização do cache PWA, preservando integralmente o cronograma fixo de 20/08/2026 a 16/01/2027.",
   "id": "bacen",
   "shortName": "BACEN TI",
   "institution": "Banco Central do Brasil",

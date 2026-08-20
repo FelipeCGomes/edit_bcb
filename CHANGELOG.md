@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.3.1 — 20/08/2026
+
+- Corrigido `SyntaxError: missing ) after argument list` na tela Hoje.
+- Expressão de fallback de minutos alterada para usar somente coalescência nula (`??`).
+- Cache PWA alterado para `bacen-ti-v2.3.1`.
+- Adicionado teste de sintaxe em modo ES Module para todos os arquivos JavaScript.
+- Adicionado `bootstrap.js` para exibir erro de inicialização em vez de manter a tela de carregamento indefinidamente.
+
 ## 2.3.0 — 20/08/2026
 
 - Substituído o planejamento dinâmico ativo pelo cronograma diário enviado pelo usuário.
